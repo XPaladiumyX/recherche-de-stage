@@ -97,7 +97,12 @@ function validEmail(value) {
 }
 function sentToday() {
   const key = todayKey();
-  return history.filter((item) => item.status === 'sent' && String(item.sentAt || '').startsWith(key)).length;
+  return history.filter((item) => item.status === 'sent' && !item.dryRun && String(item.sentAt || '').startsWith(key)).length;
+}
+function totalAttachmentSize(files) {
+  return files.reduce((sum, file) => {
+    try { return sum + fs.statSync(file.path).size; } catch { return sum; }
+  }, 0);
 }
 function publicAttachment(item) {
   return { id: item.id, name: item.name, size: item.size, mime: item.mime, uploadedAt: item.uploadedAt };
@@ -253,6 +258,7 @@ app.post('/api/test-email', async (req, res, next) => {
     if (!validEmail(target)) return apiError(res, 400, 'Adresse de test invalide. Renseigne ton email dans les réglages.');
     const rendered = renderTemplate(template, recipient || { nom: 'Entreprise test', ville: 'Grenoble', famille: 'Logiciel / Web', contact: 'Madame, Monsieur', distance_km: 2.4 }, config.sender);
     const files = attachmentsFor(attachmentIds, attachments, UPLOAD_DIR);
+    if (totalAttachmentSize(files) > 20 * 1024 * 1024) return apiError(res, 413, 'Les pièces jointes dépassent 20 Mo au total. Retire un fichier ou compresse-le.');
     const info = await sendRenderedMail({ transporter, config: mailConfig, to: target, subject: rendered.subject, text: rendered.text, attachments: files, replyTo: config.sender.email });
     lastTest = {
       at: Date.now(),
@@ -359,17 +365,22 @@ app.post('/api/campaigns/:id/cancel', (req, res) => {
 app.post('/api/campaigns', async (req, res, next) => {
   try {
     const body = req.body || {};
+    if ([...jobs.values()].some((job) => ['running', 'paused'].includes(job.status))) {
+      return apiError(res, 409, 'Une campagne est déjà en cours. Mets-la en pause ou attends qu’elle se termine.');
+    }
     if (body.confirmed !== true) return apiError(res, 400, 'Tu dois confirmer la campagne avant l’envoi.');
     const template = templates.find((item) => item.id === body.templateId);
     if (!template) return apiError(res, 404, 'Modèle introuvable.');
     const attachmentIds = Array.isArray(body.attachmentIds) ? body.attachmentIds : [];
-    if (attachmentIds.length && attachmentsFor(attachmentIds, attachments, UPLOAD_DIR).length !== attachmentIds.length) return apiError(res, 400, 'Une pièce jointe est introuvable.');
+    const campaignFiles = attachmentsFor(attachmentIds, attachments, UPLOAD_DIR);
+    if (attachmentIds.length && campaignFiles.length !== attachmentIds.length) return apiError(res, 400, 'Une pièce jointe est introuvable.');
+    if (totalAttachmentSize(campaignFiles) > 20 * 1024 * 1024) return apiError(res, 413, 'Les pièces jointes dépassent 20 Mo au total. Retire un fichier ou compresse-le.');
     const attachmentKey = [...attachmentIds].map(String).sort().join(',');
     const testValid = lastTest && (Date.now() - lastTest.at) <= TEST_VALIDITY_MS && lastTest.templateId === template.id && lastTest.templateUpdatedAt === (template.updatedAt || '') && lastTest.attachmentKey === attachmentKey;
     if (!testValid) return apiError(res, 400, 'Envoie d’abord un test à toi-même avec ce modèle et ces pièces jointes (valable 30 minutes).');
     const allowResend = body.allowResend === true;
     const stopEmails = new Set(stopList.map((item) => item.email));
-    const sentEmails = new Set(history.filter((item) => item.status === 'sent').map((item) => cleanEmail(item.email)));
+    const sentEmails = new Set(history.filter((item) => item.status === 'sent' && !item.dryRun).map((item) => cleanEmail(item.email)));
     const seen = new Set();
     const selected = [];
     let skippedStop = 0, skippedAlreadySent = 0, skippedInvalid = 0;

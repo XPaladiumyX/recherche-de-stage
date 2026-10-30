@@ -438,10 +438,11 @@
     const search = $('recipientSearch').value.trim().toLowerCase();
     const allowResend = $('recipientResend').checked;
     const stopSet = new Set(state.stop.map((item) => item.email));
-    const sentSet = new Set(state.history.filter((item) => item.status === 'sent').map((item) => String(item.email).toLowerCase()));
+    const sentSet = new Set(state.history.filter((item) => item.status === 'sent' && !item.dryRun).map((item) => String(item.email).toLowerCase()));
     state.companyByEmail = new Map(COMPANIES.filter((c) => validEmail(c.email)).map((c) => [String(c.email).toLowerCase(), c]));
     state.lastSentByEmail = new Map();
     for (const item of state.history) {
+      if (item.dryRun) continue;
       const email = String(item.email || '').toLowerCase();
       if (!state.lastSentByEmail.has(email)) state.lastSentByEmail.set(email, item.sentAt);
     }

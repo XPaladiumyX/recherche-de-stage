@@ -100,7 +100,7 @@ C'est la version locale du site : la page détecte automatiquement le serveur et
 2. **Message** : choisis un modèle, modifie l'objet et le texte, clique sur **Aperçu**.
 3. **Pièces jointes** : ajoute ton CV, ta lettre de motivation et éventuellement ton carnet d'évaluation.
 4. **Destinataires** : filtre par famille/ville/distance, sélectionne les entreprises avec email.
-5. **Envoi** : envoie d'abord un **test à toi-même**, puis coche la confirmation et lance la campagne.
+5. **Envoi** : envoie d'abord un **test à toi-même**, puis coche la confirmation et lance la campagne. Le test est valable 30 minutes et doit correspondre au modèle et aux pièces jointes utilisés.
 6. **Historique** : retrouve les mails envoyés/échoués et ajoute un email à la liste **STOP**.
 
 ## 7. Détection sur le site GitHub Pages
