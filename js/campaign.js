@@ -553,9 +553,10 @@
     $('sendRecipientCount').textContent = state.selected.size;
     $('sendAttachmentCount').textContent = state.attachments.length;
     $('sendQuota').textContent = remainingQuota();
-    const canStart = !!template && state.selected.size > 0 && state.testDone && $('confirmCheck').checked && remainingQuota() > 0;
+    const smtpOk = !!(state.health?.dryRun || state.health?.smtpReady);
+    const canStart = !!template && state.selected.size > 0 && state.testDone && $('confirmCheck').checked && remainingQuota() > 0 && smtpOk;
     $('startCampaign').disabled = !canStart;
-    $('startHint').textContent = !template ? 'Choisis un modèle.' : state.selected.size === 0 ? 'Sélectionne au moins une entreprise.' : !state.testDone ? 'Fais d’abord un test réussi.' : !$('confirmCheck').checked ? 'Coche la confirmation.' : remainingQuota() <= 0 ? 'Quota quotidien atteint.' : 'Prêt à envoyer.';
+    $('startHint').textContent = !template ? 'Choisis un modèle.' : state.selected.size === 0 ? 'Sélectionne au moins une entreprise.' : !state.testDone ? 'Fais d’abord un test réussi.' : !smtpOk ? 'Connexion SMTP non vérifiée : regarde les réglages.' : !$('confirmCheck').checked ? 'Coche la confirmation.' : remainingQuota() <= 0 ? 'Quota quotidien atteint.' : 'Prêt à envoyer.';
     $('tabRecipientCount').textContent = state.selected.size;
   }
 
