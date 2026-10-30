@@ -47,7 +47,7 @@ L'envoi de mails nécessite un petit serveur local (GitHub Pages ne peut pas env
 4. écrit `server/.env` ;
 5. démarre le serveur et ouvre la page Campagne.
 
-Aucune ligne de commande à taper. Pour relancer plus tard : `LANCER-CAMPAGNE.bat`.
+Aucune ligne de commande à taper. Pour relancer plus tard : `LANCER-CAMPAGNE.bat`. Pour récupérer une mise à jour du site : `MISE-A-JOUR.bat` (ou extraire le nouveau ZIP par-dessus, sans supprimer `server/.env`, `server/data` ni `server/uploads`).
 
 ### Mode manuel
 
@@ -87,6 +87,7 @@ La page détecte automatiquement le serveur, propose les modèles, les pièces j
 ```
 INSTALLER.bat                 # installation automatique Windows
 LANCER-CAMPAGNE.bat           # relancer le serveur + la page Campagne
+MISE-A-JOUR.bat               # récupérer la dernière version
 index.html
 campagne.html                 # interface d'envoi local
 package.json                  # Vite (dev/build)
