@@ -35,8 +35,8 @@ if not exist "node_modules" (
 )
 
 echo.
-echo Ouverture de http://localhost:3001/campagne.html dans 3 secondes...
-start "" powershell -NoProfile -WindowStyle Hidden -Command "Start-Sleep -Seconds 3; Start-Process 'http://localhost:3001/campagne.html'"
+echo Ouverture de http://localhost:3001/campagne.html dans 5 secondes...
+start "" powershell -NoProfile -WindowStyle Hidden -Command "Start-Sleep -Seconds 5; Start-Process 'http://localhost:3001/campagne.html'"
 echo.
 echo Garde cette fenetre ouverte pendant l'envoi. Ctrl+C pour arreter.
 echo.
