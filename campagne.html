@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Campagne d'envoi — Tech Vaucanson</title>
+  <title>Campagne d'envoi · Tech Vaucanson</title>
   <meta name="description" content="Envoie tes candidatures stage/alternance aux entreprises de l'annuaire Tech Vaucanson, avec modèles de mails, pièces jointes et historique.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -98,11 +98,12 @@ npm start</code><p class="hint">Puis ouvrir <code>http://localhost:3001/campagne
               <div class="btn-row" style="margin-bottom:10px">
                 <button class="btn btn-soft btn-sm" id="templateNew" type="button">Nouveau modèle</button>
                 <button class="btn btn-ghost btn-sm" id="templateDuplicate" type="button">Dupliquer</button>
+                <button class="btn btn-ghost btn-sm" id="templateReset" type="button">Modèles par défaut</button>
                 <button class="btn btn-danger-soft btn-sm" id="templateDelete" type="button">Supprimer</button>
               </div>
               <div class="panel-grid">
-                <label class="field">Nom du modèle<input id="templateName" type="text" placeholder="Stage — développement"></label>
-                <label class="field">Objet<input id="templateSubject" type="text" placeholder="Candidature pour un stage — {{prenom}} {{nom}}"></label>
+                <label class="field">Nom du modèle<input id="templateName" type="text" placeholder="Stage · développement"></label>
+                <label class="field">Objet<input id="templateSubject" type="text" placeholder="Candidature pour un stage · {{prenom}} {{nom}}"></label>
                 <label class="field full">Message
                   <textarea id="templateBody" placeholder="Bonjour {{contact}},..."></textarea>
                 </label>
@@ -145,7 +146,7 @@ npm start</code><p class="hint">Puis ouvrir <code>http://localhost:3001/campagne
               <div class="selection-summary">
                 <span><strong id="selectedCount">0</strong> sélectionnée(s)</span>
                 <span><strong id="availableCount">0</strong> disponible(s)</span>
-                <span>Quota restant aujourd'hui : <strong id="remainingQuota">—</strong></span>
+                <span>Quota restant aujourd'hui : <strong id="remainingQuota">·</strong></span>
               </div>
               <div class="recipient-actions">
                 <button class="btn btn-soft btn-sm" id="selectAll" type="button">Tout sélectionner</button>
@@ -168,7 +169,7 @@ npm start</code><p class="hint">Puis ouvrir <code>http://localhost:3001/campagne
               <p class="panel-sub">Ajoute ton CV, ta lettre de motivation et éventuellement ton carnet d'évaluation. Les fichiers restent sur ton PC. Limite : 10 Mo par fichier et 20 Mo au total.</p>
               <label class="upload-zone" for="fileInput" id="uploadZone">
                 <strong>Cliquer pour ajouter des fichiers</strong><br>
-                PDF, DOC/DOCX, JPG/PNG, ODT ou TXT — 10 Mo max par fichier, 20 Mo au total
+                PDF, DOC/DOCX, JPG/PNG, ODT ou TXT · 10 Mo max par fichier, 20 Mo au total
                 <input id="fileInput" type="file" multiple accept=".pdf,.doc,.docx,.jpg,.jpeg,.png,.odt,.txt">
               </label>
               <div class="attachment-list" id="attachmentList"></div>
@@ -181,13 +182,13 @@ npm start</code><p class="hint">Puis ouvrir <code>http://localhost:3001/campagne
               <h2>Vérifier et envoyer</h2>
               <p class="panel-sub">Un test vers ta propre adresse est obligatoire avant de lancer la campagne.</p>
               <div class="send-summary">
-                <div class="summary-box"><small>Modèle</small><strong id="sendTemplateName">—</strong></div>
+                <div class="summary-box"><small>Modèle</small><strong id="sendTemplateName">·</strong></div>
                 <div class="summary-box"><small>Destinataires</small><strong id="sendRecipientCount">0</strong></div>
                 <div class="summary-box"><small>Pièces jointes</small><strong id="sendAttachmentCount">0</strong></div>
-                <div class="summary-box"><small>Quota restant</small><strong id="sendQuota">—</strong></div>
+                <div class="summary-box"><small>Quota restant</small><strong id="sendQuota">·</strong></div>
               </div>
               <div class="panel-grid">
-                <label class="field">Nom de la campagne<input id="campaignName" type="text" placeholder="Stage — semaine du 3 novembre"></label>
+                <label class="field">Nom de la campagne<input id="campaignName" type="text" placeholder="Stage · semaine du 3 novembre"></label>
                 <label class="field">Email de test<input id="testEmail" type="email" placeholder="ton.adresse@gmail.com"></label>
               </div>
               <div class="btn-row" style="margin-top:8px">
@@ -195,7 +196,7 @@ npm start</code><p class="hint">Puis ouvrir <code>http://localhost:3001/campagne
                 <span class="hint" id="testHint">Le test utilise le modèle et les pièces jointes sélectionnés.</span>
               </div>
               <div class="test-result" id="testResult"></div>
-              <label class="check-row" style="margin-top:12px"><input type="checkbox" id="confirmCheck"> Je confirme envoyer un mail personnalisé et identifiable à chaque entreprise sélectionnée, avec une possibilité de refus (STOP).</label>
+              <label class="check-row" style="margin-top:12px"><input type="checkbox" id="confirmCheck"> Je confirme envoyer un mail personnalisé et identifiable à chaque entreprise sélectionnée.</label>
               <div class="btn-row">
                 <button class="btn btn-primary" id="startCampaign" type="button" disabled>Lancer la campagne</button>
                 <span class="hint" id="startHint">Fais d'abord un test réussi.</span>
@@ -203,7 +204,7 @@ npm start</code><p class="hint">Puis ouvrir <code>http://localhost:3001/campagne
               <div class="progress-card" id="progressCard">
                 <div class="progress-head"><strong id="progressStatus">Campagne en cours…</strong><span class="badge badge-source" id="progressBadge">0 / 0</span></div>
                 <div class="progress-bar"><div id="progressBar"></div></div>
-                <div class="progress-meta"><span id="progressCurrent">—</span><span id="progressFailed">0 échec(s)</span></div>
+                <div class="progress-meta"><span id="progressCurrent">·</span><span id="progressFailed">0 échec(s)</span></div>
                 <div class="btn-row" style="margin-top:8px">
                   <button class="btn btn-ghost btn-sm" id="pauseCampaign" type="button">Pause</button>
                   <button class="btn btn-ghost btn-sm" id="resumeCampaign" type="button" hidden>Reprendre</button>
@@ -271,10 +272,10 @@ npm start</code><p class="hint">Puis ouvrir <code>http://localhost:3001/campagne
             <div class="panel-card">
               <h2>État du serveur SMTP</h2>
               <div class="smtp-box">
-                <div class="info-box"><div class="info-label">Mode</div><div class="info-value" id="smtpMode">—</div></div>
-                <div class="info-box"><div class="info-label">Fournisseur</div><div class="info-value" id="smtpProvider">—</div></div>
-                <div class="info-box"><div class="info-label">Adresse d'envoi</div><div class="info-value" id="smtpFrom">—</div></div>
-                <div class="info-box"><div class="info-label">Connexion</div><div class="info-value" id="smtpConnection">—</div></div>
+                <div class="info-box"><div class="info-label">Mode</div><div class="info-value" id="smtpMode">·</div></div>
+                <div class="info-box"><div class="info-label">Fournisseur</div><div class="info-value" id="smtpProvider">·</div></div>
+                <div class="info-box"><div class="info-label">Adresse d'envoi</div><div class="info-value" id="smtpFrom">·</div></div>
+                <div class="info-box"><div class="info-label">Connexion</div><div class="info-value" id="smtpConnection">·</div></div>
               </div>
               <div class="warning">Le mot de passe d'application est stocké uniquement dans <code>server/.env</code>. Il n'est jamais envoyé au navigateur ni à GitHub.</div>
             </div>

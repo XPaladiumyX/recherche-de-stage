@@ -1,5 +1,103 @@
 [
   {
+    "id": "siren-823392337",
+    "siren": "823392337",
+    "siret": "82339233700031",
+    "nom": "Ownweb",
+    "nom_legal": "OWNWEB",
+    "categorie": "ESN / Conseil",
+    "famille": "ESN / Conseil",
+    "description": "Société de services numériques et de conseil IT à Grenoble.",
+    "potentiel": "moyen",
+    "adresse": "88 Rue Anatole France",
+    "code_postal": "38100",
+    "ville": "Grenoble",
+    "lat": 45.1726871335972,
+    "lon": 5.70337378327556,
+    "distance_km": 0.4,
+    "telephone": "06 89 89 24 75",
+    "email": "contact@ownweb.fr",
+    "contact": "",
+    "site_web": "https://ownweb.fr/",
+    "careers": "",
+    "naf": "62.01Z",
+    "naf_libelle": "Programmation informatique",
+    "effectif": "1 à 2 salariés",
+    "effectif_code": "01",
+    "categorie_entreprise": "PME",
+    "creation": "2016-10-17",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/823392337"
+      },
+      {
+        "label": "Site web",
+        "url": "https://ownweb.fr/"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "site_officiel",
+      "email": "site_officiel",
+      "site": "a_verifier",
+      "statut": "complet",
+      "date": "2026-10-30"
+    },
+    "origin": "discovery-micro",
+    "logo": "data/logos/823392337.png"
+  },
+  {
+    "id": "siren-884210535",
+    "siren": "884210535",
+    "siret": "88421053500024",
+    "nom": "Websteem",
+    "nom_legal": "WEBSTEEM",
+    "categorie": "ESN / Conseil",
+    "famille": "ESN / Conseil",
+    "description": "Société de services numériques et de conseil IT à Grenoble.",
+    "potentiel": "moyen",
+    "adresse": "115 Cours Liberation - Général DE Gaulle",
+    "code_postal": "38000",
+    "ville": "Grenoble",
+    "lat": 45.170253338,
+    "lon": 5.7138623401,
+    "distance_km": 0.5,
+    "telephone": "06 78 28 19 27",
+    "email": "contact@websteem.com",
+    "contact": "",
+    "site_web": "https://websteem.com/",
+    "careers": "",
+    "naf": "62.01Z",
+    "naf_libelle": "Programmation informatique",
+    "effectif": "1 à 2 salariés",
+    "effectif_code": "01",
+    "categorie_entreprise": "PME",
+    "creation": "2020-06-01",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/884210535"
+      },
+      {
+        "label": "Site web",
+        "url": "https://websteem.com/"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "site_officiel",
+      "email": "site_officiel",
+      "site": "a_verifier",
+      "statut": "complet",
+      "date": "2026-10-30"
+    },
+    "origin": "discovery-micro",
+    "logo": "data/logos/884210535.png"
+  },
+  {
     "id": "siren-409222452",
     "siren": "409222452",
     "siret": "40922245200016",
@@ -45,7 +143,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "manual"
+    "origin": "manual",
+    "logo": "data/logos/409222452.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-345039416",
@@ -97,7 +197,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/345039416.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-901632703",
@@ -116,7 +218,7 @@
     "lon": 5.7162997919,
     "distance_km": 0.9,
     "telephone": "",
-    "email": "info@diviai.com",
+    "email": "contact@geodaisics.com",
     "contact": "",
     "site_web": "https://www.geodaisics.com/",
     "careers": "",
@@ -145,7 +247,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/901632703.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-888117553",
@@ -197,7 +301,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/888117553.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-893676056",
@@ -241,7 +347,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "manual"
+    "origin": "manual",
+    "logo": "data/logos/893676056.png",
+    "logo_source": "static-ico"
   },
   {
     "id": "siren-497623793",
@@ -285,7 +393,57 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": ""
+  },
+  {
+    "id": "siren-451393441",
+    "siren": "451393441",
+    "siret": "45139344100030",
+    "nom": "Cleonet",
+    "nom_legal": "CLEONET",
+    "categorie": "ESN / Conseil",
+    "famille": "ESN / Conseil",
+    "description": "Société de services numériques et de conseil IT à Grenoble.",
+    "potentiel": "moyen",
+    "adresse": "11 Avenue Paul Verlaine",
+    "code_postal": "38100",
+    "ville": "Grenoble",
+    "lat": 45.1627626953848,
+    "lon": 5.71286237441929,
+    "distance_km": 1.1,
+    "telephone": "04 76 09 61 64",
+    "email": "contact@cleonet.fr",
+    "contact": "",
+    "site_web": "https://cleonet.fr/",
+    "careers": "",
+    "naf": "62.02A",
+    "naf_libelle": "Conseil en systèmes et logiciels informatiques",
+    "effectif": "6 à 9 salariés",
+    "effectif_code": "03",
+    "categorie_entreprise": "PME",
+    "creation": "2004-01-05",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/451393441"
+      },
+      {
+        "label": "Site web",
+        "url": "https://cleonet.fr/"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "site_officiel",
+      "email": "site_officiel",
+      "site": "a_verifier",
+      "statut": "complet",
+      "date": "2026-10-30"
+    },
+    "origin": "discovery-micro",
+    "logo": "data/logos/451393441.png"
   },
   {
     "id": "siren-493891543",
@@ -303,8 +461,8 @@
     "lat": 45.1627626953848,
     "lon": 5.71286237441929,
     "distance_km": 1.1,
-    "telephone": "+971559511099",
-    "email": "support@newvision.io",
+    "telephone": "",
+    "email": "",
     "contact": "",
     "site_web": "",
     "careers": "",
@@ -323,13 +481,64 @@
     "verification": {
       "legal": "verifie",
       "adresse": "verifie",
-      "telephone": "site_officiel",
-      "email": "site_officiel",
+      "telephone": "non_renseigne",
+      "email": "non_renseigne",
       "site": "non_renseigne",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    },
+    "origin": "discovery",
+    "logo": "",
+    "logo_source": "icon"
+  },
+  {
+    "id": "siren-897717005",
+    "siren": "897717005",
+    "siret": "89771700500036",
+    "nom": "Semalibre",
+    "nom_legal": "SEMALIBRE",
+    "categorie": "ESN / Conseil",
+    "famille": "ESN / Conseil",
+    "description": "Société de services numériques et de conseil IT à Grenoble.",
+    "potentiel": "moyen",
+    "adresse": "11 Avenue Paul Verlaine",
+    "code_postal": "38100",
+    "ville": "Grenoble",
+    "lat": 45.1627626953848,
+    "lon": 5.71286237441929,
+    "distance_km": 1.1,
+    "telephone": "",
+    "email": "contact@semalibre.com",
+    "contact": "",
+    "site_web": "https://semalibre.com/",
+    "careers": "",
+    "naf": "62.02A",
+    "naf_libelle": "Conseil en systèmes et logiciels informatiques",
+    "effectif": "3 à 5 salariés",
+    "effectif_code": "02",
+    "categorie_entreprise": "PME",
+    "creation": "2021-03-18",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/897717005"
+      },
+      {
+        "label": "Site web",
+        "url": "https://semalibre.com/"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "site_officiel",
+      "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery-micro",
+    "logo": "data/logos/897717005.png"
   },
   {
     "id": "siren-904131521",
@@ -377,7 +586,8 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "manual"
+    "origin": "manual",
+    "logo": ""
   },
   {
     "id": "siren-504866450",
@@ -396,7 +606,7 @@
     "lon": 5.7128076453,
     "distance_km": 1.2,
     "telephone": "04 76 24 68 79",
-    "email": "",
+    "email": "info@ceadomotique.fr",
     "contact": "",
     "site_web": "https://www.ceadomotique.fr",
     "careers": "",
@@ -424,12 +634,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "source_initiale",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "source"
+    "origin": "source",
+    "logo": "data/logos/504866450.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-389019274",
@@ -485,7 +697,58 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "source"
+    "origin": "source",
+    "logo": "data/logos/389019274.ico",
+    "logo_source": "static-ico"
+  },
+  {
+    "id": "siren-984744870",
+    "siren": "984744870",
+    "siret": "98474487000028",
+    "nom": "Exohsi",
+    "nom_legal": "EXOHSI",
+    "categorie": "ESN / Conseil",
+    "famille": "ESN / Conseil",
+    "description": "Société de services numériques et de conseil IT à Grenoble.",
+    "potentiel": "moyen",
+    "adresse": "91 Rue General Mangin",
+    "code_postal": "38100",
+    "ville": "Grenoble",
+    "lat": 45.1615131372259,
+    "lon": 5.71274913896169,
+    "distance_km": 1.2,
+    "telephone": "",
+    "email": "contact@exohsi.com",
+    "contact": "",
+    "site_web": "https://exohsi.com/",
+    "careers": "",
+    "naf": "62.09Z",
+    "naf_libelle": "Autres activités informatiques",
+    "effectif": "1 à 2 salariés",
+    "effectif_code": "01",
+    "categorie_entreprise": "PME",
+    "creation": "2024-02-16",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/984744870"
+      },
+      {
+        "label": "Site web",
+        "url": "https://exohsi.com/"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "site_officiel",
+      "site": "a_verifier",
+      "statut": "complet",
+      "date": "2026-10-30"
+    },
+    "origin": "discovery-micro",
+    "logo": "data/logos/984744870.png"
   },
   {
     "id": "siren-979491396",
@@ -503,7 +766,7 @@
     "lat": 45.1817787381424,
     "lon": 5.71668631147782,
     "distance_km": 1.2,
-    "telephone": "07-88-20-29-90\\&quot;&gt;07-88-20-29-90&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;&quot;],&quot;desktop&quot;:[0,{&quot;top&quot;:[0,144],&quot;left&quot;:[0,271],&quot;width&quot;:[0,400],&quot;height&quot;:[0,58]}],&quot;settings&quot;:[0,{&quot;styles&quot;:[0,{&quot;text&quot;:[0,&quot;left&quot;],&quot;align&quot;:[0,&quot;flex-start&quot;],&quot;justify&quot;:[0,&quot;center&quot;],&quot;m-element-margin&quot;:[0,&quot;0",
+    "telephone": "",
     "email": "duncan.phone38@gmail.com",
     "contact": "M. Nordine OURIAGHLI (responsable)",
     "site_web": "https://jaures-phone.fr/",
@@ -537,7 +800,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "source"
+    "origin": "source",
+    "logo": "data/logos/979491396.jpg",
+    "logo_source": "icon"
   },
   {
     "id": "siren-749816856",
@@ -585,7 +850,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/749816856.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-483585535",
@@ -629,7 +896,8 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": ""
   },
   {
     "id": "siren-878803469",
@@ -673,7 +941,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-510875800",
@@ -721,7 +990,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/510875800.ico",
+    "logo_source": "icon"
   },
   {
     "id": "siren-404049223",
@@ -765,7 +1036,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-383604261",
@@ -809,7 +1081,57 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
+  },
+  {
+    "id": "siren-824588073",
+    "siren": "824588073",
+    "siret": "82458807300075",
+    "nom": "Cybersecura",
+    "nom_legal": "CYBERSECURA",
+    "categorie": "ESN / Conseil",
+    "famille": "ESN / Conseil",
+    "description": "Société de services numériques et de conseil IT à Grenoble.",
+    "potentiel": "moyen",
+    "adresse": "26 Rue Colonel Dumont",
+    "code_postal": "38000",
+    "ville": "Grenoble",
+    "lat": 45.1814868332309,
+    "lon": 5.71942378249121,
+    "distance_km": 1.3,
+    "telephone": "",
+    "email": "contact@cybersecura.com",
+    "contact": "",
+    "site_web": "https://www.cybersecura.com/",
+    "careers": "",
+    "naf": "62.02A",
+    "naf_libelle": "Conseil en systèmes et logiciels informatiques",
+    "effectif": "3 à 5 salariés",
+    "effectif_code": "02",
+    "categorie_entreprise": "PME",
+    "creation": "2017-01-02",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/824588073"
+      },
+      {
+        "label": "Site web",
+        "url": "https://www.cybersecura.com/"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "site_officiel",
+      "site": "a_verifier",
+      "statut": "complet",
+      "date": "2026-10-30"
+    },
+    "origin": "discovery-micro",
+    "logo": "data/logos/824588073.png"
   },
   {
     "id": "siren-490697927",
@@ -861,7 +1183,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/490697927.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-481735744",
@@ -880,7 +1204,7 @@
     "lon": 5.6950490153,
     "distance_km": 1.3,
     "telephone": "",
-    "email": "",
+    "email": "fraffin@widip.fr",
     "contact": "",
     "site_web": "https://widip.fr/",
     "careers": "https://widip.fr/rejoignez-nous/",
@@ -908,12 +1232,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/481735744.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-424526697",
@@ -961,7 +1287,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/424526697.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-879458701",
@@ -980,7 +1308,7 @@
     "lon": 5.70303002064044,
     "distance_km": 1.4,
     "telephone": "",
-    "email": "",
+    "email": "sales@aniah.fr",
     "contact": "",
     "site_web": "https://aniah.fr/",
     "careers": "",
@@ -1004,12 +1332,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/879458701.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-422518779",
@@ -1028,7 +1358,7 @@
     "lon": 5.69028291288891,
     "distance_km": 1.4,
     "telephone": "",
-    "email": "",
+    "email": "contact@degecom.com",
     "contact": "",
     "site_web": "https://www.degecom.com/",
     "careers": "https://www.degecom.com/recrutement",
@@ -1056,12 +1386,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/422518779.ico",
+    "logo_source": "icon"
   },
   {
     "id": "siren-889615613",
@@ -1109,7 +1441,8 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "source"
+    "origin": "source",
+    "logo": ""
   },
   {
     "id": "siren-394026934",
@@ -1157,7 +1490,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/394026934.jpg",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-830490017",
@@ -1205,7 +1540,107 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/830490017.png",
+    "logo_source": "icon"
+  },
+  {
+    "id": "siren-810829978",
+    "siren": "810829978",
+    "siret": "81082997800024",
+    "nom": "M2GL",
+    "nom_legal": "M2GL SOLUTIONS",
+    "categorie": "ESN / Conseil",
+    "famille": "ESN / Conseil",
+    "description": "Société de services numériques et de conseil IT à Grenoble.",
+    "potentiel": "moyen",
+    "adresse": "31 Rue Gustave Eiffel",
+    "code_postal": "38000",
+    "ville": "Grenoble",
+    "lat": 45.1839068017051,
+    "lon": 5.70362493835314,
+    "distance_km": 1.4,
+    "telephone": "",
+    "email": "info@m2gl.com",
+    "contact": "",
+    "site_web": "https://m2gl.com/",
+    "careers": "",
+    "naf": "62.02A",
+    "naf_libelle": "Conseil en systèmes et logiciels informatiques",
+    "effectif": "1 à 2 salariés",
+    "effectif_code": "01",
+    "categorie_entreprise": "PME",
+    "creation": "2015-04-01",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/810829978"
+      },
+      {
+        "label": "Site web",
+        "url": "https://m2gl.com/"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "site_officiel",
+      "site": "a_verifier",
+      "statut": "complet",
+      "date": "2026-10-30"
+    },
+    "origin": "discovery-micro",
+    "logo": "data/logos/810829978.png"
+  },
+  {
+    "id": "siren-451878128",
+    "siren": "451878128",
+    "siret": "45187812800052",
+    "nom": "Nuxit",
+    "nom_legal": "NUXIT",
+    "categorie": "Cloud / Hébergement",
+    "famille": "Cloud / Hébergement",
+    "description": "Hébergement, cloud et infogérance à Grenoble.",
+    "potentiel": "moyen",
+    "adresse": "97-97 Bâtiment Rue General Mangin",
+    "code_postal": "38100",
+    "ville": "Grenoble",
+    "lat": 45.1603374164457,
+    "lon": 5.71266349962021,
+    "distance_km": 1.4,
+    "telephone": "04 86 57 60 00",
+    "email": "commercial@nuxit.com",
+    "contact": "",
+    "site_web": "https://www.nuxit.com/",
+    "careers": "",
+    "naf": "63.11Z",
+    "naf_libelle": "Traitement de données, hébergement et activités connexes",
+    "effectif": "6 à 9 salariés",
+    "effectif_code": "03",
+    "categorie_entreprise": "PME",
+    "creation": "2004-01-01",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/451878128"
+      },
+      {
+        "label": "Site web",
+        "url": "https://www.nuxit.com/"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "site_officiel",
+      "email": "site_officiel",
+      "site": "a_verifier",
+      "statut": "complet",
+      "date": "2026-10-30"
+    },
+    "origin": "discovery-micro",
+    "logo": "data/logos/451878128.png"
   },
   {
     "id": "siren-388390304",
@@ -1249,7 +1684,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-811737113",
@@ -1301,7 +1737,8 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-502111388",
@@ -1349,7 +1786,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/502111388.png",
+    "logo_source": "static-png"
   },
   {
     "id": "siren-524455540",
@@ -1401,7 +1840,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/524455540.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-500704879",
@@ -1449,7 +1890,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/500704879.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-803782978",
@@ -1493,7 +1936,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-348607417",
@@ -1545,7 +1989,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/348607417.png",
+    "logo_source": "google-favicon"
   },
   {
     "id": "siren-839798451",
@@ -1593,7 +2039,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/839798451.ico",
+    "logo_source": "icon"
   },
   {
     "id": "siren-408024719",
@@ -1611,7 +2059,7 @@
     "lat": 45.184870891,
     "lon": 5.7032348459,
     "distance_km": 1.5,
-    "telephone": "",
+    "telephone": "01 73 26 00 00",
     "email": "",
     "contact": "",
     "site_web": "https://atos.net/fr",
@@ -1635,13 +2083,15 @@
     "verification": {
       "legal": "verifie",
       "adresse": "verifie",
-      "telephone": "non_renseigne",
+      "telephone": "site_officiel",
       "email": "non_renseigne",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/408024719.svg",
+    "logo_source": "icon"
   },
   {
     "id": "siren-443928874",
@@ -1685,7 +2135,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/443928874.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-509608352",
@@ -1729,7 +2181,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-810506055",
@@ -1777,7 +2230,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/810506055.ico",
+    "logo_source": "icon"
   },
   {
     "id": "siren-440161958",
@@ -1796,7 +2251,7 @@
     "lon": 5.7031063045597,
     "distance_km": 1.5,
     "telephone": "",
-    "email": "",
+    "email": "info@comsol.fr",
     "contact": "",
     "site_web": "https://www.comsol.fr/",
     "careers": "https://www.comsol.fr/conference",
@@ -1824,12 +2279,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/440161958.ico",
+    "logo_source": "static-ico"
   },
   {
     "id": "siren-393135298",
@@ -1873,7 +2330,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-905304952",
@@ -1921,7 +2379,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-443433883",
@@ -1965,7 +2424,8 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "manual"
+    "origin": "manual",
+    "logo": ""
   },
   {
     "id": "siren-513852657",
@@ -2013,7 +2473,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/513852657.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-902809078",
@@ -2061,7 +2523,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/902809078.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-431692995",
@@ -2079,7 +2543,7 @@
     "lat": 45.179240494,
     "lon": 5.7247760958,
     "distance_km": 1.5,
-    "telephone": "",
+    "telephone": "04 58 00 33 81",
     "email": "philippe.levan@kibatic.com",
     "contact": "M Philippe Levan (Gérant)",
     "site_web": "https://kibatic.com",
@@ -2103,13 +2567,64 @@
     "verification": {
       "legal": "verifie",
       "adresse": "verifie",
-      "telephone": "non_renseigne",
+      "telephone": "site_officiel",
       "email": "source_initiale",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/431692995.png",
+    "logo_source": "apple-touch"
+  },
+  {
+    "id": "siren-752478560",
+    "siren": "752478560",
+    "siret": "75247856000044",
+    "nom": "Kirving",
+    "nom_legal": "KIRVING",
+    "categorie": "ESN / Conseil",
+    "famille": "ESN / Conseil",
+    "description": "Société de services numériques et de conseil IT à Seyssinet-Pariset.",
+    "potentiel": "moyen",
+    "adresse": "38 Rue DE LA Tuilerie",
+    "code_postal": "38170",
+    "ville": "Seyssinet-Pariset",
+    "lat": 45.1729961221281,
+    "lon": 5.68946779255529,
+    "distance_km": 1.5,
+    "telephone": "04 76 31 18 26",
+    "email": "contact@kirving.fr",
+    "contact": "",
+    "site_web": "https://www.kirving.fr/",
+    "careers": "",
+    "naf": "62.02A",
+    "naf_libelle": "Conseil en systèmes et logiciels informatiques",
+    "effectif": "6 à 9 salariés",
+    "effectif_code": "03",
+    "categorie_entreprise": "PME",
+    "creation": "2012-07-01",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/752478560"
+      },
+      {
+        "label": "Site web",
+        "url": "https://www.kirving.fr/"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "site_officiel",
+      "email": "site_officiel",
+      "site": "a_verifier",
+      "statut": "complet",
+      "date": "2026-10-30"
+    },
+    "origin": "discovery-micro",
+    "logo": "data/logos/752478560.png"
   },
   {
     "id": "siren-419453824",
@@ -2153,7 +2668,57 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
+  },
+  {
+    "id": "siren-850872797",
+    "siren": "850872797",
+    "siret": "85087279700020",
+    "nom": "Odonatech",
+    "nom_legal": "ODONATECH",
+    "categorie": "Logiciel / Web",
+    "famille": "Logiciel / Web",
+    "description": "Édition de logiciels et développement web à Grenoble.",
+    "potentiel": "moyen",
+    "adresse": "26 Rue Gustave Eiffel",
+    "code_postal": "38100",
+    "ville": "Grenoble",
+    "lat": 45.1847887747565,
+    "lon": 5.7031063045597,
+    "distance_km": 1.5,
+    "telephone": "",
+    "email": "contact@odonatech.com",
+    "contact": "",
+    "site_web": "https://www.odonatech.com/",
+    "careers": "",
+    "naf": "58.29C",
+    "naf_libelle": "Édition de logiciels applicatifs",
+    "effectif": "6 à 9 salariés",
+    "effectif_code": "03",
+    "categorie_entreprise": "PME",
+    "creation": "2019-05-03",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/850872797"
+      },
+      {
+        "label": "Site web",
+        "url": "https://www.odonatech.com/"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "site_officiel",
+      "site": "a_verifier",
+      "statut": "complet",
+      "date": "2026-10-30"
+    },
+    "origin": "discovery-micro",
+    "logo": "data/logos/850872797.png"
   },
   {
     "id": "siren-448080606",
@@ -2172,7 +2737,7 @@
     "lon": 5.7247760958,
     "distance_km": 1.5,
     "telephone": "09 74 76 47 86",
-    "email": "",
+    "email": "dpo@probesys.coop",
     "contact": "",
     "site_web": "https://probesys.coop/",
     "careers": "",
@@ -2196,12 +2761,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "site_officiel",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/448080606.ico",
+    "logo_source": "icon"
   },
   {
     "id": "siren-318606324",
@@ -2249,7 +2816,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/318606324.ico",
+    "logo_source": "icon"
   },
   {
     "id": "siren-438854408",
@@ -2297,7 +2866,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/438854408.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-318334018",
@@ -2315,7 +2886,7 @@
     "lat": 45.180242392,
     "lon": 5.6928142818,
     "distance_km": 1.5,
-    "telephone": "+4972318010",
+    "telephone": "",
     "email": "rutronik@rutronik.com",
     "contact": "",
     "site_web": "https://www.rutronik.com/",
@@ -2343,13 +2914,15 @@
     "verification": {
       "legal": "verifie",
       "adresse": "verifie",
-      "telephone": "site_officiel",
+      "telephone": "non_renseigne",
       "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/318334018.ico",
+    "logo_source": "icon"
   },
   {
     "id": "siren-530552009",
@@ -2393,7 +2966,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-315000943",
@@ -2441,7 +3015,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/315000943.png",
+    "logo_source": "google-favicon"
   },
   {
     "id": "siren-326820065",
@@ -2493,7 +3069,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/326820065.ico",
+    "logo_source": "icon"
   },
   {
     "id": "siren-445299175",
@@ -2549,7 +3127,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "source"
+    "origin": "source",
+    "logo": "data/logos/445299175.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-893503961",
@@ -2597,7 +3177,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/893503961.svg",
+    "logo_source": "icon"
   },
   {
     "id": "siren-530649326",
@@ -2641,7 +3223,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-880418033",
@@ -2693,7 +3276,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/880418033.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-381332295",
@@ -2745,7 +3330,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/381332295.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-401362116",
@@ -2797,7 +3384,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/401362116.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-491307252",
@@ -2815,7 +3404,7 @@
     "lat": 45.182488072,
     "lon": 5.7234396378,
     "distance_km": 1.6,
-    "telephone": "00476010391",
+    "telephone": "",
     "email": "contact@mezcalito.fr",
     "contact": "",
     "site_web": "https://www.mezcalito.fr/",
@@ -2843,13 +3432,15 @@
     "verification": {
       "legal": "verifie",
       "adresse": "verifie",
-      "telephone": "site_officiel",
+      "telephone": "non_renseigne",
       "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/491307252.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-481273324",
@@ -2867,7 +3458,7 @@
     "lat": 45.1612451448361,
     "lon": 5.69462360992685,
     "distance_km": 1.6,
-    "telephone": "",
+    "telephone": "04 77 49 45 89",
     "email": "contact@mfiautomatisme.com",
     "contact": "M. Philippe Poulat (directeur)",
     "site_web": "https://mfiautomatisme.com",
@@ -2891,13 +3482,15 @@
     "verification": {
       "legal": "verifie",
       "adresse": "verifie",
-      "telephone": "non_renseigne",
+      "telephone": "site_officiel",
       "email": "source_initiale",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/481273324.ico",
+    "logo_source": "icon"
   },
   {
     "id": "siren-830800199",
@@ -2941,7 +3534,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-800394926",
@@ -2985,7 +3579,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/800394926.png",
+    "logo_source": "google-favicon"
   },
   {
     "id": "siren-810824847",
@@ -3033,7 +3629,8 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "manual"
+    "origin": "manual",
+    "logo": ""
   },
   {
     "id": "siren-328685284",
@@ -3081,7 +3678,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/328685284.ico",
+    "logo_source": "icon"
   },
   {
     "id": "siren-529991119",
@@ -3133,7 +3732,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/529991119.webp",
+    "logo_source": "icon"
   },
   {
     "id": "siren-389064817",
@@ -3181,7 +3782,57 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
+  },
+  {
+    "id": "siren-920631223",
+    "siren": "920631223",
+    "siret": "92063122300012",
+    "nom": "OneSolutions",
+    "nom_legal": "ONESOLUTIONS",
+    "categorie": "ESN / Conseil",
+    "famille": "ESN / Conseil",
+    "description": "Société de services numériques et de conseil IT à Grenoble.",
+    "potentiel": "moyen",
+    "adresse": "155 Cours Berriat",
+    "code_postal": "38000",
+    "ville": "Grenoble",
+    "lat": 45.1875872521012,
+    "lon": 5.70417905835163,
+    "distance_km": 1.7,
+    "telephone": "",
+    "email": "contact@onesolutions.io",
+    "contact": "",
+    "site_web": "https://onesolutions.io/",
+    "careers": "",
+    "naf": "62.02A",
+    "naf_libelle": "Conseil en systèmes et logiciels informatiques",
+    "effectif": "6 à 9 salariés",
+    "effectif_code": "03",
+    "categorie_entreprise": "PME",
+    "creation": "2022-10-20",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/920631223"
+      },
+      {
+        "label": "Site web",
+        "url": "https://onesolutions.io/"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "site_officiel",
+      "site": "a_verifier",
+      "statut": "complet",
+      "date": "2026-10-30"
+    },
+    "origin": "discovery-micro",
+    "logo": "data/logos/920631223.png"
   },
   {
     "id": "siren-504943663",
@@ -3200,7 +3851,7 @@
     "lon": 5.70417905835163,
     "distance_km": 1.7,
     "telephone": "04 67 15 44 00",
-    "email": "",
+    "email": "contact@septeo.com",
     "contact": "",
     "site_web": "https://www.septeo.com/fr",
     "careers": "https://www.septeo.com/fr/metier/directeur-des-ressources-humaines",
@@ -3228,12 +3879,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "site_officiel",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/504943663.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-752155259",
@@ -3285,7 +3938,58 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/752155259.png",
+    "logo_source": "apple-touch"
+  },
+  {
+    "id": "siren-827533316",
+    "siren": "827533316",
+    "siret": "82753331600028",
+    "nom": "Efway",
+    "nom_legal": "EFWAY",
+    "categorie": "ESN / Conseil",
+    "famille": "ESN / Conseil",
+    "description": "Société de services numériques et de conseil IT à Grenoble.",
+    "potentiel": "moyen",
+    "adresse": "93 Cours Berriat",
+    "code_postal": "38000",
+    "ville": "Grenoble",
+    "lat": 45.1881958682056,
+    "lon": 5.71251390351534,
+    "distance_km": 1.8,
+    "telephone": "",
+    "email": "contact@efway.fr",
+    "contact": "",
+    "site_web": "https://www.efway.fr/",
+    "careers": "",
+    "naf": "62.02A",
+    "naf_libelle": "Conseil en systèmes et logiciels informatiques",
+    "effectif": "1 à 2 salariés",
+    "effectif_code": "01",
+    "categorie_entreprise": "PME",
+    "creation": "2017-02-03",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/827533316"
+      },
+      {
+        "label": "Site web",
+        "url": "https://www.efway.fr/"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "site_officiel",
+      "site": "a_verifier",
+      "statut": "complet",
+      "date": "2026-10-30"
+    },
+    "origin": "discovery-micro",
+    "logo": ""
   },
   {
     "id": "siren-511678849",
@@ -3329,7 +4033,8 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": ""
   },
   {
     "id": "siren-920557287",
@@ -3377,7 +4082,8 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-487555682",
@@ -3395,7 +4101,7 @@
     "lat": 45.1724950066216,
     "lon": 5.686087000602,
     "distance_km": 1.8,
-    "telephone": "",
+    "telephone": "09 70 55 55 55",
     "email": "",
     "contact": "",
     "site_web": "https://www.hexanet.fr",
@@ -3419,13 +4125,64 @@
     "verification": {
       "legal": "verifie",
       "adresse": "verifie",
-      "telephone": "non_renseigne",
+      "telephone": "site_officiel",
       "email": "non_renseigne",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/487555682.ico",
+    "logo_source": "icon"
+  },
+  {
+    "id": "siren-883027393",
+    "siren": "883027393",
+    "siret": "88302739300015",
+    "nom": "Kentyou",
+    "nom_legal": "KENTYOU",
+    "categorie": "ESN / Conseil",
+    "famille": "ESN / Conseil",
+    "description": "Société de services numériques et de conseil IT à Grenoble.",
+    "potentiel": "moyen",
+    "adresse": "93 Cours Berriat",
+    "code_postal": "38000",
+    "ville": "Grenoble",
+    "lat": 45.1881958682056,
+    "lon": 5.71251390351534,
+    "distance_km": 1.8,
+    "telephone": "",
+    "email": "contact@kentyou.com",
+    "contact": "",
+    "site_web": "https://kentyou.com/",
+    "careers": "",
+    "naf": "62.01Z",
+    "naf_libelle": "Programmation informatique",
+    "effectif": "6 à 9 salariés",
+    "effectif_code": "03",
+    "categorie_entreprise": "PME",
+    "creation": "2020-03-25",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/883027393"
+      },
+      {
+        "label": "Site web",
+        "url": "https://kentyou.com/"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "site_officiel",
+      "site": "a_verifier",
+      "statut": "complet",
+      "date": "2026-10-30"
+    },
+    "origin": "discovery-micro",
+    "logo": "data/logos/883027393.png"
   },
   {
     "id": "siren-488577578",
@@ -3469,7 +4226,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/488577578.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-421237868",
@@ -3517,7 +4276,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/421237868.ico",
+    "logo_source": "icon"
   },
   {
     "id": "siren-429754096",
@@ -3561,7 +4322,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-921128245",
@@ -3609,7 +4371,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/921128245.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-501843015",
@@ -3628,7 +4392,7 @@
     "lon": 5.71251390351534,
     "distance_km": 1.8,
     "telephone": "",
-    "email": "",
+    "email": "contact@theia.fr",
     "contact": "",
     "site_web": "https://www.theia.fr/",
     "careers": "",
@@ -3652,12 +4416,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/501843015.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-750090748",
@@ -3701,7 +4467,8 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": ""
   },
   {
     "id": "siren-404208035",
@@ -3753,7 +4520,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/404208035.svg",
+    "logo_source": "icon"
   },
   {
     "id": "siren-905122347",
@@ -3772,7 +4541,7 @@
     "lon": 5.72182821109969,
     "distance_km": 1.9,
     "telephone": "",
-    "email": "",
+    "email": "contact@aphelio.fr",
     "contact": "",
     "site_web": "https://aphelio.fr/",
     "careers": "",
@@ -3796,12 +4565,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/905122347.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-510366628",
@@ -3849,7 +4620,8 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "source"
+    "origin": "source",
+    "logo": ""
   },
   {
     "id": "siren-481853216",
@@ -3897,7 +4669,8 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "source"
+    "origin": "source",
+    "logo": ""
   },
   {
     "id": "siren-843242058",
@@ -3941,7 +4714,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-749906525",
@@ -3985,7 +4759,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/749906525.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-350066007",
@@ -4033,7 +4809,58 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/350066007.webp",
+    "logo_source": "apple-touch"
+  },
+  {
+    "id": "siren-822027504",
+    "siren": "822027504",
+    "siret": "82202750400031",
+    "nom": "Bag-Era",
+    "nom_legal": "BAG-ERA",
+    "categorie": "ESN / Conseil",
+    "famille": "ESN / Conseil",
+    "description": "Société de services numériques et de conseil IT à Grenoble.",
+    "potentiel": "moyen",
+    "adresse": "12 Rue Pierre Semard",
+    "code_postal": "38000",
+    "ville": "Grenoble",
+    "lat": 45.1902154360778,
+    "lon": 5.71338130418302,
+    "distance_km": 2,
+    "telephone": "",
+    "email": "bagera@bagera.eus",
+    "contact": "",
+    "site_web": "https://bagera.net/",
+    "careers": "",
+    "naf": "62.01Z",
+    "naf_libelle": "Programmation informatique",
+    "effectif": "1 à 2 salariés",
+    "effectif_code": "01",
+    "categorie_entreprise": "PME",
+    "creation": "2016-08-08",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/822027504"
+      },
+      {
+        "label": "Site web",
+        "url": "https://bagera.net/"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "site_officiel",
+      "site": "a_verifier",
+      "statut": "complet",
+      "date": "2026-10-30"
+    },
+    "origin": "discovery-micro",
+    "logo": "data/logos/822027504.png"
   },
   {
     "id": "siren-485074785",
@@ -4081,7 +4908,8 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "source"
+    "origin": "source",
+    "logo": ""
   },
   {
     "id": "siren-439112905",
@@ -4137,7 +4965,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "source"
+    "origin": "source",
+    "logo": "data/logos/439112905.ico",
+    "logo_source": "icon"
   },
   {
     "id": "siren-850656323",
@@ -4181,7 +5011,8 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "manual"
+    "origin": "manual",
+    "logo": ""
   },
   {
     "id": "siren-881734800",
@@ -4200,7 +5031,7 @@
     "lon": 5.71338130418302,
     "distance_km": 2,
     "telephone": "",
-    "email": "",
+    "email": "contact@ficha.fr",
     "contact": "",
     "site_web": "https://ficha.fr/",
     "careers": "",
@@ -4224,12 +5055,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/881734800.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-804009769",
@@ -4277,7 +5110,8 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": ""
   },
   {
     "id": "siren-523046563",
@@ -4321,7 +5155,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-930545801",
@@ -4339,7 +5174,7 @@
     "lat": 45.161946537105,
     "lon": 5.72970191596456,
     "distance_km": 2,
-    "telephone": "",
+    "telephone": "06 88 61 45 52",
     "email": "contact@lafabdusmart.fr",
     "contact": "M. Alexandre Fichel (responsable)",
     "site_web": "https://lafabdusmart.fr",
@@ -4363,13 +5198,64 @@
     "verification": {
       "legal": "verifie",
       "adresse": "verifie",
-      "telephone": "non_renseigne",
-      "email": "source_initiale",
+      "telephone": "site_officiel",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/930545801.png",
+    "logo_source": "apple-touch"
+  },
+  {
+    "id": "siren-884964321",
+    "siren": "884964321",
+    "siret": "88496432100035",
+    "nom": "Sensea",
+    "nom_legal": "SENSEA GROUPE",
+    "categorie": "ESN / Conseil",
+    "famille": "ESN / Conseil",
+    "description": "Société de services numériques et de conseil IT à Grenoble.",
+    "potentiel": "moyen",
+    "adresse": "17 Rue Colonel Denfert Rochereau",
+    "code_postal": "38000",
+    "ville": "Grenoble",
+    "lat": 45.189159994886,
+    "lon": 5.71750983313386,
+    "distance_km": 2,
+    "telephone": "",
+    "email": "info@sensea.io",
+    "contact": "",
+    "site_web": "https://www.sensea.io/",
+    "careers": "",
+    "naf": "62.01Z",
+    "naf_libelle": "Programmation informatique",
+    "effectif": "6 à 9 salariés",
+    "effectif_code": "03",
+    "categorie_entreprise": "PME",
+    "creation": "2020-07-01",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/884964321"
+      },
+      {
+        "label": "Site web",
+        "url": "https://www.sensea.io/"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "site_officiel",
+      "site": "a_verifier",
+      "statut": "complet",
+      "date": "2026-10-30"
+    },
+    "origin": "discovery-micro",
+    "logo": ""
   },
   {
     "id": "siren-400461950",
@@ -4421,7 +5307,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/400461950.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-562016774",
@@ -4440,7 +5328,7 @@
     "lon": 5.712881,
     "distance_km": 2,
     "telephone": "",
-    "email": "",
+    "email": "lena.carlson@siemens.com",
     "contact": "",
     "site_web": "https://www.siemens.fr",
     "careers": "https://www.siemens.fr/emploi",
@@ -4468,12 +5356,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/562016774.svg",
+    "logo_source": "icon"
   },
   {
     "id": "siren-414988204",
@@ -4525,7 +5415,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/414988204.svg",
+    "logo_source": "icon"
   },
   {
     "id": "siren-378615363",
@@ -4577,7 +5469,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/378615363.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-419346135",
@@ -4621,7 +5515,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-489319111",
@@ -4640,7 +5535,7 @@
     "lon": 5.717736655,
     "distance_km": 2.1,
     "telephone": "",
-    "email": "",
+    "email": "info@igroup.com.cn",
     "contact": "",
     "site_web": "https://www.enerdata.fr/",
     "careers": "https://jobs.enerdata.net/",
@@ -4668,12 +5563,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/489319111.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-844609115",
@@ -4692,7 +5589,7 @@
     "lon": 5.71730228079668,
     "distance_km": 2.1,
     "telephone": "",
-    "email": "",
+    "email": "contact@enogrid.com",
     "contact": "",
     "site_web": "https://enogrid.com/",
     "careers": "https://enogrid.com/a-propos/recrutement/",
@@ -4720,12 +5617,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/844609115.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-817639677",
@@ -4773,7 +5672,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/817639677.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-334148293",
@@ -4817,7 +5718,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-808396279",
@@ -4861,7 +5763,57 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
+  },
+  {
+    "id": "siren-882617897",
+    "siren": "882617897",
+    "siret": "88261789700021",
+    "nom": "Alveoo",
+    "nom_legal": "ALVEOO CONSULTING",
+    "categorie": "ESN / Conseil",
+    "famille": "ESN / Conseil",
+    "description": "Société de conseil et de services numériques à Grenoble.",
+    "potentiel": "moyen",
+    "adresse": "3 Rue Colonel Denfert Rochereau",
+    "code_postal": "38000",
+    "ville": "Grenoble",
+    "lat": 45.190586948,
+    "lon": 5.7186631195,
+    "distance_km": 2.2,
+    "telephone": "",
+    "email": "therry.roubine@alveoo.fr",
+    "contact": "",
+    "site_web": "https://alveoo.fr/",
+    "careers": "",
+    "naf": "66.19B",
+    "naf_libelle": "",
+    "effectif": "6 à 9 salariés",
+    "effectif_code": "03",
+    "categorie_entreprise": "PME",
+    "creation": "2020-03-01",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/882617897"
+      },
+      {
+        "label": "Site web",
+        "url": "https://alveoo.fr/"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "site_officiel",
+      "site": "a_verifier",
+      "statut": "complet",
+      "date": "2026-10-30"
+    },
+    "origin": "discovery-micro",
+    "logo": "data/logos/882617897.png"
   },
   {
     "id": "siren-479010936",
@@ -4905,7 +5857,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/479010936.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-385124862",
@@ -4957,7 +5911,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/385124862.svg",
+    "logo_source": "icon"
   },
   {
     "id": "siren-889895843",
@@ -5009,7 +5965,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/889895843.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-384868873",
@@ -5057,7 +6015,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/384868873.jpg",
+    "logo_source": "google-favicon"
   },
   {
     "id": "siren-810416438",
@@ -5076,7 +6036,7 @@
     "lon": 5.70652498945657,
     "distance_km": 2.2,
     "telephone": "",
-    "email": "",
+    "email": "info@diabeloop.com",
     "contact": "",
     "site_web": "https://www.diabeloop.fr/",
     "careers": "https://www.diabeloop.fr/carrieres-emplois",
@@ -5104,12 +6064,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/810416438.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-889115200",
@@ -5157,7 +6119,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/889115200.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-180089047",
@@ -5209,7 +6173,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/180089047.ico",
+    "logo_source": "ddg-icon"
   },
   {
     "id": "siren-494551492",
@@ -5253,7 +6219,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-811772029",
@@ -5305,7 +6272,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "source"
+    "origin": "source",
+    "logo": "data/logos/811772029.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-799679709",
@@ -5357,7 +6326,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/799679709.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-379882798",
@@ -5376,7 +6347,7 @@
     "lon": 5.7119167804,
     "distance_km": 2.2,
     "telephone": "",
-    "email": "",
+    "email": "info@usiaffinity.com",
     "contact": "",
     "site_web": "https://www.reynolds-reynolds.com/",
     "careers": "https://www.usi.com/about-usi/the-power-of-one/developing-talent-careers/",
@@ -5404,12 +6375,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/379882798.jpg",
+    "logo_source": "icon"
   },
   {
     "id": "siren-502012073",
@@ -5461,7 +6434,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/502012073.webp",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-809013683",
@@ -5505,7 +6480,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-489682005",
@@ -5524,7 +6500,7 @@
     "lon": 5.72213519905564,
     "distance_km": 2.2,
     "telephone": "",
-    "email": "",
+    "email": "place@zenika.com",
     "contact": "",
     "site_web": "https://www.zenika.com",
     "careers": "https://jobs.zenika.com/",
@@ -5552,12 +6528,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/489682005.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-435007059",
@@ -5609,7 +6587,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/435007059.webp",
+    "logo_source": "icon"
   },
   {
     "id": "siren-433242351",
@@ -5661,7 +6641,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/433242351.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-890791692",
@@ -5713,7 +6695,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/890791692.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-422689208",
@@ -5757,7 +6741,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-829725498",
@@ -5805,7 +6790,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/829725498.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-495123002",
@@ -5849,7 +6836,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-431817915",
@@ -5867,7 +6855,7 @@
     "lat": 45.191013,
     "lon": 5.720042,
     "distance_km": 2.3,
-    "telephone": "",
+    "telephone": "08 05 70 24 54",
     "email": "",
     "contact": "",
     "site_web": "https://www.sfrbusiness.fr",
@@ -5895,13 +6883,15 @@
     "verification": {
       "legal": "verifie",
       "adresse": "verifie",
-      "telephone": "non_renseigne",
+      "telephone": "site_officiel",
       "email": "non_renseigne",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/431817915.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-642058739",
@@ -5920,7 +6910,7 @@
     "lon": 5.72222452878693,
     "distance_km": 2.4,
     "telephone": "",
-    "email": "",
+    "email": "trainings@bull.com",
     "contact": "",
     "site_web": "https://www.bull.com/fr/",
     "careers": "https://www.bull.com/fr/solutions/plateformes-ia/gen-ai-in-a-box",
@@ -5948,12 +6938,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/642058739.ico",
+    "logo_source": "icon"
   },
   {
     "id": "siren-449565241",
@@ -5997,7 +6989,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-433002011",
@@ -6045,7 +7038,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/433002011.svg",
+    "logo_source": "icon"
   },
   {
     "id": "siren-398473470",
@@ -6064,7 +7059,7 @@
     "lon": 5.72636133025024,
     "distance_km": 2.4,
     "telephone": "",
-    "email": "",
+    "email": "rgpd@norsys.fr",
     "contact": "",
     "site_web": "https://www.norsys.fr/",
     "careers": "",
@@ -6088,12 +7083,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/398473470.svg",
+    "logo_source": "icon"
   },
   {
     "id": "siren-800681892",
@@ -6145,7 +7142,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/800681892.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-517703369",
@@ -6189,7 +7188,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-881644900",
@@ -6233,7 +7233,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/881644900.svg",
+    "logo_source": "icon"
   },
   {
     "id": "siren-814788212",
@@ -6281,7 +7283,8 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": ""
   },
   {
     "id": "siren-813140357",
@@ -6300,7 +7303,7 @@
     "lon": 5.71117363579028,
     "distance_km": 2.6,
     "telephone": "",
-    "email": "",
+    "email": "info@datadoghq.com",
     "contact": "",
     "site_web": "https://www.datadoghq.com/",
     "careers": "",
@@ -6324,12 +7327,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/813140357.webp",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-341459386",
@@ -6381,7 +7386,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/341459386.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-417800810",
@@ -6433,7 +7440,58 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/417800810.png",
+    "logo_source": "apple-touch"
+  },
+  {
+    "id": "siren-428797450",
+    "siren": "428797450",
+    "siret": "42879745000023",
+    "nom": "Virtuavia",
+    "nom_legal": "VIRTUAVIA",
+    "categorie": "ESN / Conseil",
+    "famille": "ESN / Conseil",
+    "description": "Société de services numériques et de conseil IT à Grenoble.",
+    "potentiel": "moyen",
+    "adresse": "2 Rue Marcel Benoit",
+    "code_postal": "38000",
+    "ville": "Grenoble",
+    "lat": 45.1892393514643,
+    "lon": 5.73068634821176,
+    "distance_km": 2.6,
+    "telephone": "04 58 00 15 74",
+    "email": "contact@virtuavia.com",
+    "contact": "",
+    "site_web": "https://www.virtuavia.com/",
+    "careers": "",
+    "naf": "62.01Z",
+    "naf_libelle": "Programmation informatique",
+    "effectif": "1 à 2 salariés",
+    "effectif_code": "01",
+    "categorie_entreprise": "PME",
+    "creation": "2000-01-03",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/428797450"
+      },
+      {
+        "label": "Site web",
+        "url": "https://www.virtuavia.com/"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "site_officiel",
+      "email": "site_officiel",
+      "site": "a_verifier",
+      "statut": "complet",
+      "date": "2026-10-30"
+    },
+    "origin": "discovery-micro",
+    "logo": "data/logos/428797450.png"
   },
   {
     "id": "siren-453606675",
@@ -6452,7 +7510,7 @@
     "lon": 5.71110304385637,
     "distance_km": 2.7,
     "telephone": "",
-    "email": "",
+    "email": "dpo@avisto.com",
     "contact": "",
     "site_web": "https://www.avisto.com/fr/",
     "careers": "https://www.avisto.com/fr/carrieres/",
@@ -6480,12 +7538,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/453606675.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-512854514",
@@ -6529,7 +7589,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-702042755",
@@ -6548,7 +7609,7 @@
     "lon": 5.72613496524316,
     "distance_km": 2.7,
     "telephone": "",
-    "email": "",
+    "email": "giuseppina.forino@cgi.com",
     "contact": "",
     "site_web": "https://www.cgi.com/france/fr-fr",
     "careers": "https://www.cgi.com/france/fr-fr/carrieres",
@@ -6576,12 +7637,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/702042755.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-347848947",
@@ -6629,7 +7692,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/347848947.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-498198167",
@@ -6677,7 +7742,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/498198167.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-833498884",
@@ -6695,7 +7762,7 @@
     "lat": 45.1961414121338,
     "lon": 5.70949477485026,
     "distance_km": 2.7,
-    "telephone": "+972-9-7797832",
+    "telephone": "",
     "email": "info@weebit-nano.com",
     "contact": "",
     "site_web": "https://www.weebit-nano.com/",
@@ -6723,13 +7790,15 @@
     "verification": {
       "legal": "verifie",
       "adresse": "verifie",
-      "telephone": "site_officiel",
+      "telephone": "non_renseigne",
       "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/833498884.svg",
+    "logo_source": "icon"
   },
   {
     "id": "siren-443399613",
@@ -6748,7 +7817,7 @@
     "lon": 5.7430847656,
     "distance_km": 2.8,
     "telephone": "01 55 73 21 50",
-    "email": "",
+    "email": "support@aamset.com",
     "contact": "",
     "site_web": "https://www.aamset.com/",
     "careers": "",
@@ -6772,12 +7841,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "site_officiel",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/443399613.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-429695513",
@@ -6821,7 +7892,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-933804502",
@@ -6865,7 +7937,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-402822282",
@@ -6913,7 +7986,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/402822282.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-532360435",
@@ -6961,7 +8036,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/532360435.jpg",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-490332921",
@@ -6980,7 +8057,7 @@
     "lon": 5.72539367127535,
     "distance_km": 2.8,
     "telephone": "",
-    "email": "",
+    "email": "geoff.gagne@sanmina.com",
     "contact": "",
     "site_web": "https://www.sanmina.com/",
     "careers": "https://www.sanmina.com/careers",
@@ -7008,12 +8085,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/490332921.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-421106709",
@@ -7065,7 +8144,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/421106709.ico",
+    "logo_source": "icon"
   },
   {
     "id": "siren-792474421",
@@ -7084,7 +8165,7 @@
     "lon": 5.7293997776985,
     "distance_km": 2.8,
     "telephone": "",
-    "email": "",
+    "email": "contact@smart-origin.com",
     "contact": "",
     "site_web": "https://smart-origin.com/",
     "careers": "https://smart-origin.com/recrutement/",
@@ -7112,12 +8193,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/792474421.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-808517551",
@@ -7136,7 +8219,7 @@
     "lon": 5.72563237756523,
     "distance_km": 2.8,
     "telephone": "",
-    "email": "",
+    "email": "info@ubiqube.com",
     "contact": "",
     "site_web": "https://www.ubiqube.com/",
     "careers": "",
@@ -7160,12 +8243,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/808517551.svg",
+    "logo_source": "icon"
   },
   {
     "id": "siren-844194399",
@@ -7213,7 +8298,58 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "manual"
+    "origin": "manual",
+    "logo": "data/logos/844194399.png",
+    "logo_source": "apple-touch"
+  },
+  {
+    "id": "siren-409695426",
+    "siren": "409695426",
+    "siret": "40969542600042",
+    "nom": "Actoll",
+    "nom_legal": "ACTOLL",
+    "categorie": "ESN / Conseil",
+    "famille": "ESN / Conseil",
+    "description": "Société de services numériques et de conseil IT à Échirolles.",
+    "potentiel": "moyen",
+    "adresse": "4 Rue Des Tropiques",
+    "code_postal": "38130",
+    "ville": "Échirolles",
+    "lat": 45.1498741301964,
+    "lon": 5.72692675761378,
+    "distance_km": 2.9,
+    "telephone": "",
+    "email": "",
+    "contact": "",
+    "site_web": "https://www.actoll.fr/",
+    "careers": "",
+    "naf": "62.01Z",
+    "naf_libelle": "Programmation informatique",
+    "effectif": "6 à 9 salariés",
+    "effectif_code": "03",
+    "categorie_entreprise": "PME",
+    "creation": "1996-10-28",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/409695426"
+      },
+      {
+        "label": "Site web",
+        "url": "https://www.actoll.fr/"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "non_renseigne",
+      "site": "a_verifier",
+      "statut": "complet",
+      "date": "2026-10-30"
+    },
+    "origin": "discovery-micro",
+    "logo": "data/logos/409695426.png"
   },
   {
     "id": "siren-908274038",
@@ -7265,7 +8401,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/908274038.svg",
+    "logo_source": "icon"
   },
   {
     "id": "siren-827756503",
@@ -7309,7 +8447,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-493597801",
@@ -7353,7 +8492,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "manual"
+    "origin": "manual",
+    "logo": "",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-844844092",
@@ -7372,7 +8513,7 @@
     "lon": 5.73925625512312,
     "distance_km": 2.9,
     "telephone": "",
-    "email": "",
+    "email": "communication.groupe@econocom.com",
     "contact": "",
     "site_web": "https://www.econocom.com/fr",
     "careers": "https://carrieres.econocom.com/",
@@ -7400,12 +8541,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/844844092.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-841380504",
@@ -7453,7 +8596,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-448694133",
@@ -7497,7 +8641,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-425093069",
@@ -7541,7 +8686,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-398616342",
@@ -7559,8 +8705,8 @@
     "lat": 45.1492765170267,
     "lon": 5.72520582312424,
     "distance_km": 2.9,
-    "telephone": "5722325918",
-    "email": "",
+    "telephone": "",
+    "email": "contact@lesphinx.eu",
     "contact": "",
     "site_web": "https://www.lesphinx-developpement.fr",
     "careers": "",
@@ -7583,13 +8729,15 @@
     "verification": {
       "legal": "verifie",
       "adresse": "verifie",
-      "telephone": "site_officiel",
-      "email": "non_renseigne",
+      "telephone": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/398616342.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-843872979",
@@ -7608,7 +8756,7 @@
     "lon": 5.71041792662711,
     "distance_km": 2.9,
     "telephone": "",
-    "email": "",
+    "email": "contact@xdpo.fr",
     "contact": "",
     "site_web": "https://www.scintil-photonics.com/",
     "careers": "",
@@ -7632,12 +8780,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/843872979.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-484806534",
@@ -7689,7 +8839,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/484806534.webp",
+    "logo_source": "icon"
   },
   {
     "id": "siren-521504506",
@@ -7707,7 +8859,7 @@
     "lat": 45.1502119814733,
     "lon": 5.72821646952845,
     "distance_km": 2.9,
-    "telephone": "",
+    "telephone": "04 76 29 19 20",
     "email": "",
     "contact": "",
     "site_web": "https://sincrone-it.fr/",
@@ -7735,13 +8887,15 @@
     "verification": {
       "legal": "verifie",
       "adresse": "verifie",
-      "telephone": "non_renseigne",
+      "telephone": "site_officiel",
       "email": "non_renseigne",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/521504506.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-342157898",
@@ -7785,7 +8939,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-421167966",
@@ -7837,7 +8992,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/421167966.ico",
+    "logo_source": "icon"
   },
   {
     "id": "siren-439752817",
@@ -7885,7 +9042,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/439752817.svg",
+    "logo_source": "icon"
   },
   {
     "id": "siren-330703844",
@@ -7904,7 +9063,7 @@
     "lon": 5.739302,
     "distance_km": 3,
     "telephone": "",
-    "email": "",
+    "email": "nom@capgemini.com",
     "contact": "",
     "site_web": "https://www.capgemini.com/fr-fr/",
     "careers": "https://www.capgemini.com/fr-fr/carrieres/",
@@ -7932,12 +9091,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/330703844.webp",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-479145419",
@@ -7956,7 +9117,7 @@
     "lon": 5.7110058971602,
     "distance_km": 3,
     "telephone": "",
-    "email": "",
+    "email": "inquiry@cognizant.com",
     "contact": "",
     "site_web": "https://www.cognizant.com/fr/fr",
     "careers": "https://www.cognizant.com/fr/fr/careers",
@@ -7984,12 +9145,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/479145419.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-522588979",
@@ -8007,8 +9170,8 @@
     "lat": 45.149835998,
     "lon": 5.7290643,
     "distance_km": 3,
-    "telephone": "0033458550101",
-    "email": "",
+    "telephone": "04 58 55 01 01",
+    "email": "contact@combodo.com",
     "contact": "",
     "site_web": "https://combodo.com/",
     "careers": "",
@@ -8032,12 +9195,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "site_officiel",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/522588979.webp",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-819779406",
@@ -8085,7 +9250,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-652031857",
@@ -8103,7 +9269,7 @@
     "lat": 45.155848,
     "lon": 5.739099,
     "distance_km": 3,
-    "telephone": "",
+    "telephone": "08 05 22 06 03",
     "email": "jean.fernadez@hpe.com",
     "contact": "M. Jean Fernandez",
     "site_web": "https://www.hpe.com/fr/fr/",
@@ -8131,13 +9297,15 @@
     "verification": {
       "legal": "verifie",
       "adresse": "verifie",
-      "telephone": "non_renseigne",
+      "telephone": "site_officiel",
       "email": "source_initiale",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/652031857.svg",
+    "logo_source": "icon"
   },
   {
     "id": "siren-552118465",
@@ -8189,7 +9357,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/552118465.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-415050525",
@@ -8241,7 +9411,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/415050525.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-480844695",
@@ -8289,7 +9461,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/480844695.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-345291843",
@@ -8307,8 +9481,8 @@
     "lat": 45.199173974,
     "lon": 5.7111179373,
     "distance_km": 3,
-    "telephone": "",
-    "email": "",
+    "telephone": "04 76 33 35 07",
+    "email": "dpo@mk2i.fr",
     "contact": "",
     "site_web": "https://mk2i.fr/",
     "careers": "https://mk2i.fr/recrutement/",
@@ -8335,13 +9509,15 @@
     "verification": {
       "legal": "verifie",
       "adresse": "verifie",
-      "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "telephone": "site_officiel",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/345291843.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-450803010",
@@ -8389,7 +9565,8 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": ""
   },
   {
     "id": "siren-314979337",
@@ -8408,7 +9585,7 @@
     "lon": 5.73396007292269,
     "distance_km": 3,
     "telephone": "",
-    "email": "",
+    "email": "communication@ymag.fr",
     "contact": "",
     "site_web": "https://www.ymag.fr",
     "careers": "https://www.ymag.fr/logiciel-de-gestion/crm-centre-de-formation",
@@ -8436,12 +9613,63 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/314979337.png",
+    "logo_source": "apple-touch"
+  },
+  {
+    "id": "siren-899345151",
+    "siren": "899345151",
+    "siret": "89934515100026",
+    "nom": "Zesti",
+    "nom_legal": "ZESTI",
+    "categorie": "ESN / Conseil",
+    "famille": "ESN / Conseil",
+    "description": "Société de services numériques et de conseil IT à Grenoble.",
+    "potentiel": "moyen",
+    "adresse": "Pole R 437 Avenue Des Jeux Olympiques",
+    "code_postal": "38100",
+    "ville": "Grenoble",
+    "lat": 45.1738248342989,
+    "lon": 5.74607334603333,
+    "distance_km": 3,
+    "telephone": "",
+    "email": "contact@zesti.fr",
+    "contact": "",
+    "site_web": "https://zesti.fr/",
+    "careers": "",
+    "naf": "62.01Z",
+    "naf_libelle": "Programmation informatique",
+    "effectif": "1 à 2 salariés",
+    "effectif_code": "01",
+    "categorie_entreprise": "PME",
+    "creation": "2021-05-07",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/899345151"
+      },
+      {
+        "label": "Site web",
+        "url": "https://zesti.fr/"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "site_officiel",
+      "site": "a_verifier",
+      "statut": "complet",
+      "date": "2026-10-30"
+    },
+    "origin": "discovery-micro",
+    "logo": "data/logos/899345151.png"
   },
   {
     "id": "siren-775685019",
@@ -8460,7 +9688,7 @@
     "lon": 5.706799469,
     "distance_km": 3.1,
     "telephone": "",
-    "email": "",
+    "email": "transfert.technologie@cea.fr",
     "contact": "",
     "site_web": "https://www.cea.fr",
     "careers": "https://www.cea.fr/recrutement",
@@ -8488,12 +9716,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/775685019.jpg",
+    "logo_source": "icon"
   },
   {
     "id": "siren-752649616",
@@ -8541,7 +9771,8 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "source"
+    "origin": "source",
+    "logo": ""
   },
   {
     "id": "siren-440713873",
@@ -8589,7 +9820,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/440713873.png",
+    "logo_source": "google-favicon"
   },
   {
     "id": "siren-984611095",
@@ -8632,12 +9865,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "source_initiale",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/984611095.jpg",
+    "logo_source": "icon"
   },
   {
     "id": "siren-439550880",
@@ -8681,7 +9916,8 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": ""
   },
   {
     "id": "siren-342404399",
@@ -8725,7 +9961,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-909553851",
@@ -8773,7 +10010,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/909553851.ico",
+    "logo_source": "icon"
   },
   {
     "id": "siren-428924732",
@@ -8821,7 +10060,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/428924732.jpg",
+    "logo_source": "google-favicon"
   },
   {
     "id": "siren-433061975",
@@ -8840,7 +10081,7 @@
     "lon": 5.7374854182,
     "distance_km": 3.3,
     "telephone": "",
-    "email": "j.prou@intancia.com",
+    "email": "q.west@itancia.com",
     "contact": "Mme Florence COUE (directeur)",
     "site_web": "https://itancia.com/",
     "careers": "https://itancia.com/page-carriere",
@@ -8872,12 +10113,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "source_initiale",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "source"
+    "origin": "source",
+    "logo": "data/logos/433061975.jpg",
+    "logo_source": "icon"
   },
   {
     "id": "siren-821487691",
@@ -8925,7 +10168,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "source"
+    "origin": "source",
+    "logo": "data/logos/821487691.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-904094828",
@@ -8969,7 +10214,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-410090633",
@@ -9013,7 +10259,8 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": ""
   },
   {
     "id": "siren-070500434",
@@ -9065,7 +10312,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "source"
+    "origin": "source",
+    "logo": "data/logos/070500434.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-498273010",
@@ -9117,7 +10366,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/498273010.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-319995148",
@@ -9165,7 +10416,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/319995148.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-828739169",
@@ -9217,7 +10470,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/828739169.jpg",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-399091339",
@@ -9261,7 +10516,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-433774486",
@@ -9313,7 +10569,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/433774486.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-501600761",
@@ -9365,7 +10623,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/501600761.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-353150261",
@@ -9413,7 +10673,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/353150261.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-805020740",
@@ -9465,7 +10727,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/805020740.ico",
+    "logo_source": "icon"
   },
   {
     "id": "siren-882692320",
@@ -9509,7 +10773,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-300815966",
@@ -9553,7 +10818,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/300815966.png",
+    "logo_source": "google-favicon"
   },
   {
     "id": "siren-488789629",
@@ -9601,7 +10868,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/488789629.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-803133933",
@@ -9649,7 +10918,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/803133933.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-522620285",
@@ -9701,7 +10972,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/522620285.jpg",
+    "logo_source": "google-favicon"
   },
   {
     "id": "siren-392440061",
@@ -9749,7 +11022,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-913269973",
@@ -9797,7 +11071,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/913269973.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-413851924",
@@ -9853,7 +11129,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "source"
+    "origin": "source",
+    "logo": "data/logos/413851924.svg",
+    "logo_source": "icon"
   },
   {
     "id": "siren-509188009",
@@ -9897,7 +11175,8 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": ""
   },
   {
     "id": "siren-824276125",
@@ -9949,7 +11228,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/824276125.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-663650034",
@@ -10001,7 +11282,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/663650034.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-498598994",
@@ -10020,7 +11303,7 @@
     "lon": 5.751654484,
     "distance_km": 3.9,
     "telephone": "",
-    "email": "",
+    "email": "contact@secureway.fr",
     "contact": "",
     "site_web": "https://secureway.fr/",
     "careers": "https://secureway.fr/recrutement/",
@@ -10048,12 +11331,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/498598994.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-383355328",
@@ -10105,7 +11390,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/383355328.webp",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-849450705",
@@ -10124,7 +11411,7 @@
     "lon": 5.68358338973105,
     "distance_km": 4,
     "telephone": "",
-    "email": "",
+    "email": "contact@diamfab.com",
     "contact": "",
     "site_web": "https://diamfab.com/",
     "careers": "",
@@ -10148,12 +11435,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/849450705.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-879658540",
@@ -10201,7 +11490,8 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "manual"
+    "origin": "manual",
+    "logo": ""
   },
   {
     "id": "siren-531680437",
@@ -10253,7 +11543,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/531680437.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-529121097",
@@ -10272,7 +11564,7 @@
     "lon": 5.67540189216419,
     "distance_km": 4.1,
     "telephone": "",
-    "email": "",
+    "email": "contact@webforlyon.fr",
     "contact": "",
     "site_web": "https://www.agixis.com/",
     "careers": "https://www.agixis.com/nous-rejoindre/",
@@ -10300,12 +11592,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/529121097.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-403092216",
@@ -10357,7 +11651,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/403092216.ico",
+    "logo_source": "icon"
   },
   {
     "id": "siren-409975521",
@@ -10401,7 +11697,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-300848116",
@@ -10419,7 +11716,7 @@
     "lat": 45.176086888,
     "lon": 5.7599216273,
     "distance_km": 4.1,
-    "telephone": "00476901820",
+    "telephone": "",
     "email": "",
     "contact": "",
     "site_web": "https://www.damac.fr/",
@@ -10443,13 +11740,15 @@
     "verification": {
       "legal": "verifie",
       "adresse": "verifie",
-      "telephone": "site_officiel",
+      "telephone": "non_renseigne",
       "email": "non_renseigne",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/300848116.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-851421016",
@@ -10501,7 +11800,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/851421016.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-532004678",
@@ -10545,7 +11846,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/532004678.webp",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-812261576",
@@ -10564,7 +11867,7 @@
     "lon": 5.7584616974,
     "distance_km": 4.3,
     "telephone": "",
-    "email": "",
+    "email": "contact@axeo.fr",
     "contact": "",
     "site_web": "https://axeo.fr/",
     "careers": "",
@@ -10588,12 +11891,13 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-420167397",
@@ -10645,7 +11949,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/420167397.webp",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-397775305",
@@ -10664,7 +11970,7 @@
     "lon": 5.7637031932,
     "distance_km": 4.4,
     "telephone": "",
-    "email": "",
+    "email": "communication@doxallia.com",
     "contact": "",
     "site_web": "https://www.doxallia.com/",
     "careers": "https://www.doxallia.com/#",
@@ -10692,12 +11998,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/397775305.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-804539047",
@@ -10745,7 +12053,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/804539047.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-384454690",
@@ -10763,7 +12073,7 @@
     "lat": 45.212111799,
     "lon": 5.6917080329,
     "distance_km": 4.6,
-    "telephone": "1-303-893-0552",
+    "telephone": "",
     "email": "",
     "contact": "",
     "site_web": "",
@@ -10783,13 +12093,14 @@
     "verification": {
       "legal": "verifie",
       "adresse": "verifie",
-      "telephone": "site_officiel",
+      "telephone": "non_renseigne",
       "email": "non_renseigne",
       "site": "non_renseigne",
-      "statut": "complet",
+      "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-350329025",
@@ -10837,7 +12148,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/350329025.jpg",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-330447236",
@@ -10855,8 +12168,8 @@
     "lat": 45.2126238847871,
     "lon": 5.69078139396607,
     "distance_km": 4.7,
-    "telephone": "0033952389857",
-    "email": "contact@avem.fr",
+    "telephone": "",
+    "email": "",
     "contact": "",
     "site_web": "",
     "careers": "https://www.avem.fr/offres-demploi/",
@@ -10879,13 +12192,15 @@
     "verification": {
       "legal": "verifie",
       "adresse": "verifie",
-      "telephone": "site_officiel",
-      "email": "site_officiel",
+      "telephone": "non_renseigne",
+      "email": "non_renseigne",
       "site": "non_renseigne",
-      "statut": "complet",
+      "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "",
+    "logo_source": "icon"
   },
   {
     "id": "siren-442835468",
@@ -10903,7 +12218,7 @@
     "lat": 45.200131534,
     "lon": 5.6641743106,
     "distance_km": 4.7,
-    "telephone": "",
+    "telephone": "04 75 55 54 93",
     "email": "yvesteixeira@constructel.fr",
     "contact": "M. Yves Teixeira (Responsable agence)",
     "site_web": "https://constructel.fr",
@@ -10927,13 +12242,15 @@
     "verification": {
       "legal": "verifie",
       "adresse": "verifie",
-      "telephone": "non_renseigne",
+      "telephone": "site_officiel",
       "email": "source_initiale",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/442835468.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-417492865",
@@ -10985,7 +12302,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/417492865.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-317495646",
@@ -11037,7 +12356,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/317495646.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-439795816",
@@ -11081,7 +12402,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-539926246",
@@ -11125,7 +12447,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-809229750",
@@ -11144,7 +12467,7 @@
     "lon": 5.76975553731708,
     "distance_km": 4.9,
     "telephone": "",
-    "email": "",
+    "email": "contact@mirsense.com",
     "contact": "",
     "site_web": "https://mirsense.com/",
     "careers": "https://mirsense.com/2026/06/26/responsable-de-production-capteur/",
@@ -11172,12 +12495,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/809229750.png",
+    "logo_source": "static-ico"
   },
   {
     "id": "siren-951310911",
@@ -11229,7 +12554,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/951310911.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-901421743",
@@ -11248,7 +12575,7 @@
     "lon": 5.7726956294,
     "distance_km": 5.2,
     "telephone": "",
-    "email": "",
+    "email": "contact@entroview.com",
     "contact": "",
     "site_web": "https://entroview.com/",
     "careers": "https://entroview.com/carrieres",
@@ -11276,12 +12603,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/901421743.svg",
+    "logo_source": "icon"
   },
   {
     "id": "siren-421699851",
@@ -11300,7 +12629,7 @@
     "lon": 5.7728557742,
     "distance_km": 5.3,
     "telephone": "",
-    "email": "",
+    "email": "contact@asterop.com",
     "contact": "",
     "site_web": "https://www.asterop.com/",
     "careers": "https://www.asterop.com/donnees/pack-de-data/#data-profil",
@@ -11328,12 +12657,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/421699851.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-518048137",
@@ -11385,7 +12716,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "source"
+    "origin": "source",
+    "logo": "data/logos/518048137.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-791948524",
@@ -11403,8 +12736,8 @@
     "lat": 45.180037021,
     "lon": 5.7782434079,
     "distance_km": 5.5,
-    "telephone": "00134752282",
-    "email": "",
+    "telephone": "",
+    "email": "contact@cometa.fr",
     "contact": "",
     "site_web": "https://www.cometa.fr/",
     "careers": "https://www.cometa.fr/consulting-assistance-technique/",
@@ -11431,13 +12764,15 @@
     "verification": {
       "legal": "verifie",
       "adresse": "verifie",
-      "telephone": "site_officiel",
-      "email": "non_renseigne",
+      "telephone": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/791948524.png",
+    "logo_source": "static-ico"
   },
   {
     "id": "siren-852522366",
@@ -11481,7 +12816,8 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "manual"
+    "origin": "manual",
+    "logo": ""
   },
   {
     "id": "siren-389257361",
@@ -11525,7 +12861,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-316263029",
@@ -11573,7 +12910,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/316263029.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-420888877",
@@ -11591,8 +12930,8 @@
     "lat": 45.2035202846435,
     "lon": 5.7677937203294,
     "distance_km": 5.8,
-    "telephone": "",
-    "email": "herve.bernoud@altiva.fr",
+    "telephone": "04 76 52 56 11",
+    "email": "commercial@altiva.fr",
     "contact": "M. Hervé Bernoud",
     "site_web": "https://altiva.fr",
     "careers": "",
@@ -11615,13 +12954,15 @@
     "verification": {
       "legal": "verifie",
       "adresse": "verifie",
-      "telephone": "non_renseigne",
-      "email": "source_initiale",
+      "telephone": "site_officiel",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/420888877.ico",
+    "logo_source": "icon"
   },
   {
     "id": "siren-338147697",
@@ -11669,7 +13010,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-434132155",
@@ -11688,7 +13030,7 @@
     "lon": 5.78005103604622,
     "distance_km": 5.9,
     "telephone": "04 38 42 04 20",
-    "email": "",
+    "email": "contact3@eloquant.com",
     "contact": "",
     "site_web": "https://www.eloquant.com/",
     "careers": "https://www.welcometothejungle.com/fr/companies/eloquant",
@@ -11716,12 +13058,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "site_officiel",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/434132155.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-400208435",
@@ -11769,7 +13113,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/400208435.ico",
+    "logo_source": "icon"
   },
   {
     "id": "siren-884603192",
@@ -11817,7 +13163,8 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": ""
   },
   {
     "id": "siren-352905707",
@@ -11869,7 +13216,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/352905707.ico",
+    "logo_source": "icon"
   },
   {
     "id": "siren-329109227",
@@ -11888,7 +13237,7 @@
     "lon": 5.77973177883258,
     "distance_km": 5.9,
     "telephone": "",
-    "email": "",
+    "email": "info.ch@topsolid.com",
     "contact": "",
     "site_web": "https://www.topsolid.com/fr-fr",
     "careers": "https://www.topsolid.com/fr-fr/a-propos-de-topsolid/ressources-humaines",
@@ -11916,12 +13265,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/329109227.ico",
+    "logo_source": "icon"
   },
   {
     "id": "siren-433977980",
@@ -11940,7 +13291,7 @@
     "lon": 5.77146915772297,
     "distance_km": 6,
     "telephone": "",
-    "email": "",
+    "email": "investorrelations@74software.com",
     "contact": "",
     "site_web": "https://www.74software.com/",
     "careers": "",
@@ -11964,12 +13315,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/433977980.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-722068608",
@@ -12013,7 +13366,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-852585546",
@@ -12057,7 +13411,8 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": ""
   },
   {
     "id": "siren-390072551",
@@ -12076,7 +13431,7 @@
     "lon": 5.6743347215,
     "distance_km": 6,
     "telephone": "",
-    "email": "",
+    "email": "directioncommerciale@circet.fr",
     "contact": "",
     "site_web": "https://www.circet.fr/candidats",
     "careers": "https://www.circet.fr/offres-demploi",
@@ -12104,12 +13459,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/390072551.ico",
+    "logo_source": "icon"
   },
   {
     "id": "siren-824424451",
@@ -12153,7 +13510,8 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-443061841",
@@ -12201,7 +13559,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/443061841.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-333086536",
@@ -12220,7 +13580,7 @@
     "lon": 5.77146915772297,
     "distance_km": 6,
     "telephone": "",
-    "email": "",
+    "email": "abcd@hamamatsu.com",
     "contact": "",
     "site_web": "https://www.hamamatsu.com/eu/en.html",
     "careers": "",
@@ -12244,12 +13604,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/333086536.ico",
+    "logo_source": "icon"
   },
   {
     "id": "siren-520319245",
@@ -12301,7 +13663,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/520319245.jpg",
+    "logo_source": "icon"
   },
   {
     "id": "siren-327086435",
@@ -12320,7 +13684,7 @@
     "lon": 5.77146915772297,
     "distance_km": 6,
     "telephone": "",
-    "email": "",
+    "email": "contact@neverhack.com",
     "contact": "",
     "site_web": "https://neverhack.com/",
     "careers": "https://neverhack.com/careers",
@@ -12348,12 +13712,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/327086435.svg",
+    "logo_source": "icon"
   },
   {
     "id": "siren-892357138",
@@ -12397,7 +13763,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-342504297",
@@ -12449,7 +13816,8 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-809652258",
@@ -12493,7 +13861,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-481860229",
@@ -12537,7 +13906,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-490967569",
@@ -12589,7 +13959,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "source"
+    "origin": "source",
+    "logo": "data/logos/490967569.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-848989695",
@@ -12607,8 +13979,8 @@
     "lat": 45.205054580456,
     "lon": 5.77954348860303,
     "distance_km": 6.7,
-    "telephone": "",
-    "email": "anthony.damais@dotcom-network.fr",
+    "telephone": "06 33 04 91 83",
+    "email": "contact@dotcom-network.fr",
     "contact": "M. Anthony DAMAIS (responsable)",
     "site_web": "https://dotcom-network.fr",
     "careers": "",
@@ -12631,13 +14003,15 @@
     "verification": {
       "legal": "verifie",
       "adresse": "verifie",
-      "telephone": "non_renseigne",
-      "email": "source_initiale",
+      "telephone": "site_officiel",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/848989695.webp",
+    "logo_source": "icon"
   },
   {
     "id": "siren-802897801",
@@ -12685,7 +14059,8 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-449357326",
@@ -12733,7 +14108,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/449357326.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-821216504",
@@ -12781,7 +14158,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/821216504.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-378040497",
@@ -12833,7 +14212,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/378040497.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-501824395",
@@ -12881,7 +14262,8 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "source"
+    "origin": "source",
+    "logo": ""
   },
   {
     "id": "siren-932368764",
@@ -12933,7 +14315,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/932368764.jpg",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-789316163",
@@ -12985,7 +14369,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "source"
+    "origin": "source",
+    "logo": "data/logos/789316163.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-794484808",
@@ -13004,7 +14390,7 @@
     "lon": 5.78151542740741,
     "distance_km": 7,
     "telephone": "",
-    "email": "",
+    "email": "communication@nanoxplore.com",
     "contact": "",
     "site_web": "https://nanoxplore.com/",
     "careers": "https://nanoxplore.com/careers/",
@@ -13032,12 +14418,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/794484808.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-351288618",
@@ -13089,7 +14477,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/351288618.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-518539408",
@@ -13137,7 +14527,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/518539408.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-488766551",
@@ -13189,7 +14581,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "source"
+    "origin": "source",
+    "logo": "data/logos/488766551.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-339852980",
@@ -13233,7 +14627,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-504108952",
@@ -13251,7 +14646,7 @@
     "lat": 45.2094359286028,
     "lon": 5.78298799150219,
     "distance_km": 7.2,
-    "telephone": "+0476543711",
+    "telephone": "",
     "email": "micasys@micasys.fr",
     "contact": "",
     "site_web": "",
@@ -13275,13 +14670,15 @@
     "verification": {
       "legal": "verifie",
       "adresse": "verifie",
-      "telephone": "site_officiel",
+      "telephone": "non_renseigne",
       "email": "site_officiel",
       "site": "non_renseigne",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/504108952.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-419283528",
@@ -13333,7 +14730,8 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-501225395",
@@ -13381,7 +14779,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/501225395.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-451664809",
@@ -13400,7 +14800,7 @@
     "lon": 5.7875562541,
     "distance_km": 7.3,
     "telephone": "",
-    "email": "",
+    "email": "contact@kayentis.com",
     "contact": "",
     "site_web": "https://kayentis.com/",
     "careers": "",
@@ -13424,12 +14824,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/451664809.jpg",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-497974758",
@@ -13481,7 +14883,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/497974758.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-322306440",
@@ -13533,7 +14937,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/322306440.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-433994175",
@@ -13577,7 +14983,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-429780075",
@@ -13625,7 +15032,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/429780075.ico",
+    "logo_source": "icon"
   },
   {
     "id": "siren-328751276",
@@ -13677,7 +15086,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/328751276.svg",
+    "logo_source": "icon"
   },
   {
     "id": "siren-802804997",
@@ -13733,7 +15144,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "source"
+    "origin": "source",
+    "logo": "data/logos/802804997.ico",
+    "logo_source": "icon"
   },
   {
     "id": "siren-329200521",
@@ -13777,7 +15190,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-338339435",
@@ -13825,7 +15239,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/338339435.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-512664194",
@@ -13877,7 +15293,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/512664194.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-811828987",
@@ -13921,7 +15339,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-349503151",
@@ -13965,7 +15384,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-751982455",
@@ -13984,7 +15404,7 @@
     "lon": 5.78987063104415,
     "distance_km": 7.6,
     "telephone": "",
-    "email": "",
+    "email": "contact@tenevia.com",
     "contact": "",
     "site_web": "https://www.tenevia.com/fr/",
     "careers": "https://www.tenevia.com/fr/nous-rejoindre/",
@@ -14012,12 +15432,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/751982455.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-824612527",
@@ -14061,7 +15483,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-840329874",
@@ -14080,7 +15503,7 @@
     "lon": 5.79320551414144,
     "distance_km": 7.8,
     "telephone": "",
-    "email": "",
+    "email": "contact@erplain.com",
     "contact": "",
     "site_web": "https://www.erplain.com/fr",
     "careers": "",
@@ -14104,12 +15527,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/840329874.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-401003207",
@@ -14161,7 +15586,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "source"
+    "origin": "source",
+    "logo": "data/logos/401003207.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-385365713",
@@ -14213,7 +15640,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/385365713.ico",
+    "logo_source": "icon"
   },
   {
     "id": "siren-399737006",
@@ -14257,7 +15686,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-849917695",
@@ -14301,7 +15731,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-843752437",
@@ -14345,7 +15776,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-753676089",
@@ -14364,7 +15796,7 @@
     "lon": 5.79468872402327,
     "distance_km": 7.8,
     "telephone": "09 80 09 20 10",
-    "email": "",
+    "email": "nicolas.moya@securetech.fr",
     "contact": "",
     "site_web": "https://www.securetech.fr/",
     "careers": "",
@@ -14388,12 +15820,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "site_officiel",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/753676089.jpg",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-444425292",
@@ -14445,7 +15879,8 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-428677124",
@@ -14497,7 +15932,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/428677124.png",
+    "logo_source": "google-favicon"
   },
   {
     "id": "siren-839153335",
@@ -14545,7 +15982,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/839153335.jpg",
+    "logo_source": "icon"
   },
   {
     "id": "siren-840859524",
@@ -14564,7 +16003,7 @@
     "lon": 5.79511436377619,
     "distance_km": 7.9,
     "telephone": "04 28 29 86 50",
-    "email": "",
+    "email": "st@bluebearsit.com",
     "contact": "",
     "site_web": "https://bluebearsit.com/",
     "careers": "",
@@ -14588,12 +16027,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "site_officiel",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/840859524.webp",
+    "logo_source": "icon"
   },
   {
     "id": "siren-305163040",
@@ -14637,7 +16078,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-433349206",
@@ -14685,7 +16127,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/433349206.ico",
+    "logo_source": "icon"
   },
   {
     "id": "siren-840380844",
@@ -14704,7 +16148,7 @@
     "lon": 5.795999016113913,
     "distance_km": 8,
     "telephone": "",
-    "email": "",
+    "email": "contact@avenria.com",
     "contact": "",
     "site_web": "https://avenria.com/",
     "careers": "https://avenria.com/enjeux/attractivite/",
@@ -14732,12 +16176,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/840380844.webp",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-409210465",
@@ -14793,7 +16239,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "source"
+    "origin": "source",
+    "logo": "data/logos/409210465.ico",
+    "logo_source": "icon"
   },
   {
     "id": "siren-817486764",
@@ -14841,7 +16289,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/817486764.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-341470656",
@@ -14889,7 +16339,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/341470656.ico",
+    "logo_source": "icon"
   },
   {
     "id": "siren-429771363",
@@ -14933,7 +16385,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-398394502",
@@ -14952,7 +16405,7 @@
     "lon": 5.7955668819,
     "distance_km": 8.2,
     "telephone": "",
-    "email": "infocom.acteur-fr@cgm.com",
+    "email": "info@acteur-fr.cgm.com",
     "contact": "",
     "site_web": "https://www.aatlantide.com/",
     "careers": "https://www.aatlantide.com/recrutement-emploi.html",
@@ -14985,7 +16438,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/398394502.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-064502636",
@@ -15003,7 +16458,7 @@
     "lat": 45.209054089,
     "lon": 5.799118222,
     "distance_km": 8.2,
-    "telephone": "04 76 41 67 98",
+    "telephone": "01 73 26 00 00",
     "email": "",
     "contact": "",
     "site_web": "https://atos.net/fr",
@@ -15027,13 +16482,15 @@
     "verification": {
       "legal": "verifie",
       "adresse": "verifie",
-      "telephone": "source_initiale",
+      "telephone": "site_officiel",
       "email": "non_renseigne",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "manual"
+    "origin": "manual",
+    "logo": "data/logos/064502636.svg",
+    "logo_source": "icon"
   },
   {
     "id": "siren-792010282",
@@ -15077,7 +16534,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-398539924",
@@ -15121,7 +16579,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-489869321",
@@ -15169,7 +16628,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-798442216",
@@ -15213,7 +16673,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-830053211",
@@ -15261,7 +16722,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/830053211.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-332639673",
@@ -15305,7 +16768,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-442937819",
@@ -15361,7 +16825,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "source"
+    "origin": "source",
+    "logo": "data/logos/442937819.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-444495774",
@@ -15380,7 +16846,7 @@
     "lon": 5.8055480026,
     "distance_km": 8.9,
     "telephone": "",
-    "email": "",
+    "email": "nom@capgemini.com",
     "contact": "",
     "site_web": "https://www.capgemini.com/fr-fr/",
     "careers": "https://www.capgemini.com/fr-fr/carrieres/",
@@ -15408,12 +16874,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/444495774.webp",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-439737222",
@@ -15432,7 +16900,7 @@
     "lon": 5.803766992683779,
     "distance_km": 8.9,
     "telephone": "",
-    "email": "",
+    "email": "contact@orisha.com",
     "contact": "",
     "site_web": "https://www.orisha.com/fr",
     "careers": "https://careers.orisha.com/",
@@ -15460,12 +16928,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/439737222.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-702012956",
@@ -15513,7 +16983,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "source"
+    "origin": "source",
+    "logo": "data/logos/702012956.webp",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-423302421",
@@ -15561,7 +17033,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/423302421.svg",
+    "logo_source": "icon"
   },
   {
     "id": "siren-393671326",
@@ -15605,7 +17079,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-479766842",
@@ -15624,7 +17099,7 @@
     "lon": 5.8060630196,
     "distance_km": 9,
     "telephone": "",
-    "email": "",
+    "email": "nom@capgemini.com",
     "contact": "",
     "site_web": "https://www.capgemini.com/fr-fr/",
     "careers": "https://www.capgemini.com/fr-fr/carrieres/",
@@ -15652,12 +17127,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/479766842.webp",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-830495339",
@@ -15705,7 +17182,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/830495339.ico",
+    "logo_source": "static-ico"
   },
   {
     "id": "siren-414876177",
@@ -15723,7 +17202,7 @@
     "lat": 45.216186043,
     "lon": 5.8052366042,
     "distance_km": 9,
-    "telephone": "",
+    "telephone": "05 57 89 65 00",
     "email": "",
     "contact": "",
     "site_web": "https://www.docaposte-sante.com/",
@@ -15751,13 +17230,15 @@
     "verification": {
       "legal": "verifie",
       "adresse": "verifie",
-      "telephone": "non_renseigne",
+      "telephone": "site_officiel",
       "email": "non_renseigne",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/414876177.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-449357847",
@@ -15801,7 +17282,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-813731262",
@@ -15820,7 +17302,7 @@
     "lon": 5.8051500846,
     "distance_km": 9,
     "telephone": "",
-    "email": "",
+    "email": "info@enlaps.fr",
     "contact": "",
     "site_web": "https://enlaps.io/",
     "careers": "https://enlaps.io/careers",
@@ -15848,12 +17330,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/813731262.avif",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-799348255",
@@ -15897,7 +17381,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-507620557",
@@ -15949,7 +17434,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/507620557.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-349036103",
@@ -16001,7 +17488,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/349036103.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-821562360",
@@ -16053,7 +17542,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/821562360.svg",
+    "logo_source": "icon"
   },
   {
     "id": "siren-335092318",
@@ -16071,8 +17562,8 @@
     "lat": 45.216004269,
     "lon": 5.8053351811,
     "distance_km": 9,
-    "telephone": "",
-    "email": "",
+    "telephone": "01 57 60 83 02",
+    "email": "oracle-acct_ww@oracle.com",
     "contact": "",
     "site_web": "https://www.oracle.com/fr/",
     "careers": "https://www.oracle.com/fr/careers/",
@@ -16099,13 +17590,15 @@
     "verification": {
       "legal": "verifie",
       "adresse": "verifie",
-      "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "telephone": "site_officiel",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/335092318.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-850981358",
@@ -16123,8 +17616,8 @@
     "lat": 45.216186043,
     "lon": 5.8052366042,
     "distance_km": 9,
-    "telephone": "",
-    "email": "",
+    "telephone": "01 57 60 83 02",
+    "email": "oracle-acct_ww@oracle.com",
     "contact": "",
     "site_web": "https://www.oracle.com/fr/",
     "careers": "https://www.oracle.com/fr/careers/",
@@ -16151,13 +17644,15 @@
     "verification": {
       "legal": "verifie",
       "adresse": "verifie",
-      "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "telephone": "site_officiel",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/850981358.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-383003423",
@@ -16175,7 +17670,7 @@
     "lat": 45.216421948,
     "lon": 5.8039799423,
     "distance_km": 9,
-    "telephone": "",
+    "telephone": "04 76 04 23 23",
     "email": "",
     "contact": "",
     "site_web": "https://www.seiitra.com/",
@@ -16203,13 +17698,15 @@
     "verification": {
       "legal": "verifie",
       "adresse": "verifie",
-      "telephone": "non_renseigne",
+      "telephone": "site_officiel",
       "email": "non_renseigne",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/383003423.webp",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-324103829",
@@ -16261,7 +17758,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/324103829.ico",
+    "logo_source": "icon"
   },
   {
     "id": "siren-441433075",
@@ -16279,7 +17778,7 @@
     "lat": 45.214840012,
     "lon": 5.8060630196,
     "distance_km": 9,
-    "telephone": "+18338374966",
+    "telephone": "",
     "email": "",
     "contact": "",
     "site_web": "https://www.verizon.com/",
@@ -16307,13 +17806,15 @@
     "verification": {
       "legal": "verifie",
       "adresse": "verifie",
-      "telephone": "site_officiel",
+      "telephone": "non_renseigne",
       "email": "non_renseigne",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/441433075.ico",
+    "logo_source": "static-ico"
   },
   {
     "id": "siren-452156102",
@@ -16361,7 +17862,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/452156102.svg",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-528211923",
@@ -16409,7 +17912,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/528211923.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-937652725",
@@ -16457,7 +17962,8 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "source"
+    "origin": "source",
+    "logo": ""
   },
   {
     "id": "siren-495075079",
@@ -16505,7 +18011,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/495075079.ico",
+    "logo_source": "icon"
   },
   {
     "id": "siren-499286011",
@@ -16549,7 +18057,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-377846951",
@@ -16593,7 +18102,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-450538830",
@@ -16612,7 +18122,7 @@
     "lon": 5.8074832912,
     "distance_km": 9.2,
     "telephone": "04 76 42 64 13",
-    "email": "",
+    "email": "0-email-jobs@probayes.com",
     "contact": "",
     "site_web": "https://www.probayes.com/",
     "careers": "https://www.probayes.com/nous-rejoindre",
@@ -16640,12 +18150,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "site_officiel",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/450538830.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-383505187",
@@ -16664,7 +18176,7 @@
     "lon": 5.8078974548,
     "distance_km": 9.2,
     "telephone": "",
-    "email": "",
+    "email": "contact@cesimulations.com",
     "contact": "",
     "site_web": "https://fr.mathworks.com/",
     "careers": "https://fr.mathworks.com/company/jobs/students.html?s_tid=nav_company_students",
@@ -16692,12 +18204,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/383505187.ico",
+    "logo_source": "icon"
   },
   {
     "id": "siren-813754389",
@@ -16741,7 +18255,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-343488979",
@@ -16785,7 +18300,8 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": ""
   },
   {
     "id": "siren-381031285",
@@ -16829,7 +18345,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-817423957",
@@ -16877,7 +18394,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/817423957.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-352753800",
@@ -16925,7 +18444,8 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": ""
   },
   {
     "id": "siren-535122329",
@@ -16969,7 +18489,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-444436356",
@@ -17017,7 +18538,8 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-440743763",
@@ -17061,7 +18583,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-404165946",
@@ -17105,7 +18628,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-332126309",
@@ -17124,7 +18648,7 @@
     "lon": 5.8119227872,
     "distance_km": 9.5,
     "telephone": "",
-    "email": "",
+    "email": "kevin.kessel@kla.com",
     "contact": "",
     "site_web": "https://www.kla.com/",
     "careers": "https://www.kla.com/careers",
@@ -17152,12 +18676,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/332126309.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-391237013",
@@ -17201,7 +18727,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-434559274",
@@ -17245,7 +18772,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-380927475",
@@ -17263,8 +18791,8 @@
     "lat": 45.217047241,
     "lon": 5.8135801825,
     "distance_km": 9.6,
-    "telephone": "",
-    "email": "",
+    "telephone": "04 76 04 20 00",
+    "email": "contact@etictelecom.com",
     "contact": "",
     "site_web": "https://www.etictelecom.com/fr/",
     "careers": "",
@@ -17287,13 +18815,15 @@
     "verification": {
       "legal": "verifie",
       "adresse": "verifie",
-      "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "telephone": "site_officiel",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/380927475.ico",
+    "logo_source": "icon"
   },
   {
     "id": "siren-510366560",
@@ -17341,7 +18871,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-503271926",
@@ -17359,8 +18890,8 @@
     "lat": 45.216579259166,
     "lon": 5.81360900496099,
     "distance_km": 9.6,
-    "telephone": "00149208690",
-    "email": "info@medical.fr",
+    "telephone": "",
+    "email": "",
     "contact": "",
     "site_web": "",
     "careers": "",
@@ -17379,13 +18910,15 @@
     "verification": {
       "legal": "verifie",
       "adresse": "verifie",
-      "telephone": "site_officiel",
-      "email": "site_officiel",
+      "telephone": "non_renseigne",
+      "email": "non_renseigne",
       "site": "non_renseigne",
-      "statut": "complet",
+      "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-423830223",
@@ -17433,7 +18966,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "manual"
+    "origin": "manual",
+    "logo": "data/logos/423830223.jpg",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-507984557",
@@ -17485,7 +19020,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/507984557.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-844926014",
@@ -17537,7 +19074,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "source"
+    "origin": "source",
+    "logo": "data/logos/844926014.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-491370995",
@@ -17589,7 +19128,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/491370995.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-331170407",
@@ -17641,7 +19182,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "source"
+    "origin": "source",
+    "logo": "data/logos/331170407.jpg",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-925259806",
@@ -17660,7 +19203,7 @@
     "lon": 5.8133933467,
     "distance_km": 9.7,
     "telephone": "",
-    "email": "",
+    "email": "info@oros.com",
     "contact": "",
     "site_web": "https://www.oros.com/",
     "careers": "https://www.oros.com/careers-at-oros-noise-vibration/",
@@ -17688,12 +19231,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/925259806.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-751907049",
@@ -17741,7 +19286,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/751907049.png",
+    "logo_source": "google-favicon"
   },
   {
     "id": "siren-798785283",
@@ -17785,7 +19332,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-449912088",
@@ -17829,7 +19377,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-444085831",
@@ -17848,7 +19397,7 @@
     "lon": 5.62694105826187,
     "distance_km": 11.2,
     "telephone": "",
-    "email": "",
+    "email": "contact@solutys.com",
     "contact": "",
     "site_web": "https://www.solutys.com/",
     "careers": "https://www.solutys.com/recrutement/",
@@ -17876,12 +19425,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/444085831.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-502012503",
@@ -17933,7 +19484,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "source"
+    "origin": "source",
+    "logo": "data/logos/502012503.svg",
+    "logo_source": "icon"
   },
   {
     "id": "siren-320695356",
@@ -17977,7 +19530,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-333020386",
@@ -18025,7 +19579,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/333020386.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-722045226",
@@ -18044,7 +19600,7 @@
     "lon": 5.627952756933,
     "distance_km": 11.6,
     "telephone": "",
-    "email": "specifydomain@gmail.com",
+    "email": "",
     "contact": "",
     "site_web": "",
     "careers": "",
@@ -18064,12 +19620,13 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "site_officiel",
+      "email": "non_renseigne",
       "site": "non_renseigne",
-      "statut": "complet",
+      "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-334835709",
@@ -18117,7 +19674,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/334835709.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-499247682",
@@ -18169,7 +19728,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "source"
+    "origin": "source",
+    "logo": "data/logos/499247682.jpg",
+    "logo_source": "icon"
   },
   {
     "id": "siren-489220244",
@@ -18221,7 +19782,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "source"
+    "origin": "source",
+    "logo": "data/logos/489220244.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-882024896",
@@ -18269,7 +19832,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "source"
+    "origin": "source",
+    "logo": ""
   },
   {
     "id": "siren-443337647",
@@ -18288,7 +19852,7 @@
     "lon": 5.84490406081549,
     "distance_km": 13.2,
     "telephone": "",
-    "email": "",
+    "email": "inquiries@screen-spe.com",
     "contact": "",
     "site_web": "https://www.screen-spe.com",
     "careers": "",
@@ -18312,12 +19876,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/443337647.ico",
+    "logo_source": "icon"
   },
   {
     "id": "siren-811082908",
@@ -18361,7 +19927,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-495227811",
@@ -18409,7 +19976,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/495227811.ico",
+    "logo_source": "icon"
   },
   {
     "id": "siren-409699212",
@@ -18457,7 +20026,8 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "source"
+    "origin": "source",
+    "logo": ""
   },
   {
     "id": "siren-343254207",
@@ -18505,7 +20075,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/343254207.png",
+    "logo_source": "google-favicon"
   },
   {
     "id": "siren-391549540",
@@ -18523,8 +20095,8 @@
     "lat": 45.231779412617,
     "lon": 5.87192676521998,
     "distance_km": 14.4,
-    "telephone": "",
-    "email": "r.ape@keas-group.com",
+    "telephone": "04 76 52 13 30",
+    "email": "contact@keas-group.com",
     "contact": "M. APE (Chef de site)",
     "site_web": "https://keas-group.com",
     "careers": "",
@@ -18547,13 +20119,15 @@
     "verification": {
       "legal": "verifie",
       "adresse": "verifie",
-      "telephone": "non_renseigne",
-      "email": "source_initiale",
+      "telephone": "site_officiel",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/391549540.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-533429619",
@@ -18597,7 +20171,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/533429619.ico",
+    "logo_source": "icon"
   },
   {
     "id": "siren-073500605",
@@ -18616,7 +20192,7 @@
     "lon": 5.8731200088,
     "distance_km": 14.5,
     "telephone": "",
-    "email": "",
+    "email": "dpd@lumiplan.com",
     "contact": "",
     "site_web": "https://www.lumiplan.com/",
     "careers": "https://careers.werecruit.io/fr/lumiplan",
@@ -18644,12 +20220,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/073500605.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-835053026",
@@ -18697,7 +20275,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/835053026.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-491654901",
@@ -18749,7 +20329,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "source"
+    "origin": "source",
+    "logo": "data/logos/491654901.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-381128859",
@@ -18793,7 +20375,8 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": ""
   },
   {
     "id": "siren-384711909",
@@ -18849,7 +20432,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "source"
+    "origin": "source",
+    "logo": "data/logos/384711909.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-849568530",
@@ -18868,7 +20453,7 @@
     "lon": 5.8780173622,
     "distance_km": 16.7,
     "telephone": "",
-    "email": "",
+    "email": "media@soitec.com",
     "contact": "",
     "site_web": "https://www.soitec.com/",
     "careers": "https://www.soitec.com/home/people/culture/jobs",
@@ -18896,12 +20481,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/849568530.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-793342866",
@@ -18945,7 +20532,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-401222286",
@@ -18993,7 +20581,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/401222286.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-399395581",
@@ -19045,7 +20635,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/399395581.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-392197679",
@@ -19064,7 +20656,7 @@
     "lon": 5.88703457329335,
     "distance_km": 17.6,
     "telephone": "",
-    "email": "",
+    "email": "cdc.nord@hager.com",
     "contact": "",
     "site_web": "https://hager.com/fr",
     "careers": "https://hager.com/fr/centre-de-telechargement/recherche?assetTypeNames=Mode%20d%27emploi",
@@ -19092,12 +20684,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/392197679.svg",
+    "logo_source": "icon"
   },
   {
     "id": "siren-430190496",
@@ -19116,7 +20710,7 @@
     "lon": 5.8902735862,
     "distance_km": 17.7,
     "telephone": "",
-    "email": "",
+    "email": "sales@adeunis.com",
     "contact": "M. Pascal SAGUIN (Directeur Entreprise)",
     "site_web": "https://www.adeunis.com/",
     "careers": "",
@@ -19144,12 +20738,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "source"
+    "origin": "source",
+    "logo": "data/logos/430190496.ico",
+    "logo_source": "icon"
   },
   {
     "id": "siren-412152019",
@@ -19193,7 +20789,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/412152019.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-332989953",
@@ -19237,7 +20835,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-834760928",
@@ -19285,7 +20884,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/834760928.jpg",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-434998886",
@@ -19333,7 +20934,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/434998886.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-505104729",
@@ -19351,8 +20954,8 @@
     "lat": 45.3176527394375,
     "lon": 5.60474389375585,
     "distance_km": 18.1,
-    "telephone": "1-201-567-6666",
-    "email": "customerservice@jampaper.com",
+    "telephone": "",
+    "email": "",
     "contact": "",
     "site_web": "",
     "careers": "https://www.jampaper.com/pages/careers",
@@ -19375,13 +20978,15 @@
     "verification": {
       "legal": "verifie",
       "adresse": "verifie",
-      "telephone": "site_officiel",
-      "email": "site_officiel",
+      "telephone": "non_renseigne",
+      "email": "non_renseigne",
       "site": "non_renseigne",
-      "statut": "complet",
+      "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "",
+    "logo_source": "icon"
   },
   {
     "id": "siren-402120208",
@@ -19429,7 +21034,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/402120208.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-612039495",
@@ -19481,7 +21088,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/612039495.png",
+    "logo_source": "google-favicon"
   },
   {
     "id": "siren-422332338",
@@ -19529,7 +21138,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/422332338.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-400541868",
@@ -19577,7 +21188,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/400541868.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-879127678",
@@ -19625,7 +21238,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/879127678.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-410460422",
@@ -19677,7 +21292,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/410460422.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-847645405",
@@ -19696,7 +21313,7 @@
     "lon": 5.59591760326498,
     "distance_km": 18.7,
     "telephone": "",
-    "email": "support@domains.available.forsale",
+    "email": "",
     "contact": "",
     "site_web": "",
     "careers": "",
@@ -19716,12 +21333,13 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "site_officiel",
+      "email": "non_renseigne",
       "site": "non_renseigne",
-      "statut": "complet",
+      "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-921768560",
@@ -19769,7 +21387,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": "data/logos/921768560.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-448001099",
@@ -19788,7 +21408,7 @@
     "lon": 5.59266806025379,
     "distance_km": 18.8,
     "telephone": "",
-    "email": "",
+    "email": "info@meteodyn.com",
     "contact": "",
     "site_web": "https://meteodyn.fr/",
     "careers": "https://meteodyn.fr/a-propos/nous-rejoindre/",
@@ -19816,12 +21436,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/448001099.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-306606583",
@@ -19839,7 +21461,7 @@
     "lat": 45.320146714,
     "lon": 5.5922832356,
     "distance_km": 18.8,
-    "telephone": "#00a093;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple:linear-gradient(135deg,rgb(6,147,227)",
+    "telephone": "",
     "email": "",
     "contact": "",
     "site_web": "https://maatel.com/",
@@ -19867,13 +21489,15 @@
     "verification": {
       "legal": "verifie",
       "adresse": "verifie",
-      "telephone": "site_officiel",
+      "telephone": "non_renseigne",
       "email": "non_renseigne",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/306606583.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-387495799",
@@ -19925,7 +21549,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/387495799.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-302456199",
@@ -19977,7 +21603,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/302456199.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-804862043",
@@ -20025,7 +21653,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/804862043.ico",
+    "logo_source": "icon"
   },
   {
     "id": "siren-844717587",
@@ -20077,7 +21707,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/844717587.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-485152540",
@@ -20121,7 +21753,8 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "current"
+    "origin": "current",
+    "logo": ""
   },
   {
     "id": "siren-504109273",
@@ -20140,7 +21773,7 @@
     "lon": 5.5037683684,
     "distance_km": 21.3,
     "telephone": "",
-    "email": "watthome32@gmail.com",
+    "email": "",
     "contact": "",
     "site_web": "",
     "careers": "",
@@ -20160,12 +21793,13 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "site_officiel",
+      "email": "non_renseigne",
       "site": "non_renseigne",
-      "statut": "complet",
+      "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-433031887",
@@ -20221,7 +21855,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "source"
+    "origin": "source",
+    "logo": "data/logos/433031887.ico",
+    "logo_source": "icon"
   },
   {
     "id": "siren-535340616",
@@ -20265,7 +21901,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-788267599",
@@ -20313,7 +21950,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-421531708",
@@ -20332,7 +21970,7 @@
     "lon": 5.5675287471,
     "distance_km": 22.7,
     "telephone": "",
-    "email": "",
+    "email": "marketing@ifotec.com",
     "contact": "",
     "site_web": "https://www.ifotec.com/",
     "careers": "",
@@ -20356,12 +21994,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/421531708.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-838448181",
@@ -20380,7 +22020,7 @@
     "lon": 5.59562105025921,
     "distance_km": 22.7,
     "telephone": "",
-    "email": "",
+    "email": "info@kheoos.com",
     "contact": "",
     "site_web": "https://kheoos.com/fr/",
     "careers": "https://kheoos.com/rejoindre-kheoos/",
@@ -20408,12 +22048,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/838448181.png",
+    "logo_source": "icon"
   },
   {
     "id": "siren-438716946",
@@ -20432,7 +22074,7 @@
     "lon": 5.57318873545411,
     "distance_km": 22.7,
     "telephone": "",
-    "email": "",
+    "email": "contact@sinari.com",
     "contact": "",
     "site_web": "https://www.sinari.com/",
     "careers": "https://www.sinari.com/secteur-carrieres",
@@ -20460,12 +22102,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "non_renseigne",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/438716946.webp",
+    "logo_source": "icon"
   },
   {
     "id": "siren-414294165",
@@ -20509,7 +22153,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   },
   {
     "id": "siren-404151227",
@@ -20557,7 +22202,8 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "source"
+    "origin": "source",
+    "logo": ""
   },
   {
     "id": "siren-913171245",
@@ -20604,12 +22250,14 @@
       "legal": "verifie",
       "adresse": "verifie",
       "telephone": "non_renseigne",
-      "email": "source_initiale",
+      "email": "site_officiel",
       "site": "a_verifier",
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "source"
+    "origin": "source",
+    "logo": "data/logos/913171245.ico",
+    "logo_source": "icon"
   },
   {
     "id": "siren-832384093",
@@ -20653,7 +22301,8 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "manual"
+    "origin": "manual",
+    "logo": ""
   },
   {
     "id": "siren-524671260",
@@ -20705,7 +22354,9 @@
       "statut": "complet",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": "data/logos/524671260.png",
+    "logo_source": "apple-touch"
   },
   {
     "id": "siren-401469853",
@@ -20749,6 +22400,7 @@
       "statut": "partiel",
       "date": "2026-10-30"
     },
-    "origin": "discovery"
+    "origin": "discovery",
+    "logo": ""
   }
 ]

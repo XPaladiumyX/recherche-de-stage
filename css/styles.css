@@ -300,8 +300,17 @@ button { cursor: pointer; }
   display: grid; place-items: center; font-size: 17px;
   background: color-mix(in srgb, var(--accent) 11%, var(--surface));
   transition: transform .25s cubic-bezier(.22,1,.36,1), background .2s;
+  overflow: hidden;
 }
 .card:hover .card-icon { transform: scale(1.08) rotate(-3deg); }
+.card-icon .company-logo, .modal-icon .company-logo { width: 26px; height: 26px; object-fit: contain; display: block; }
+.modal-icon .company-logo { width: 32px; height: 32px; }
+.card-icon .logo-fallback, .modal-icon .logo-fallback { display: none; }
+.card-icon.no-logo .logo-fallback, .modal-icon.no-logo .logo-fallback { display: grid; place-items: center; }
+.card-icon.no-logo .company-logo, .modal-icon.no-logo .company-logo { display: none; }
+.card-icon:not(.no-logo), .modal-icon:not(.no-logo) { background: var(--surface); border: 1px solid var(--border); }
+[data-theme="dark"] .card-icon:not(.no-logo), [data-theme="dark"] .modal-icon:not(.no-logo) { background: #fff; }
+.modal-icon { overflow: hidden; }
 .card-title { font-size: .94rem; font-weight: 800; line-height: 1.25; letter-spacing: -.01em; }
 .card-cat { font-size: .71rem; color: var(--accent); font-weight: 700; margin-top: 2px; }
 .card-desc { font-size: .77rem; color: var(--text-2); line-height: 1.45; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }

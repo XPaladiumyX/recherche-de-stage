@@ -1,4 +1,4 @@
-/* Campagne d'envoi — styles spécifiques */
+/* Campagne d'envoi · styles spécifiques */
 
 @keyframes panelIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
 @keyframes campaignIn { from { opacity: 0; transform: translateY(14px) scale(.995); } to { opacity: 1; transform: none; } }
@@ -21,6 +21,8 @@
 .status-banner .status-icon { width: 36px; height: 36px; border-radius: 10px; display: grid; place-items: center; font-size: 17px; flex-shrink: 0; }
 .status-banner.offline .status-icon { background: #fef3c7; color: #b45309; }
 .status-banner.online .status-icon { background: #d1fae5; color: #047857; }
+.status-banner.simulation { border-color: color-mix(in srgb, var(--warning) 35%, var(--border)); background: color-mix(in srgb, var(--warning) 7%, var(--surface)); }
+.status-banner.simulation .status-icon { background: #fef3c7; color: #b45309; font-size: .7rem; font-weight: 800; }
 .status-banner strong { display: block; font-size: .86rem; }
 .status-banner small { color: var(--text-3); font-size: .75rem; }
 .status-banner .btn { margin-left: auto; }

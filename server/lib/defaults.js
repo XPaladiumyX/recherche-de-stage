@@ -1,25 +1,23 @@
 export const DEFAULT_TEMPLATES = [
   {
-    id: 'stage-dev',
-    name: 'Stage — développement / informatique',
-    subject: 'Candidature pour un stage en informatique — {{prenom}} {{nom}}',
-    body: `Bonjour {{contact}},
+    id: 'stage-reparation',
+    name: 'Stage · réparation / électronique',
+    subject: 'Candidature pour un stage, Yann Allegra',
+    body: `Bonjour,
 
-Je m'appelle {{prenom}} {{nom}} et je suis en {{formation}} au {{etablissement}}.
+Je suis Yann Allegra, élève en Terminale Bac Pro CIEL au Lycée Vaucanson, et je cherche un stage du 23 novembre au 18 décembre et du 4 janvier au 29 janvier. Passionné de réparation et d'électronique, je serais très motivé pour apprendre à vos côtés.
 
-Je recherche un stage dans l'informatique et le numérique, de préférence autour de Grenoble. Votre entreprise, {{entreprise}}, implantée à {{ville}}, retient particulièrement mon attention dans le domaine {{famille}}.
+Accepteriez-vous un stagiaire ? Je peux passer à l'atelier avec mon CV et ma convention dès que vous le souhaitez.
 
-Je serais ravi(e) de pouvoir échanger avec vous, de vous présenter ma motivation et de découvrir vos équipes. Vous trouverez ci-joint mon CV et ma lettre de motivation.
+Mon numéro : 0782734763
 
-Je reste disponible pour un entretien à votre convenance.
-
-Bien cordialement,
-{{signature}}`,
+Merci d'avance,
+Yann Allegra`,
   },
   {
-    id: 'alternance-dev',
-    name: 'Alternance — informatique',
-    subject: 'Candidature pour une alternance en informatique — {{prenom}} {{nom}}',
+    id: 'alternance-tech',
+    name: 'Alternance · informatique',
+    subject: 'Candidature pour une alternance en informatique, {{prenom}} {{nom}}',
     body: `Bonjour {{contact}},
 
 Je m'appelle {{prenom}} {{nom}} et je suis actuellement en {{formation}} au {{etablissement}}.
@@ -35,8 +33,8 @@ Bien cordialement,
   },
   {
     id: 'spontanee-tech',
-    name: 'Candidature spontanée — tech',
-    subject: 'Candidature spontanée — {{prenom}} {{nom}}',
+    name: 'Candidature spontanée · tech',
+    subject: 'Candidature spontanée, {{prenom}} {{nom}}',
     body: `Bonjour {{contact}},
 
 Je me permets de vous contacter car je suis à la recherche d'un stage ou d'une alternance dans l'informatique et le numérique.
@@ -51,7 +49,7 @@ Bien cordialement,
   {
     id: 'relance',
     name: 'Relance après candidature',
-    subject: 'Relance — candidature stage/alternance — {{prenom}} {{nom}}',
+    subject: 'Relance, candidature stage/alternance, {{prenom}} {{nom}}',
     body: `Bonjour {{contact}},
 
 Je me permets de revenir vers vous concernant ma candidature pour un stage ou une alternance au sein de {{entreprise}}.

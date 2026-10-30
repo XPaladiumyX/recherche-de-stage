@@ -69,7 +69,7 @@ export function senderSignature(sender = {}) {
   const lines = [];
   const name = [sender.prenom, sender.nom].filter(Boolean).join(' ');
   if (name) lines.push(name);
-  if (sender.formation || sender.etablissement) lines.push([sender.formation, sender.etablissement].filter(Boolean).join(' — '));
+  if (sender.formation || sender.etablissement) lines.push([sender.formation, sender.etablissement].filter(Boolean).join(' · '));
   const contact = [sender.telephone, sender.email, sender.linkedin].filter(Boolean).join(' · ');
   if (contact) lines.push(contact);
   return lines.join('\n');
@@ -102,10 +102,7 @@ export function renderTemplate(template, recipient = {}, sender = {}) {
     civilite: contactGreeting(recipient),
   };
   const replace = (value) => String(value || '').replace(/\{\{\s*([a-zA-Z0-9_]+)\s*\}\}/g, (_, key) => values[key] ?? '');
-  let text = replace(template.body);
-  if (!/\bSTOP\b/i.test(text)) {
-    text += `\n\n--\nSi vous ne souhaitez plus recevoir de messages de ma part, répondez simplement « STOP ».`;
-  }
+  const text = replace(template.body);
   const subject = replace(template.subject).replace(/[\r\n]+/g, ' ').trim();
   return { subject, text, values };
 }
@@ -125,8 +122,6 @@ export function attachmentsFor(ids = [], attachments = [], uploadDir) {
 
 export async function sendRenderedMail({ transporter, config, to, subject, text, attachments = [], replyTo = '' }) {
   const from = config.fromName ? `"${config.fromName}" <${config.fromEmail}>` : config.fromEmail;
-  const headers = {};
-  if (config.fromEmail) headers['List-Unsubscribe'] = `<mailto:${config.fromEmail}?subject=STOP>`;
   const info = await transporter.sendMail({
     from,
     to,
@@ -134,7 +129,6 @@ export async function sendRenderedMail({ transporter, config, to, subject, text,
     text,
     attachments,
     replyTo: replyTo || config.fromEmail || undefined,
-    headers,
   });
   return info;
 }

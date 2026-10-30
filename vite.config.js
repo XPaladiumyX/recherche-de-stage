@@ -15,6 +15,7 @@ export default defineConfig({
         { src: 'js/*', dest: 'js' },
         { src: 'css/*', dest: 'css' },
         { src: 'data/*', dest: 'data' },
+        { src: 'data/logos/*', dest: 'data/logos' },
       ],
     }),
   ],

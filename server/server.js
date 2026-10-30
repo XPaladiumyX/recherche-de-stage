@@ -31,6 +31,10 @@ let stopList = readJson(STOP_FILE, []);
 let attachments = readJson(ATTACHMENTS_FILE, []);
 
 if (!Array.isArray(templates) || !templates.length) templates = DEFAULT_TEMPLATES;
+const stageTemplate = DEFAULT_TEMPLATES.find((item) => item.id === 'stage-reparation');
+if (stageTemplate && !templates.some((item) => item.id === stageTemplate.id)) {
+  templates.unshift(structuredClone(stageTemplate));
+}
 if (!Array.isArray(history)) history = [];
 if (!Array.isArray(campaigns)) campaigns = [];
 if (!Array.isArray(stopList)) stopList = [];
@@ -231,6 +235,12 @@ app.put('/api/templates/:id', (req, res) => {
   Object.assign(template, { name, subject, body: text, updatedAt: new Date().toISOString() });
   writeJson(TEMPLATES_FILE, templates);
   res.json({ ok: true, template });
+});
+
+app.post('/api/templates/reset', (_req, res) => {
+  templates = structuredClone(DEFAULT_TEMPLATES);
+  writeJson(TEMPLATES_FILE, templates);
+  res.json({ ok: true, templates });
 });
 
 app.delete('/api/templates/:id', (req, res) => {
@@ -537,9 +547,9 @@ app.use((error, _req, res, _next) => {
 const port = Number(process.env.PORT || 3001);
 const host = process.env.HOST || '127.0.0.1';
 app.listen(port, host, () => {
-  console.log(`\nTech Vaucanson — serveur d'envoi`);
+  console.log(`\nTech Vaucanson · serveur d'envoi`);
   console.log(`http://${host}:${port}`);
-  console.log(`Mode : ${mailConfig.dryRun ? 'SIMULATION (aucun mail réel)' : `SMTP ${mailConfig.provider} — ${mailConfig.fromEmail}`}`);
+  console.log(`Mode : ${mailConfig.dryRun ? 'SIMULATION (aucun mail réel)' : `SMTP ${mailConfig.provider} · ${mailConfig.fromEmail}`}`);
   console.log(`Quota : ${config.settings.maxPerDay} mails/jour, délai ${config.settings.delayMinSeconds}-${config.settings.delayMaxSeconds}s`);
   console.log(`Dossier de données : ${DATA_DIR}\n`);
 });

@@ -94,8 +94,8 @@ if ($replace -match '^[oOyY]') {
   $fromName = Read-Default "Nom affiche dans les mails" "Recherche de stage"
   $maxPerDay = Read-Default "Nombre maximum de mails par jour" "40"
   if ($maxPerDay -notmatch '^\d+$') { $maxPerDay = '40' }
-  $real = Read-Host "Activer l'envoi REEL maintenant ? (o/N)"
-  $dryRun = if ($real -match '^[oOyY]') { 'false' } else { 'true' }
+  $real = Read-Host "Activer l'envoi REEL maintenant ? (O/n, O par defaut)"
+  $dryRun = if ($real -match '^[nN]') { 'true' } else { 'false' }
 
   $lines = @(
     '# Configuration generee par INSTALLER.bat - ne pas commiter ce fichier',

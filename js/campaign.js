@@ -1,4 +1,4 @@
-/* Tech Vaucanson — campagne d'envoi locale */
+/* Tech Vaucanson · campagne d'envoi locale */
 (() => {
   'use strict';
 
@@ -72,11 +72,11 @@
   }
 
   const validEmail = (v) => /^[^\s@]+@[^\s@]+\.[a-z]{2,}$/i.test(String(v || '').trim());
-  const displayDistance = (d) => (Number.isFinite(Number(d)) ? `${Number(d).toFixed(1).replace('.', ',')} km` : '—');
+  const displayDistance = (d) => (Number.isFinite(Number(d)) ? `${Number(d).toFixed(1).replace('.', ',')} km` : '·');
   const formatDate = (value) => {
-    if (!value) return '—';
+    if (!value) return '·';
     const date = new Date(value);
-    return Number.isNaN(date.getTime()) ? '—' : date.toLocaleString('fr-FR', { dateStyle: 'short', timeStyle: 'short' });
+    return Number.isNaN(date.getTime()) ? '·' : date.toLocaleString('fr-FR', { dateStyle: 'short', timeStyle: 'short' });
   };
   const formatBytes = (bytes) => {
     const n = Number(bytes) || 0;
@@ -90,7 +90,7 @@
     const lines = [];
     const name = [sender.prenom, sender.nom].filter(Boolean).join(' ');
     if (name) lines.push(name);
-    if (sender.formation || sender.etablissement) lines.push([sender.formation, sender.etablissement].filter(Boolean).join(' — '));
+    if (sender.formation || sender.etablissement) lines.push([sender.formation, sender.etablissement].filter(Boolean).join(' · '));
     const contact = [sender.telephone, sender.email, sender.linkedin].filter(Boolean).join(' · ');
     if (contact) lines.push(contact);
     return lines.join('\n');
@@ -122,8 +122,7 @@
       date: new Date().toLocaleDateString('fr-FR'),
     };
     const replace = (value) => String(value || '').replace(/\{\{\s*([a-zA-Z0-9_]+)\s*\}\}/g, (_, key) => values[key] ?? '');
-    let text = replace(template.body);
-    if (!/\bSTOP\b/i.test(text)) text += `\n\n--\nSi vous ne souhaitez plus recevoir de messages de ma part, répondez simplement « STOP ».`;
+    const text = replace(template.body);
     return { subject: replace(template.subject).replace(/[\r\n]+/g, ' ').trim(), text };
   }
 
@@ -142,14 +141,15 @@
   function setServerOnline(health) {
     state.health = health;
     clearTimeout(state.retryTimer);
-    $('serverStatus').className = 'status-banner online';
-    $('serverStatusIcon').textContent = '✓';
-    $('serverStatusTitle').textContent = 'Serveur local connecté';
-    $('serverStatusText').textContent = health.dryRun
-      ? 'Mode simulation : aucun mail réel ne sera envoyé. Passe DRY_RUN=false dans server/.env pour activer l’envoi réel.'
-      : `SMTP ${health.provider} · ${health.fromEmail || 'adresse d’envoi à vérifier'} · ${health.remainingToday} mail(s) restant(s) aujourd’hui.`;
+    const simulation = !!health.dryRun;
+    $('serverStatus').className = `status-banner ${simulation ? 'simulation' : 'online'}`;
+    $('serverStatusIcon').textContent = simulation ? 'SIM' : '✓';
+    $('serverStatusTitle').textContent = simulation ? 'Serveur connecté, mais mode simulation' : 'Serveur local connecté';
+    $('serverStatusText').innerHTML = simulation
+      ? 'Aucun mail réel ne partira. Pour envoyer pour de vrai : ouvre <code>server/.env</code>, mets <code>DRY_RUN=false</code>, puis relance <code>LANCER-CAMPAGNE.bat</code>.'
+      : `SMTP ${esc(health.provider)} · ${esc(health.fromEmail || 'adresse d’envoi à vérifier')} · ${health.remainingToday} mail(s) restant(s) aujourd’hui.`;
     $('serverDot').classList.add('online');
-    $('serverDot').title = health.dryRun ? 'Serveur local connecté (simulation)' : 'Serveur local connecté';
+    $('serverDot').title = simulation ? 'Serveur local connecté (simulation)' : 'Serveur local connecté';
     $('setupCard').hidden = true;
     $('campaignShell').hidden = false;
     refreshAll();
@@ -165,7 +165,7 @@
       ? 'Le navigateur bloque la détection du serveur local depuis GitHub Pages. Ouvre <a href="http://localhost:3001/campagne.html">http://localhost:3001/campagne.html</a> pour activer l’envoi.'
       : 'Lance le serveur sur ton PC pour activer l’envoi. Les instructions sont juste en dessous.';
     $('serverDot').classList.remove('online');
-    $('serverDot').title = fromGithubPages ? 'Détection impossible depuis GitHub Pages — ouvre localhost:3001' : 'Serveur local non détecté';
+    $('serverDot').title = fromGithubPages ? 'Détection impossible depuis GitHub Pages · ouvre localhost:3001' : 'Serveur local non détecté';
     $('setupCard').hidden = false;
     $('campaignShell').hidden = true;
     clearTimeout(state.retryTimer);
@@ -222,11 +222,13 @@
     $('settingsDelayMax').value = data.settings?.delayMaxSeconds || 90;
     $('testEmail').value = sender.email || data.smtp?.fromEmail || '';
     $('smtpMode').textContent = data.smtp?.dryRun ? 'Simulation' : 'Envoi réel';
-    $('smtpProvider').textContent = data.smtp?.provider || '—';
-    $('smtpFrom').textContent = data.smtp?.fromEmail || '—';
-    $('smtpConnection').innerHTML = data.smtp?.smtpReady
-      ? '<span class="badge badge-ok">Connecté</span>'
-      : `<span class="badge badge-bad">${esc(data.smtp?.message || 'Non vérifié')}</span>`;
+    $('smtpProvider').textContent = data.smtp?.provider || '·';
+    $('smtpFrom').textContent = data.smtp?.fromEmail || '·';
+    $('smtpConnection').innerHTML = data.smtp?.dryRun
+      ? '<span class="badge badge-partial">Simulation, aucun mail réel</span>'
+      : data.smtp?.smtpReady
+        ? '<span class="badge badge-ok">Connecté</span>'
+        : `<span class="badge badge-bad">${esc(data.smtp?.message || 'Non vérifié')}</span>`;
   }
 
   async function loadTemplates() {
@@ -318,7 +320,7 @@
     $('templateName').value = 'Nouveau modèle';
     $('templateSubject').value = '';
     $('templateBody').value = '';
-    $('templateStatus').textContent = 'Nouveau — enregistre pour créer';
+    $('templateStatus').textContent = 'Nouveau · enregistre pour créer';
     renderTemplateList();
     renderTemplatePreview();
   });
@@ -326,8 +328,17 @@
     const form = currentTemplateFromForm();
     state.currentTemplateId = null;
     $('templateName').value = `${form.name || 'Modèle'} (copie)`;
-    $('templateStatus').textContent = 'Copie — enregistre pour créer';
+    $('templateStatus').textContent = 'Copie · enregistre pour créer';
     renderTemplateList();
+  });
+  $('templateReset').addEventListener('click', async () => {
+    if (!confirm('Restaurer les modèles par défaut ? Tes modèles actuels seront remplacés.')) return;
+    try {
+      await api('/api/templates/reset', { method: 'POST' });
+      state.currentTemplateId = null;
+      await loadTemplates();
+      toast('Modèles par défaut restaurés');
+    } catch (error) { toast(error.message, true); }
   });
   $('templateDelete').addEventListener('click', async () => {
     if (!state.currentTemplateId) return toast('Aucun modèle sélectionné.', true);
@@ -501,7 +512,7 @@
           <td>${esc(c.ville)}</td>
           <td>${esc(c.famille || c.categorie || '')}</td>
           <td>${displayDistance(c.distance_km)}</td>
-          <td class="muted">${last ? formatDate(last) : '—'}</td>
+          <td class="muted">${last ? formatDate(last) : '·'}</td>
         </tr>`;
       }).join('');
       body.querySelectorAll('[data-recipient]').forEach((checkbox) => {
@@ -565,7 +576,7 @@
 
   function updateSendSummary() {
     const template = state.templates.find((t) => t.id === state.currentTemplateId);
-    $('sendTemplateName').textContent = template?.name || '—';
+    $('sendTemplateName').textContent = template?.name || '·';
     $('sendRecipientCount').textContent = state.selected.size;
     $('sendAttachmentCount').textContent = state.attachments.length;
     $('sendQuota').textContent = remainingQuota();
@@ -609,7 +620,7 @@
       $('testResult').innerHTML = `<strong>${data.dryRun ? 'Test simulé (mode DRY_RUN)' : 'Test envoyé'} à ${esc(to)}</strong><div class="preview-subject" style="margin-top:7px">${esc(preview.subject)}</div><div class="preview-box" style="max-height:220px">${esc(preview.text)}</div>`;
       state.testDone = true;
       updateSendSummary();
-      toast(data.dryRun ? 'Test simulé — pense à passer DRY_RUN=false' : 'Test envoyé, vérifie ta boîte mail');
+      toast(data.dryRun ? 'Test simulé · pense à passer DRY_RUN=false' : 'Test envoyé, vérifie ta boîte mail');
     } catch (error) {
       $('testResult').className = 'test-result show';
       $('testResult').textContent = `Erreur : ${error.message}`;
@@ -664,7 +675,7 @@
     $('progressBadge').textContent = `${campaign.current} / ${campaign.total}`;
     const percent = campaign.total ? Math.round((campaign.current / campaign.total) * 100) : 0;
     $('progressBar').style.width = `${percent}%`;
-    $('progressCurrent').textContent = campaign.currentRecipient ? `En cours : ${campaign.currentRecipient}` : '—';
+    $('progressCurrent').textContent = campaign.currentRecipient ? `En cours : ${campaign.currentRecipient}` : '·';
     $('progressFailed').textContent = `${campaign.failed} échec(s)`;
     $('pauseCampaign').hidden = campaign.status !== 'running';
     $('resumeCampaign').hidden = campaign.status !== 'paused';

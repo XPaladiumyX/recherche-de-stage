@@ -1,4 +1,4 @@
-# Serveur d'envoi local — recherche-de-stage
+# Serveur d'envoi local · recherche-de-stage
 
 Ce dossier contient le petit serveur qui permet d'envoyer les candidatures depuis le site.
 Il tourne **uniquement sur ton PC** (`127.0.0.1`) et garde tes identifiants SMTP dans `server/.env`, jamais sur GitHub.
@@ -82,7 +82,7 @@ npm start
 Tu dois voir :
 
 ```text
-Tech Vaucanson — serveur d'envoi
+Tech Vaucanson · serveur d'envoi
 http://127.0.0.1:3001
 Mode : SIMULATION (aucun mail réel)
 Quota : 40 mails/jour, délai 45-90s
@@ -117,13 +117,14 @@ Si le navigateur bloque l'accès depuis GitHub Pages (mixed content), utilise si
 - Ne commit **jamais** `server/.env`.
 - Le serveur écoute uniquement sur `127.0.0.1` : il n'est pas accessible depuis Internet.
 - Le mot de passe d'application peut être révoqué à tout moment depuis ton compte Google/Microsoft.
-- Envoie **une seule fois** par entreprise, personnalise le message, et respecte les réponses « STOP ».
+- Envoie **une seule fois** par entreprise, personnalise le message, et respecte les demandes de refus.
 - Le serveur applique un quota quotidien (`MAX_PER_DAY`, 40 par défaut) et un délai entre les mails.
 - Les données locales sont dans `server/data/` et `server/uploads/` ; elles sont ignorées par Git.
 
 ## 9. Dépannage
 
 - **« Serveur local non détecté »** : vérifie que `npm start` tourne et que tu es bien sur `http://localhost:3001/campagne.html`.
+- **Le test ne part pas** : si la page indique « mode simulation », `DRY_RUN=true` dans `server/.env`. Mets `DRY_RUN=false` et relance `LANCER-CAMPAGNE.bat`.
 - **Erreur Gmail** : vérifie la validation en deux étapes et le mot de passe d'application (pas le mot de passe normal).
 - **Erreur Outlook** : vérifie le mot de passe d'application et que le SMTP est autorisé sur le compte.
 - **Quota atteint** : attends le lendemain ou augmente `MAX_PER_DAY` dans les réglages (reste raisonnable).

@@ -1,4 +1,4 @@
-/* Tech Vaucanson — annuaire + suivi de prospection stage/alternance */
+/* Tech Vaucanson · annuaire + suivi de prospection stage/alternance */
 (() => {
   'use strict';
 
@@ -153,6 +153,12 @@
     return `<select class="stage-select" data-action="status" data-id="${esc(c.id)}" aria-label="Statut de suivi">${Object.entries(STATUS).map(([k, v]) => `<option value="${k}"${k === current ? ' selected' : ''}>${esc(v)}</option>`).join('')}</select>`;
   }
 
+  function logoMarkup(c, className = 'card-icon', id = '') {
+    const icon = iconFor(c.famille || c.categorie);
+    const img = c.logo ? `<img class="company-logo" src="${esc(c.logo)}" alt="" loading="lazy" onerror="this.closest('.${className}').classList.add('no-logo')">` : '';
+    return `<div class="${className}${c.logo ? '' : ' no-logo'}"${id ? ` id="${id}"` : ''}>${img}<span class="logo-fallback">${icon}</span></div>`;
+  }
+
   function renderCard(c, index = 0) {
     const tel = c.telephone ? `<div class="meta-row"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 8.09a16 16 0 006 6l1.27-.76a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 15.67v1.25z"/></svg><a href="${phoneHref(c.telephone)}">${esc(c.telephone)}</a></div>` : '';
     const mail = c.email ? `<div class="meta-row"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg><a href="mailto:${esc(c.email)}">${esc(c.email)}</a></div>` : '';
@@ -160,7 +166,7 @@
     const careers = c.careers ? `<div class="meta-row"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"/></svg><a href="${esc(c.careers)}" target="_blank" rel="noopener">Page carrières</a></div>` : '';
     return `<article class="card" data-id="${esc(c.id)}" style="--i:${index % 12}">
       <div class="card-top">
-        <div class="card-icon">${iconFor(c.famille || c.categorie)}</div>
+        ${logoMarkup(c, 'card-icon')}
         <div style="min-width:0">
           <div class="card-title">${esc(c.nom)}</div>
           <div class="card-cat">${esc(c.categorie)}${c.famille && c.famille !== c.categorie ? ` <span style="color:var(--text-3);font-weight:600">· ${esc(c.famille)}</span>` : ''}</div>
@@ -189,10 +195,10 @@
       <td>${esc(c.ville)}</td>
       <td><span class="dist-badge">${displayDistance(c.distance_km)}</span></td>
       <td>${esc(c.adresse)}</td>
-      <td>${c.telephone ? `<a href="${phoneHref(c.telephone)}">${esc(c.telephone)}</a>` : '<span style="color:var(--text-3)">—</span>'}</td>
-      <td>${c.email ? `<a href="mailto:${esc(c.email)}">${esc(c.email)}</a>` : '<span style="color:var(--text-3)">—</span>'}</td>
-      <td>${c.site_web ? `<a href="${esc(c.site_web)}" target="_blank" rel="noopener">${esc(siteLabel(c.site_web))}</a>` : '<span style="color:var(--text-3)">—</span>'}</td>
-      <td>${c.potentiel === 'fort' ? '<span class="badge badge-priority">Forte</span>' : esc(PRIORITY[c.potentiel] || '—')}</td>
+      <td>${c.telephone ? `<a href="${phoneHref(c.telephone)}">${esc(c.telephone)}</a>` : '<span style="color:var(--text-3)">·</span>'}</td>
+      <td>${c.email ? `<a href="mailto:${esc(c.email)}">${esc(c.email)}</a>` : '<span style="color:var(--text-3)">·</span>'}</td>
+      <td>${c.site_web ? `<a href="${esc(c.site_web)}" target="_blank" rel="noopener">${esc(siteLabel(c.site_web))}</a>` : '<span style="color:var(--text-3)">·</span>'}</td>
+      <td>${c.potentiel === 'fort' ? '<span class="badge badge-priority">Forte</span>' : esc(PRIORITY[c.potentiel] || '·')}</td>
       <td>${stageSelect(c, true)}</td>
       <td><button class="btn btn-soft" style="padding:5px 9px;font-size:.7rem" data-action="open" data-id="${esc(c.id)}">Fiche</button></td>
     </tr>`).join('');
@@ -277,7 +283,7 @@
 
   function renderModal(c) {
     const t = state.tracking[c.id] || {};
-    $('modalIcon').textContent = iconFor(c.famille || c.categorie);
+    $('modalIcon').outerHTML = logoMarkup(c, 'modal-icon', 'modalIcon');
     $('modalTitle').textContent = c.nom;
     $('modalSub').textContent = `${c.categorie}${c.famille && c.famille !== c.categorie ? ` · ${c.famille}` : ''} · ${displayDistance(c.distance_km)} du lycée Vaucanson`;
     const src = (c.sources || []).map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label)} ↗</a>`).join('');
@@ -287,15 +293,15 @@
       <div class="modal-grid">
         <div class="info-box"><div class="info-label">Adresse</div><div class="info-value">${esc(c.adresse)}<br>${esc(c.code_postal)} ${esc(c.ville)}</div></div>
         <div class="info-box"><div class="info-label">Distance</div><div class="info-value mono">${displayDistance(c.distance_km)} · à vol d'oiseau</div></div>
-        <div class="info-box"><div class="info-label">Téléphone</div><div class="info-value mono">${c.telephone ? `<a href="${phoneHref(c.telephone)}">${esc(c.telephone)}</a>` : '—'}</div></div>
-        <div class="info-box"><div class="info-label">Email</div><div class="info-value">${c.email ? `<a href="mailto:${esc(c.email)}">${esc(c.email)}</a>` : '—'}</div></div>
-        <div class="info-box"><div class="info-label">Site web</div><div class="info-value">${c.site_web ? `<a href="${esc(c.site_web)}" target="_blank" rel="noopener">${esc(siteLabel(c.site_web))} ↗</a>` : '—'}</div></div>
-        <div class="info-box"><div class="info-label">Page carrières</div><div class="info-value">${c.careers ? `<a href="${esc(c.careers)}" target="_blank" rel="noopener">Ouvrir ↗</a>` : '—'}</div></div>
+        <div class="info-box"><div class="info-label">Téléphone</div><div class="info-value mono">${c.telephone ? `<a href="${phoneHref(c.telephone)}">${esc(c.telephone)}</a>` : '·'}</div></div>
+        <div class="info-box"><div class="info-label">Email</div><div class="info-value">${c.email ? `<a href="mailto:${esc(c.email)}">${esc(c.email)}</a>` : '·'}</div></div>
+        <div class="info-box"><div class="info-label">Site web</div><div class="info-value">${c.site_web ? `<a href="${esc(c.site_web)}" target="_blank" rel="noopener">${esc(siteLabel(c.site_web))} ↗</a>` : '·'}</div></div>
+        <div class="info-box"><div class="info-label">Page carrières</div><div class="info-value">${c.careers ? `<a href="${esc(c.careers)}" target="_blank" rel="noopener">Ouvrir ↗</a>` : '·'}</div></div>
         <div class="info-box"><div class="info-label">Famille</div><div class="info-value">${esc(c.famille || c.categorie)}</div></div>
         <div class="info-box"><div class="info-label">SIREN</div><div class="info-value mono">${esc(c.siren)}</div></div>
-        <div class="info-box"><div class="info-label">Activité (NAF)</div><div class="info-value"><span class="mono">${esc(c.naf || '—')}</span>${c.naf_libelle ? `<br><span style="font-weight:500;color:var(--text-2);font-size:.76rem">${esc(c.naf_libelle)}</span>` : ''}</div></div>
+        <div class="info-box"><div class="info-label">Activité (NAF)</div><div class="info-value"><span class="mono">${esc(c.naf || '·')}</span>${c.naf_libelle ? `<br><span style="font-weight:500;color:var(--text-2);font-size:.76rem">${esc(c.naf_libelle)}</span>` : ''}</div></div>
         <div class="info-box"><div class="info-label">Effectif du site</div><div class="info-value">${esc(c.effectif || 'Non renseigné')}</div></div>
-        <div class="info-box"><div class="info-label">Création</div><div class="info-value">${esc(c.creation || '—')}</div></div>
+        <div class="info-box"><div class="info-label">Création</div><div class="info-value">${esc(c.creation || '·')}</div></div>
       </div>
       <div>
         <div class="info-label" style="margin-bottom:5px">Vérification des données</div>
@@ -487,7 +493,7 @@
     if (!dot) return;
     if (location.hostname.endsWith('github.io')) {
       dot.classList.remove('online');
-      dot.title = 'Détection impossible depuis GitHub Pages — ouvre http://localhost:3001/campagne.html';
+      dot.title = 'Détection impossible depuis GitHub Pages · ouvre http://localhost:3001/campagne.html';
       return;
     }
     try {
@@ -495,12 +501,12 @@
       if (!res.ok) throw new Error('offline');
       const health = await res.json();
       dot.classList.add('online');
-      dot.title = health.dryRun ? 'Serveur local connecté (mode simulation)' : 'Serveur local connecté — envoi de mails actif';
+      dot.title = health.dryRun ? 'Serveur local connecté (mode simulation)' : 'Serveur local connecté · envoi de mails actif';
     } catch {
       dot.classList.remove('online');
       dot.title = location.hostname.endsWith('github.io')
-        ? 'Détection impossible depuis GitHub Pages — ouvre http://localhost:3001/campagne.html'
-        : 'Serveur local non détecté — ouvre la page Campagne pour les instructions';
+        ? 'Détection impossible depuis GitHub Pages · ouvre http://localhost:3001/campagne.html'
+        : 'Serveur local non détecté · ouvre la page Campagne pour les instructions';
     }
   }
 

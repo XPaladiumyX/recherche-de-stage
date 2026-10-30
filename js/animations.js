@@ -1,4 +1,4 @@
-/* Animations partagées — Tech Vaucanson */
+/* Animations partagées · Tech Vaucanson */
 (() => {
   'use strict';
   const reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;

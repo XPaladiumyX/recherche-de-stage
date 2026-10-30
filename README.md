@@ -1,4 +1,4 @@
-# recherche-de-stage — Tech Vaucanson
+# recherche-de-stage · Tech Vaucanson
 
 Annuaire web des entreprises du numérique, de l'informatique et de la tech autour du **lycée Vaucanson (Grenoble)**, à moins de **30 km**.
 
@@ -9,8 +9,8 @@ Annuaire web des entreprises du numérique, de l'informatique et de la tech auto
 
 ## Ce que contient le site
 
-- **427 entreprises** actives : ESN, éditeurs de logiciels, web, télécoms, réseaux, cybersécurité, data/IA, cloud, électronique, semi-conducteurs, automatisme, robotique, réparation, vente de matériel IT, audiovisuel numérique et recherche.
-- **290 fiches avec site web** et **185 avec au moins un contact direct** (téléphone ou email).
+- **446 entreprises** actives : ESN, éditeurs de logiciels, web, télécoms, réseaux, cybersécurité, data/IA, cloud, électronique, semi-conducteurs, automatisme, robotique, réparation, vente de matériel IT, audiovisuel numérique et recherche.
+- **309 fiches avec site web**, **306 logos récupérés** et **264 avec au moins un contact direct** (téléphone ou email, dont 232 emails et 137 téléphones).
 - **Vérification officielle** de l'existence légale, du SIREN/SIRET, de l'activité (NAF) et de l'adresse locale via l'[Annuaire des Entreprises](https://annuaire-entreprises.data.gouv.fr/) (INSEE / data.gouv.fr) et l'[API Recherche d'entreprises](https://recherche-entreprises.api.gouv.fr/).
 - **Distance calculée** à vol d'oiseau depuis le lycée Vaucanson (27 rue Anatole France, 38100 Grenoble).
 - **Téléphone, email, site web et page carrières** quand ils sont publics.
@@ -61,6 +61,13 @@ npm start
 
 Puis ouvrir **http://localhost:3001/campagne.html**.
 
+### Le mail de test ne part pas
+
+- Si la page affiche **« mode simulation »** : ouvre `server/.env`, mets `DRY_RUN=false`, puis relance `LANCER-CAMPAGNE.bat`. Aucun mail réel n'est envoyé tant que ce n'est pas fait.
+- Si une erreur SMTP apparaît : vérifie que `SMTP_USER` et `FROM_EMAIL` sont la même adresse, et que `SMTP_PASS` est un **mot de passe d'application**, pas ton mot de passe habituel.
+- Gmail : validation en deux étapes + https://myaccount.google.com/apppasswords
+- Outlook : https://account.microsoft.com/security
+
 ### Développement avec Vite
 
 Le site est compatible Vite pour le développement :
@@ -91,7 +98,7 @@ js/app.js
 js/campaign.js
 js/data.js                    # données intégrées (fonctionne en file://)
 data/entreprises.json         # mêmes données, pour réutilisation
-data/verification-report.csv  # audit des 427 entreprises
+data/verification-report.csv  # audit des 446 entreprises
 server/                       # serveur local d'envoi (Nodemailer)
   server.js
   .env.example
@@ -123,6 +130,6 @@ server/                       # serveur local d'envoi (Nodemailer)
 - Les téléphones/emails peuvent évoluer. Les badges indiquent la source et le niveau de confiance.
 - Les grands comptes sont rattachés à leur **site local vérifié** ; le contact direct local n'est pas toujours public, la page carrières est alors privilégiée.
 - Les sites marqués « à vérifier » sont des pistes retrouvées automatiquement : ils doivent être confirmés avant un usage officiel.
-- L'envoi de mails reste **local** : les identifiants SMTP sont dans `server/.env` et ne sont jamais publiés. Utilise un texte personnalisé, une entreprise = un mail, et respecte les réponses « STOP ».
+- L'envoi de mails reste **local** : les identifiants SMTP sont dans `server/.env` et ne sont jamais publiés. Utilise un texte personnalisé, une entreprise = un mail, et respecte les demandes de refus.
 
 Dernière vérification : **30/10/2026**.
