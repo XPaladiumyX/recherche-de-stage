@@ -1,4 +1,4 @@
-# travilsstage — Tech Vaucanson
+# recherche-de-stage — Tech Vaucanson
 
 Annuaire web des entreprises du numérique, de l'informatique et de la tech autour du **lycée Vaucanson (Grenoble)**, à moins de **30 km**.
 
