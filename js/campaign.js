@@ -169,10 +169,14 @@
     $('setupCard').hidden = false;
     $('campaignShell').hidden = true;
     clearTimeout(state.retryTimer);
-    state.retryTimer = setTimeout(checkServer, 8000);
+    if (!fromGithubPages) state.retryTimer = setTimeout(checkServer, 8000);
   }
 
   async function checkServer() {
+    if (location.hostname.endsWith('github.io')) {
+      setServerOffline();
+      return;
+    }
     try {
       const res = await fetch(API + '/api/health', { cache: 'no-store', signal: AbortSignal.timeout(2200) });
       if (!res.ok) throw new Error('offline');

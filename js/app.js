@@ -484,6 +484,11 @@
   async function detectMailServer() {
     const dot = $('serverDot');
     if (!dot) return;
+    if (location.hostname.endsWith('github.io')) {
+      dot.classList.remove('online');
+      dot.title = 'Détection impossible depuis GitHub Pages — ouvre http://localhost:3001/campagne.html';
+      return;
+    }
     try {
       const res = await fetch(MAIL_API + '/api/health', { signal: AbortSignal.timeout(1800), cache: 'no-store' });
       if (!res.ok) throw new Error('offline');
