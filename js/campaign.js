@@ -193,9 +193,21 @@
     updateSendSummary();
   }
 
+  function profileComplete() {
+    const s = state.config?.sender || {};
+    return !!(s.prenom && s.nom && s.email && s.telephone);
+  }
+
+  function updateProfileBanner() {
+    const banner = $('profileBanner');
+    if (!banner) return;
+    banner.hidden = profileComplete();
+  }
+
   async function loadConfig() {
     const data = await api('/api/config');
     state.config = data;
+    updateProfileBanner();
     const sender = data.sender || {};
     $('senderPrenom').value = sender.prenom || '';
     $('senderNom').value = sender.nom || '';
@@ -374,6 +386,10 @@
   }
   $('saveSettings').addEventListener('click', saveSettings);
   $('saveSettings2').addEventListener('click', saveSettings);
+  $('openProfile').addEventListener('click', () => {
+    document.querySelector('.campaign-tab[data-tab="settings"]')?.click();
+    $('senderPrenom').focus();
+  });
 
   /* ---------- Pièces jointes ---------- */
   function renderAttachments() {
@@ -554,9 +570,10 @@
     $('sendAttachmentCount').textContent = state.attachments.length;
     $('sendQuota').textContent = remainingQuota();
     const smtpOk = !!(state.health?.dryRun || state.health?.smtpReady);
-    const canStart = !!template && state.selected.size > 0 && state.testDone && $('confirmCheck').checked && remainingQuota() > 0 && smtpOk;
+    const profileOk = profileComplete();
+    const canStart = !!template && state.selected.size > 0 && profileOk && state.testDone && $('confirmCheck').checked && remainingQuota() > 0 && smtpOk;
     $('startCampaign').disabled = !canStart;
-    $('startHint').textContent = !template ? 'Choisis un modèle.' : state.selected.size === 0 ? 'Sélectionne au moins une entreprise.' : !state.testDone ? 'Fais d’abord un test réussi.' : !smtpOk ? 'Connexion SMTP non vérifiée : regarde les réglages.' : !$('confirmCheck').checked ? 'Coche la confirmation.' : remainingQuota() <= 0 ? 'Quota quotidien atteint.' : 'Prêt à envoyer.';
+    $('startHint').textContent = !profileOk ? 'Complète ton profil expéditeur dans Réglages.' : !template ? 'Choisis un modèle.' : state.selected.size === 0 ? 'Sélectionne au moins une entreprise.' : !state.testDone ? 'Fais d’abord un test réussi.' : !smtpOk ? 'Connexion SMTP non vérifiée : regarde les réglages.' : !$('confirmCheck').checked ? 'Coche la confirmation.' : remainingQuota() <= 0 ? 'Quota quotidien atteint.' : 'Prêt à envoyer.';
     $('tabRecipientCount').textContent = state.selected.size;
   }
 
@@ -572,6 +589,11 @@
   }
 
   $('testButton').addEventListener('click', async () => {
+    if (!profileComplete()) {
+      updateProfileBanner();
+      toast('Complète ton profil expéditeur dans Réglages avant de tester.', true);
+      return;
+    }
     let template = state.templates.find((t) => t.id === state.currentTemplateId);
     if (!template) return toast('Choisis un modèle.', true);
     try { template = await ensureTemplateSaved(); } catch {}
