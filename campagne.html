@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campagne d'envoi — Tech Vaucanson</title>
+  <meta name="description" content="Envoie tes candidatures stage/alternance aux entreprises de l'annuaire Tech Vaucanson, avec modèles de mails, pièces jointes et historique.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/campaign.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232563eb'/%3E%3Ctext x='32' y='42' font-family='Arial' font-size='28' font-weight='700' fill='white' text-anchor='middle'%3ETV%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-mark">TV</div>
+      <div>
+        <div class="brand-title">Tech Vaucanson</div>
+        <div class="brand-sub">Campagne d'envoi · Grenoble</div>
+      </div>
+    </div>
+    <nav class="topbar-nav">
+      <a class="nav-link" href="index.html">Annuaire</a>
+      <a class="nav-link" href="index.html#carte">Carte</a>
+      <a class="nav-link" href="campagne.html" style="color:var(--accent)">Campagne <span class="server-dot" id="serverDot" title="Serveur local non détecté"></span></a>
+      <button class="theme-toggle" id="themeToggle" title="Changer de thème" aria-label="Changer de thème">☾</button>
+    </nav>
+  </header>
+
+  <main class="campaign-page">
+    <section class="campaign-hero">
+      <div class="eyebrow">● Envoi local sécurisé</div>
+      <h1>Envoie tes candidatures, sans y passer la journée.</h1>
+      <p>Choisis un modèle, joins ton CV et ta lettre, sélectionne les entreprises avec email, teste sur ta propre adresse, puis lance la campagne. Les identifiants SMTP restent sur ton PC.</p>
+    </section>
+
+    <div class="status-banner offline" id="serverStatus">
+      <div class="status-icon" id="serverStatusIcon">!</div>
+      <div>
+        <strong id="serverStatusTitle">Serveur local non détecté</strong>
+        <small id="serverStatusText">Lance le serveur sur ton PC pour activer l'envoi. Les instructions sont juste en dessous.</small>
+      </div>
+      <button class="btn btn-ghost btn-sm" id="retryServer" type="button">Réessayer</button>
+    </div>
+
+    <section class="setup-card" id="setupCard">
+      <h2>Activer l'envoi en 5 étapes</h2>
+      <p>Le site GitHub Pages reste un annuaire statique. Pour envoyer de vrais mails avec pièces jointes, un petit serveur local doit tourner sur ton ordinateur.</p>
+      <div class="steps">
+        <div class="step"><div class="step-num">1</div><div><strong>Installer Node.js</strong><p>Si ce n'est pas déjà fait, installe Node.js 18 ou plus depuis <a href="https://nodejs.org/" target="_blank" rel="noopener">nodejs.org</a>.</p></div></div>
+        <div class="step"><div class="step-num">2</div><div><strong>Installer le serveur</strong><p>Ouvre un terminal dans le dossier du projet :</p><code class="code-block">cd server
+npm install</code></div></div>
+        <div class="step"><div class="step-num">3</div><div><strong>Configurer Gmail ou Outlook</strong><p>Crée un mot de passe d'application, puis copie le fichier d'exemple et remplis tes identifiants.</p><code class="code-block">copy .env.example .env
+# puis édite server/.env</code><p class="hint">Gmail : <a href="https://myaccount.google.com/apppasswords" target="_blank" rel="noopener">mot de passe d'application</a> · Outlook : <a href="https://account.microsoft.com/security" target="_blank" rel="noopener">sécurité du compte</a></p></div></div>
+        <div class="step"><div class="step-num">4</div><div><strong>Démarrer le serveur</strong><p>Dans le dossier <code>server</code> :</p><code class="code-block">npm start</code><p class="hint">Garde la fenêtre ouverte pendant l'envoi. Le serveur écoute uniquement sur ton PC.</p></div></div>
+        <div class="step"><div class="step-num">5</div><div><strong>Ouvrir la version locale</strong><p>Clique sur le bouton ou ouvre cette adresse :</p><code class="code-block">http://localhost:3001/campagne.html</code><p class="hint">La page détecte automatiquement le serveur et débloque l'envoi.</p></div></div>
+      </div>
+      <div class="warning" style="margin-top:12px">Ne mets jamais <code>server/.env</code> sur GitHub. Le serveur n'écoute que sur <code>127.0.0.1</code> et les données restent dans <code>server/data</code> et <code>server/uploads</code>.</div>
+      <div class="btn-row" style="margin-top:12px"><a class="btn btn-primary" href="http://localhost:3001/campagne.html">Ouvrir la version locale</a><a class="btn btn-ghost" href="https://github.com/XPaladiumyX/recherche-de-stage/blob/main/server/README.md" target="_blank" rel="noopener">Guide complet</a></div>
+    </section>
+
+    <section id="campaignShell" hidden>
+      <div class="campaign-shell">
+        <aside class="campaign-tabs" aria-label="Étapes de la campagne">
+          <button class="campaign-tab active" data-tab="message" type="button">1. Message</button>
+          <button class="campaign-tab" data-tab="recipients" type="button">2. Destinataires <span class="tab-badge" id="tabRecipientCount">0</span></button>
+          <button class="campaign-tab" data-tab="files" type="button">3. Pièces jointes</button>
+          <button class="campaign-tab" data-tab="send" type="button">4. Envoi</button>
+          <button class="campaign-tab" data-tab="history" type="button">Historique</button>
+          <button class="campaign-tab" data-tab="settings" type="button">Réglages</button>
+        </aside>
+
+        <div class="campaign-content">
+          <section class="campaign-panel active" id="panel-message">
+            <div class="panel-card">
+              <h2>Modèle de message</h2>
+              <p class="panel-sub">Crée plusieurs modèles (stage, alternance, relance…) et personnalise-les avec les variables.</p>
+              <div class="template-list" id="templateList"></div>
+              <div class="btn-row" style="margin-bottom:10px">
+                <button class="btn btn-soft btn-sm" id="templateNew" type="button">Nouveau modèle</button>
+                <button class="btn btn-ghost btn-sm" id="templateDuplicate" type="button">Dupliquer</button>
+                <button class="btn btn-danger-soft btn-sm" id="templateDelete" type="button">Supprimer</button>
+              </div>
+              <div class="panel-grid">
+                <label class="field">Nom du modèle<input id="templateName" type="text" placeholder="Stage — développement"></label>
+                <label class="field">Objet<input id="templateSubject" type="text" placeholder="Candidature pour un stage — {{prenom}} {{nom}}"></label>
+                <label class="field full">Message
+                  <textarea id="templateBody" placeholder="Bonjour {{contact}},..."></textarea>
+                </label>
+              </div>
+              <div class="vars" id="varChips">
+                <span class="var-chip" data-var="{{entreprise}}">{{entreprise}}</span>
+                <span class="var-chip" data-var="{{contact}}">{{contact}}</span>
+                <span class="var-chip" data-var="{{ville}}">{{ville}}</span>
+                <span class="var-chip" data-var="{{famille}}">{{famille}}</span>
+                <span class="var-chip" data-var="{{distance}}">{{distance}}</span>
+                <span class="var-chip" data-var="{{prenom}}">{{prenom}}</span>
+                <span class="var-chip" data-var="{{nom}}">{{nom}}</span>
+                <span class="var-chip" data-var="{{formation}}">{{formation}}</span>
+                <span class="var-chip" data-var="{{etablissement}}">{{etablissement}}</span>
+                <span class="var-chip" data-var="{{signature}}">{{signature}}</span>
+              </div>
+              <div class="btn-row">
+                <button class="btn btn-primary btn-sm" id="templateSave" type="button">Enregistrer le modèle</button>
+                <button class="btn btn-ghost btn-sm" id="templatePreview" type="button">Aperçu</button>
+                <span class="hint" id="templateStatus"></span>
+              </div>
+            </div>
+            <div class="panel-card">
+              <h2>Aperçu</h2>
+              <div class="preview-box"><div class="preview-subject" id="previewSubject">Objet du mail…</div><div id="previewBody">Le texte du message apparaîtra ici.</div></div>
+            </div>
+          </section>
+
+          <section class="campaign-panel" id="panel-recipients">
+            <div class="panel-card">
+              <h2>Choisir les entreprises</h2>
+              <p class="panel-sub">Seules les fiches avec une adresse email valide sont proposées. Les entreprises déjà contactées et la liste STOP sont exclues par défaut.</p>
+              <div class="recipient-toolbar">
+                <label class="field">Recherche<input id="recipientSearch" type="text" placeholder="Nom, ville, email…"></label>
+                <label class="field">Famille<select id="recipientFamily"><option value="all">Toutes</option></select></label>
+                <label class="field">Ville<select id="recipientCity"><option value="all">Toutes</option></select></label>
+                <label class="field">Distance<select id="recipientDistance"><option value="30">≤ 30 km</option><option value="20">≤ 20 km</option><option value="10">≤ 10 km</option><option value="5">≤ 5 km</option><option value="2">≤ 2 km</option></select></label>
+                <label class="check-row" style="margin:0;white-space:nowrap"><input type="checkbox" id="recipientResend"> Autoriser les renvois</label>
+              </div>
+              <div class="selection-summary">
+                <span><strong id="selectedCount">0</strong> sélectionnée(s)</span>
+                <span><strong id="availableCount">0</strong> disponible(s)</span>
+                <span>Quota restant aujourd'hui : <strong id="remainingQuota">—</strong></span>
+              </div>
+              <div class="recipient-actions">
+                <button class="btn btn-soft btn-sm" id="selectAll" type="button">Tout sélectionner</button>
+                <button class="btn btn-ghost btn-sm" id="selectFirst" type="button">Sélectionner les 40 premiers</button>
+                <button class="btn btn-ghost btn-sm" id="selectNone" type="button">Tout désélectionner</button>
+              </div>
+              <div class="table-scroll">
+                <table class="recipient-table">
+                  <thead><tr><th></th><th>Entreprise</th><th>Email</th><th>Ville</th><th>Famille</th><th>Distance</th><th>Dernier envoi</th></tr></thead>
+                  <tbody id="recipientTableBody"></tbody>
+                </table>
+                <div class="empty-state" id="recipientEmpty" hidden>Aucune entreprise avec email ne correspond aux filtres.</div>
+              </div>
+            </div>
+          </section>
+
+          <section class="campaign-panel" id="panel-files">
+            <div class="panel-card">
+              <h2>Pièces jointes</h2>
+              <p class="panel-sub">Ajoute ton CV, ta lettre de motivation et éventuellement ton carnet d'évaluation. Les fichiers restent sur ton PC. Limite : 10 Mo par fichier, 10 fichiers.</p>
+              <label class="upload-zone" for="fileInput" id="uploadZone">
+                <strong>Cliquer pour ajouter des fichiers</strong><br>
+                PDF, DOC/DOCX, JPG/PNG, ODT ou TXT — 10 Mo max par fichier
+                <input id="fileInput" type="file" multiple accept=".pdf,.doc,.docx,.jpg,.jpeg,.png,.odt,.txt">
+              </label>
+              <div class="attachment-list" id="attachmentList"></div>
+              <p class="hint" id="attachmentHint">Aucun fichier ajouté pour l'instant. Ils seront joints à chaque mail de la campagne.</p>
+            </div>
+          </section>
+
+          <section class="campaign-panel" id="panel-send">
+            <div class="panel-card">
+              <h2>Vérifier et envoyer</h2>
+              <p class="panel-sub">Un test vers ta propre adresse est obligatoire avant de lancer la campagne.</p>
+              <div class="send-summary">
+                <div class="summary-box"><small>Modèle</small><strong id="sendTemplateName">—</strong></div>
+                <div class="summary-box"><small>Destinataires</small><strong id="sendRecipientCount">0</strong></div>
+                <div class="summary-box"><small>Pièces jointes</small><strong id="sendAttachmentCount">0</strong></div>
+                <div class="summary-box"><small>Quota restant</small><strong id="sendQuota">—</strong></div>
+              </div>
+              <div class="panel-grid">
+                <label class="field">Nom de la campagne<input id="campaignName" type="text" placeholder="Stage — semaine du 3 novembre"></label>
+                <label class="field">Email de test<input id="testEmail" type="email" placeholder="ton.adresse@gmail.com"></label>
+              </div>
+              <div class="btn-row" style="margin-top:8px">
+                <button class="btn btn-ghost btn-sm" id="testButton" type="button">Envoyer un test</button>
+                <span class="hint" id="testHint">Le test utilise le modèle et les pièces jointes sélectionnés.</span>
+              </div>
+              <div class="test-result" id="testResult"></div>
+              <label class="check-row" style="margin-top:12px"><input type="checkbox" id="confirmCheck"> Je confirme envoyer un mail personnalisé et identifiable à chaque entreprise sélectionnée, avec une possibilité de refus (STOP).</label>
+              <div class="btn-row">
+                <button class="btn btn-primary" id="startCampaign" type="button" disabled>Lancer la campagne</button>
+                <span class="hint" id="startHint">Fais d'abord un test réussi.</span>
+              </div>
+              <div class="progress-card" id="progressCard">
+                <div class="progress-head"><strong id="progressStatus">Campagne en cours…</strong><span class="badge badge-source" id="progressBadge">0 / 0</span></div>
+                <div class="progress-bar"><div id="progressBar"></div></div>
+                <div class="progress-meta"><span id="progressCurrent">—</span><span id="progressFailed">0 échec(s)</span></div>
+                <div class="btn-row" style="margin-top:8px">
+                  <button class="btn btn-ghost btn-sm" id="pauseCampaign" type="button">Pause</button>
+                  <button class="btn btn-ghost btn-sm" id="resumeCampaign" type="button" hidden>Reprendre</button>
+                  <button class="btn btn-danger-soft btn-sm" id="cancelCampaign" type="button">Annuler</button>
+                </div>
+                <div class="campaign-log" id="progressLog"></div>
+              </div>
+            </div>
+          </section>
+
+          <section class="campaign-panel" id="panel-history">
+            <div class="panel-card">
+              <h2>Historique des envois</h2>
+              <p class="panel-sub">Les mails envoyés et les échecs sont enregistrés dans <code>server/data/history.json</code>.</p>
+              <div class="btn-row" style="margin-bottom:8px">
+                <button class="btn btn-ghost btn-sm" id="historyRefresh" type="button">Actualiser</button>
+                <button class="btn btn-ghost btn-sm" id="historyExport" type="button">Exporter en CSV</button>
+                <button class="btn btn-danger-soft btn-sm" id="historyClear" type="button">Effacer l'historique</button>
+              </div>
+              <div class="table-scroll">
+                <table class="history-table">
+                  <thead><tr><th>Date</th><th>Entreprise</th><th>Email</th><th>Objet</th><th>Statut</th><th>Action</th></tr></thead>
+                  <tbody id="historyBody"></tbody>
+                </table>
+                <div class="empty-state" id="historyEmpty">Aucun envoi pour l'instant.</div>
+              </div>
+            </div>
+            <div class="panel-card">
+              <h2>Liste STOP</h2>
+              <p class="panel-sub">Les emails de cette liste sont automatiquement exclus des campagnes.</p>
+              <div class="btn-row"><input class="select" id="stopEmail" type="email" placeholder="email@entreprise.fr" style="flex:1;min-width:200px"><button class="btn btn-soft btn-sm" id="stopAdd" type="button">Ajouter</button></div>
+              <div class="stop-list" id="stopList"></div>
+            </div>
+          </section>
+
+          <section class="campaign-panel" id="panel-settings">
+            <div class="panel-card">
+              <h2>Profil expéditeur</h2>
+              <p class="panel-sub">Ces informations remplacent les variables <code>{{prenom}}</code>, <code>{{nom}}</code> et <code>{{signature}}</code> dans les modèles.</p>
+              <div class="panel-grid">
+                <label class="field">Prénom<input id="senderPrenom" type="text" autocomplete="given-name"></label>
+                <label class="field">Nom<input id="senderNom" type="text" autocomplete="family-name"></label>
+                <label class="field">Formation<input id="senderFormation" type="text" placeholder="Terminale STI2D / BTS SIO…"></label>
+                <label class="field">Établissement<input id="senderEtablissement" type="text" placeholder="Lycée Vaucanson, Grenoble"></label>
+                <label class="field">Téléphone<input id="senderTelephone" type="tel" placeholder="06 12 34 56 78"></label>
+                <label class="field">Email<input id="senderEmail" type="email" placeholder="ton.adresse@gmail.com"></label>
+                <label class="field">LinkedIn (optionnel)<input id="senderLinkedin" type="url" placeholder="https://www.linkedin.com/in/…"></label>
+                <label class="field full">Signature personnalisée (optionnel)
+                  <textarea id="senderSignature" style="min-height:90px" placeholder="Laisse vide pour générer automatiquement la signature."></textarea>
+                </label>
+              </div>
+              <div class="btn-row" style="margin-top:10px"><button class="btn btn-primary btn-sm" id="saveSettings" type="button">Enregistrer le profil</button><span class="hint" id="settingsStatus"></span></div>
+            </div>
+            <div class="panel-card">
+              <h2>Rythme et quota</h2>
+              <div class="panel-grid">
+                <label class="field">Mails maximum par jour<input id="settingsMaxPerDay" type="number" min="1" max="200" step="1"></label>
+                <label class="field">Délai minimum entre deux mails (secondes)<input id="settingsDelayMin" type="number" min="2" max="300" step="1"></label>
+                <label class="field">Délai maximum entre deux mails (secondes)<input id="settingsDelayMax" type="number" min="2" max="600" step="1"></label>
+              </div>
+              <div class="btn-row" style="margin-top:10px"><button class="btn btn-primary btn-sm" id="saveSettings2" type="button">Enregistrer le rythme</button></div>
+              <p class="hint">Recommandé : 30 à 50 mails/jour et 45 à 90 secondes entre chaque envoi.</p>
+            </div>
+            <div class="panel-card">
+              <h2>État du serveur SMTP</h2>
+              <div class="smtp-box">
+                <div class="info-box"><div class="info-label">Mode</div><div class="info-value" id="smtpMode">—</div></div>
+                <div class="info-box"><div class="info-label">Fournisseur</div><div class="info-value" id="smtpProvider">—</div></div>
+                <div class="info-box"><div class="info-label">Adresse d'envoi</div><div class="info-value" id="smtpFrom">—</div></div>
+                <div class="info-box"><div class="info-label">Connexion</div><div class="info-value" id="smtpConnection">—</div></div>
+              </div>
+              <div class="warning">Le mot de passe d'application est stocké uniquement dans <code>server/.env</code>. Il n'est jamais envoyé au navigateur ni à GitHub.</div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="toast" id="toast">Copié !</div>
+  <script src="js/data.js"></script>
+  <script src="js/campaign.js"></script>
+</body>
+</html>

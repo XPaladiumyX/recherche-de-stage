@@ -2,6 +2,9 @@
 
 Annuaire web des entreprises du numérique, de l'informatique et de la tech autour du **lycée Vaucanson (Grenoble)**, à moins de **30 km**.
 
+- Site : https://xpaladiumyx.github.io/recherche-de-stage/
+- Dépôt : https://github.com/XPaladiumyX/recherche-de-stage
+
 ## Ce que contient le site
 
 - **427 entreprises** actives : ESN, éditeurs de logiciels, web, télécoms, réseaux, cybersécurité, data/IA, cloud, électronique, semi-conducteurs, automatisme, robotique, réparation, vente de matériel IT, audiovisuel numérique et recherche.
@@ -11,6 +14,7 @@ Annuaire web des entreprises du numérique, de l'informatique et de la tech auto
 - **Téléphone, email, site web et page carrières** quand ils sont publics.
 - **Suivi de prospection** stage/alternance : statut, notes, date, export CSV (stocké dans le navigateur).
 - **Recherche, filtres par famille, ville et distance, carte interactive avec regroupement des marqueurs, vue cartes/tableau, thème clair/sombre.**
+- **Campagne d'envoi locale** : modèles de mails, variables automatiques, pièces jointes (CV, lettre, carnet…), sélection des entreprises avec email, test obligatoire, quota quotidien, délai entre les mails, historique et liste STOP. Voir `campagne.html` et `server/README.md`.
 - **Rapport d'audit** : `data/verification-report.csv` contient une ligne par entreprise avec SIREN, adresse, coordonnées, distance et niveau de vérification.
 
 ## Lancer le site
@@ -27,15 +31,38 @@ python -m http.server 8000
 
 La carte utilise Leaflet + OpenStreetMap (connexion internet nécessaire). Le reste du site fonctionne hors ligne.
 
+## Campagne d'envoi locale
+
+L'envoi de mails nécessite un petit serveur local (GitHub Pages ne peut pas envoyer de mails) :
+
+```bash
+cd server
+npm install
+copy .env.example .env
+# remplir server/.env avec Gmail ou Outlook
+npm start
+```
+
+Puis ouvrir **http://localhost:3001/campagne.html**.
+
+La page détecte automatiquement le serveur, propose les modèles, les pièces jointes, la sélection des entreprises avec email, un test obligatoire, un quota quotidien (40 par défaut), un délai entre les mails et l'historique. Le guide complet est dans [`server/README.md`](server/README.md).
+
 ## Structure
 
 ```
 index.html
+campagne.html                 # interface d'envoi local
 css/styles.css
+css/campaign.css
 js/app.js
+js/campaign.js
 js/data.js                    # données intégrées (fonctionne en file://)
 data/entreprises.json         # mêmes données, pour réutilisation
 data/verification-report.csv  # audit des 427 entreprises
+server/                       # serveur local d'envoi (Nodemailer)
+  server.js
+  .env.example
+  README.md
 ```
 
 ## Méthode de vérification
@@ -62,5 +89,6 @@ data/verification-report.csv  # audit des 427 entreprises
 - Les téléphones/emails peuvent évoluer. Les badges indiquent la source et le niveau de confiance.
 - Les grands comptes sont rattachés à leur **site local vérifié** ; le contact direct local n'est pas toujours public, la page carrières est alors privilégiée.
 - Les sites marqués « à vérifier » sont des pistes retrouvées automatiquement : ils doivent être confirmés avant un usage officiel.
+- L'envoi de mails reste **local** : les identifiants SMTP sont dans `server/.env` et ne sont jamais publiés. Utilise un texte personnalisé, une entreprise = un mail, et respecte les réponses « STOP ».
 
 Dernière vérification : **30/10/2026**.

@@ -476,8 +476,29 @@
     clearTimeout(toastTimer); toastTimer = setTimeout(() => el.classList.remove('show'), 2200);
   }
 
+  /* ---------- Détection du serveur d'envoi local ---------- */
+  const MAIL_API = (() => {
+    const local = location.hostname === 'localhost' || location.hostname === '127.0.0.1';
+    return local && location.port === '3001' ? '' : 'http://127.0.0.1:3001';
+  })();
+  async function detectMailServer() {
+    const dot = $('serverDot');
+    if (!dot) return;
+    try {
+      const res = await fetch(MAIL_API + '/api/health', { signal: AbortSignal.timeout(1800), cache: 'no-store' });
+      if (!res.ok) throw new Error('offline');
+      const health = await res.json();
+      dot.classList.add('online');
+      dot.title = health.dryRun ? 'Serveur local connecté (mode simulation)' : 'Serveur local connecté — envoi de mails actif';
+    } catch {
+      dot.classList.remove('online');
+      dot.title = 'Serveur local non détecté — ouvre la page Campagne pour les instructions';
+    }
+  }
+
   /* ---------- Boot ---------- */
   window.openCompany = openModal;
+  detectMailServer();
   initMap();
   renderFilters();
   renderStats();

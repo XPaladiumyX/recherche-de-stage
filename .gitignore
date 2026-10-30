@@ -1,0 +1,15 @@
+# Dépendances
+node_modules/
+server/node_modules/
+
+# Secrets et données locales du serveur d'envoi
+server/.env
+server/uploads/*
+!server/uploads/.gitkeep
+server/data/*
+!server/data/.gitkeep
+
+# Divers
+.DS_Store
+Thumbs.db
+*.log
