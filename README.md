@@ -5,7 +5,7 @@ Annuaire web des entreprises du numérique, de l'informatique et de la tech auto
 ## Ce que contient le site
 
 - **427 entreprises** actives : ESN, éditeurs de logiciels, web, télécoms, réseaux, cybersécurité, data/IA, cloud, électronique, semi-conducteurs, automatisme, robotique, réparation, vente de matériel IT, audiovisuel numérique et recherche.
-- **291 fiches avec site web** et **185 avec au moins un contact direct** (téléphone ou email).
+- **290 fiches avec site web** et **185 avec au moins un contact direct** (téléphone ou email).
 - **Vérification officielle** de l'existence légale, du SIREN/SIRET, de l'activité (NAF) et de l'adresse locale via l'[Annuaire des Entreprises](https://annuaire-entreprises.data.gouv.fr/) (INSEE / data.gouv.fr) et l'[API Recherche d'entreprises](https://recherche-entreprises.api.gouv.fr/).
 - **Distance calculée** à vol d'oiseau depuis le lycée Vaucanson (27 rue Anatole France, 38100 Grenoble).
 - **Téléphone, email, site web et page carrières** quand ils sont publics.

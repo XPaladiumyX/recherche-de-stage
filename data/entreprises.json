@@ -15282,7 +15282,7 @@
     "telephone": "",
     "email": "",
     "contact": "",
-    "site_web": "https://icone.fr/",
+    "site_web": "",
     "careers": "",
     "naf": "62.02A",
     "naf_libelle": "Conseil en systèmes et logiciels informatiques",
@@ -15294,10 +15294,6 @@
       {
         "label": "Annuaire des Entreprises (INSEE)",
         "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/332639673"
-      },
-      {
-        "label": "Site web",
-        "url": "https://icone.fr/"
       }
     ],
     "verification": {
@@ -15305,8 +15301,8 @@
       "adresse": "verifie",
       "telephone": "non_renseigne",
       "email": "non_renseigne",
-      "site": "a_verifier",
-      "statut": "complet",
+      "site": "non_renseigne",
+      "statut": "partiel",
       "date": "2026-10-30"
     },
     "origin": "discovery"
