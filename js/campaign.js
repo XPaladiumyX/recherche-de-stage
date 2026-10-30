@@ -157,16 +157,19 @@
 
   function setServerOffline() {
     state.health = null;
+    const fromGithubPages = location.hostname.endsWith('github.io');
     $('serverStatus').className = 'status-banner offline';
     $('serverStatusIcon').textContent = '!';
-    $('serverStatusTitle').textContent = 'Serveur local non détecté';
-    $('serverStatusText').textContent = 'Lance le serveur sur ton PC pour activer l’envoi. Les instructions sont juste en dessous.';
+    $('serverStatusTitle').textContent = fromGithubPages ? 'Ouvre la version locale pour envoyer' : 'Serveur local non détecté';
+    $('serverStatusText').innerHTML = fromGithubPages
+      ? 'Le navigateur bloque la détection du serveur local depuis GitHub Pages. Ouvre <a href="http://localhost:3001/campagne.html">http://localhost:3001/campagne.html</a> pour activer l’envoi.'
+      : 'Lance le serveur sur ton PC pour activer l’envoi. Les instructions sont juste en dessous.';
     $('serverDot').classList.remove('online');
-    $('serverDot').title = 'Serveur local non détecté';
+    $('serverDot').title = fromGithubPages ? 'Détection impossible depuis GitHub Pages — ouvre localhost:3001' : 'Serveur local non détecté';
     $('setupCard').hidden = false;
     $('campaignShell').hidden = true;
     clearTimeout(state.retryTimer);
-    state.retryTimer = setTimeout(checkServer, 6000);
+    state.retryTimer = setTimeout(checkServer, 8000);
   }
 
   async function checkServer() {

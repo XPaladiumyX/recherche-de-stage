@@ -492,7 +492,9 @@
       dot.title = health.dryRun ? 'Serveur local connecté (mode simulation)' : 'Serveur local connecté — envoi de mails actif';
     } catch {
       dot.classList.remove('online');
-      dot.title = 'Serveur local non détecté — ouvre la page Campagne pour les instructions';
+      dot.title = location.hostname.endsWith('github.io')
+        ? 'Détection impossible depuis GitHub Pages — ouvre http://localhost:3001/campagne.html'
+        : 'Serveur local non détecté — ouvre la page Campagne pour les instructions';
     }
   }
 
