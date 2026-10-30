@@ -1,0 +1,4146 @@
+[
+  {
+    "id": "siren-345039416",
+    "siren": "345039416",
+    "siret": "34503941600085",
+    "nom": "Orange Business Services",
+    "nom_legal": "ORANGE BUSINESS SERVICES",
+    "categorie": "Télécoms / IT",
+    "description": "Services de communication et IT pour les entreprises, site de Grenoble.",
+    "potentiel": "fort",
+    "adresse": "73 Rue General Mangin",
+    "code_postal": "38100",
+    "ville": "Grenoble",
+    "lat": 45.168519,
+    "lon": 5.714902,
+    "distance_km": 0.7,
+    "telephone": "",
+    "email": "",
+    "contact": "",
+    "site_web": "https://www.orange-business.com/fr",
+    "careers": "https://www.orange-business.com/fr/carrieres",
+    "naf": "62.02A",
+    "effectif": "52",
+    "categorie_entreprise": "GE",
+    "creation": "1988-05-06",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/345039416"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://www.orange-business.com/fr"
+      },
+      {
+        "label": "Page carrières",
+        "url": "https://www.orange-business.com/fr/carrieres"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "non_renseigne",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-497623793",
+    "siren": "497623793",
+    "siret": "49762379300013",
+    "nom": "Angeliz-Tech",
+    "nom_legal": "ANGELIZ-TECH",
+    "categorie": "Réparation",
+    "description": "Réparation d'équipements électroniques et numériques.",
+    "potentiel": "faible",
+    "adresse": "214 Crs Liberation - Gen De Gaulle",
+    "code_postal": "38000",
+    "ville": "Grenoble",
+    "lat": 45.162004,
+    "lon": 5.710045,
+    "distance_km": 1.1,
+    "telephone": "04 76 70 31 90",
+    "email": "",
+    "contact": "",
+    "site_web": "",
+    "careers": "",
+    "naf": "95.21Z",
+    "effectif": "NN",
+    "categorie_entreprise": "PME",
+    "creation": "2007-04-20",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/497623793"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "source_initiale",
+      "email": "non_renseigne",
+      "site": "non_renseigne",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-749816856",
+    "siren": "749816856",
+    "siret": "74981685600043",
+    "nom": "JM Bureautique",
+    "nom_legal": "C2B INVESTISSEMENT (JM BUREAUTIQUE)",
+    "categorie": "Réparation / Bureautique",
+    "description": "Bureautique, maintenance et réparation.",
+    "potentiel": "faible",
+    "adresse": "91 Rue General Mangin",
+    "code_postal": "38100",
+    "ville": "Grenoble",
+    "lat": 45.161631,
+    "lon": 5.712329,
+    "distance_km": 1.2,
+    "telephone": "04 76 33 37 00",
+    "email": "",
+    "contact": "",
+    "site_web": "",
+    "careers": "",
+    "naf": "33.12Z",
+    "effectif": "03",
+    "categorie_entreprise": "PME",
+    "creation": "2012-02-06",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/749816856"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "source_initiale",
+      "email": "non_renseigne",
+      "site": "non_renseigne",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-483585535",
+    "siren": "483585535",
+    "siret": "48358553500022",
+    "nom": "Netcabling",
+    "nom_legal": "NETCABLING",
+    "categorie": "Infrastructures / Réseaux",
+    "description": "Câblage réseau, infrastructures et installations télécoms.",
+    "potentiel": "moyen",
+    "adresse": "97 Rue Des Allobroges Seyssins",
+    "code_postal": "38180",
+    "ville": "Seyssins",
+    "lat": 45.163305,
+    "lon": 5.698971,
+    "distance_km": 1.2,
+    "telephone": "04 86 68 86 01",
+    "email": "",
+    "contact": "",
+    "site_web": "",
+    "careers": "",
+    "naf": "43.21A",
+    "effectif": "NN",
+    "categorie_entreprise": "PME",
+    "creation": "2005-08-03",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/483585535"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "source_initiale",
+      "email": "non_renseigne",
+      "site": "non_renseigne",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-510875800",
+    "siren": "510875800",
+    "siret": "51087580000037",
+    "nom": "Six86 (S.I.X86)",
+    "nom_legal": "SAVOYET INFORMATIQUE X86 (S.I.X86)",
+    "categorie": "ESN / Support",
+    "description": "Informatique, réseaux et support technique.",
+    "potentiel": "moyen",
+    "adresse": "91 B Rue General Mangin",
+    "code_postal": "38100",
+    "ville": "Grenoble",
+    "lat": 45.161462,
+    "lon": 5.712309,
+    "distance_km": 1.2,
+    "telephone": "",
+    "email": "christophe@six86.net",
+    "contact": "M Christophe Savoyet",
+    "site_web": "https://six86.net",
+    "careers": "",
+    "naf": "62.02B",
+    "effectif": "01",
+    "categorie_entreprise": "PME",
+    "creation": "2009-03-03",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/510875800"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://six86.net"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "source_initiale",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-500704879",
+    "siren": "500704879",
+    "siret": "50070487900021",
+    "nom": "4D View Solutions",
+    "nom_legal": "4D VIEW SOLUTIONS (4D VIEW SOLUTIONS)",
+    "categorie": "Logiciel / 3D",
+    "description": "Numérisation 3D et solutions de capture de mouvement.",
+    "potentiel": "fort",
+    "adresse": "12 Rue Ampere",
+    "code_postal": "38000",
+    "ville": "Grenoble",
+    "lat": 45.185094,
+    "lon": 5.70561,
+    "distance_km": 1.4,
+    "telephone": "09 67 40 48 78",
+    "email": "richard.broadbridge@4Dviews.com",
+    "contact": "M. Richard BROADBRIDGE (président)",
+    "site_web": "https://4dviews.com",
+    "careers": "",
+    "naf": "82.99Z",
+    "effectif": "11",
+    "categorie_entreprise": "PME",
+    "creation": "2007-10-12",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/500704879"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://4dviews.com"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "source_initiale",
+      "email": "source_initiale",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-424526697",
+    "siren": "424526697",
+    "siret": "42452669700034",
+    "nom": "ALLCOM",
+    "nom_legal": "ALLCOM",
+    "categorie": "ESN / Infrastructures",
+    "description": "Intégrateur informatique et infrastructures : postes de travail, serveurs, réseaux, support.",
+    "potentiel": "fort",
+    "adresse": "2 Rue Le Brix",
+    "code_postal": "38100",
+    "ville": "Grenoble",
+    "lat": 45.178499,
+    "lon": 5.723723,
+    "distance_km": 1.4,
+    "telephone": "04 76 47 00 80",
+    "email": "info@allcom.fr",
+    "contact": "M. Sellami (responsable)",
+    "site_web": "https://allcom.fr",
+    "careers": "",
+    "naf": "46.51Z",
+    "effectif": "01",
+    "categorie_entreprise": "PME",
+    "creation": "1999-11-01",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/424526697"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://allcom.fr"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "source_initiale",
+      "email": "source_initiale",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-394026934",
+    "siren": "394026934",
+    "siret": "39402693400536",
+    "nom": "Experis France",
+    "nom_legal": "EXPERIS FRANCE (EXPERIS)",
+    "categorie": "ESN / Conseil",
+    "description": "Conseil et staffing IT du groupe ManpowerGroup : missions, recrutement, expertise technologique.",
+    "potentiel": "fort",
+    "adresse": "32-34-36 32 Rue Gustave Eiffel",
+    "code_postal": "38100",
+    "ville": "Grenoble",
+    "lat": 45.184075,
+    "lon": 5.703347,
+    "distance_km": 1.4,
+    "telephone": "04 56 58 00 01",
+    "email": "franck.coradin@experisfrance.fr",
+    "contact": "M. Franck Coradin",
+    "site_web": "https://experisfrance.fr",
+    "careers": "",
+    "naf": "62.01Z",
+    "effectif": "51",
+    "categorie_entreprise": "GE",
+    "creation": "1994-02-14",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/394026934"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://experisfrance.fr"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "source_initiale",
+      "email": "source_initiale",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-513852657",
+    "siren": "513852657",
+    "siret": "51385265700172",
+    "nom": "Hardis Group",
+    "nom_legal": "HARDIS GROUPE",
+    "categorie": "ESN / Conseil",
+    "description": "ESN spécialisée supply chain, retail et assurance : conseil, édition logicielle et cloud.",
+    "potentiel": "fort",
+    "adresse": "Za La Tuilerie 2 3 Rue Paul Valerien Perrin",
+    "code_postal": "38170",
+    "ville": "Seyssinet-Pariset",
+    "lat": 45.171329,
+    "lon": 5.690035,
+    "distance_km": 1.4,
+    "telephone": "04 76 70 80 50",
+    "email": "rhformation@hardis-group.com",
+    "contact": "M. Nicolas Odet (président)",
+    "site_web": "https://hardis-group.com",
+    "careers": "",
+    "naf": "62.02A",
+    "effectif": "42",
+    "categorie_entreprise": "ETI",
+    "creation": "2009-07-01",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/513852657"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://hardis-group.com"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "source_initiale",
+      "email": "source_initiale",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-502111388",
+    "siren": "502111388",
+    "siret": "50211138800034",
+    "nom": "Solti",
+    "nom_legal": "SOLTI (SOLTI)",
+    "categorie": "Logiciel / Data",
+    "description": "Conseil et développement de solutions data, IA et logiciels.",
+    "potentiel": "fort",
+    "adresse": "20 Avenue De La Houille Blanche",
+    "code_postal": "38170",
+    "ville": "Seyssinet-Pariset",
+    "lat": 45.179384,
+    "lon": 5.693542,
+    "distance_km": 1.4,
+    "telephone": "",
+    "email": "info@solti.fr",
+    "contact": "M. Loic MURAZ (Responsable agence)",
+    "site_web": "https://solti.fr",
+    "careers": "",
+    "naf": "62.02A",
+    "effectif": "02",
+    "categorie_entreprise": "PME",
+    "creation": "2008-01-01",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/502111388"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://solti.fr"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "source_initiale",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-348607417",
+    "siren": "348607417",
+    "siret": "34860741700048",
+    "nom": "Alten",
+    "nom_legal": "ALTEN",
+    "categorie": "ESN / Conseil",
+    "description": "Conseil en ingénierie et technologies, site de Seyssinet-Pariset.",
+    "potentiel": "fort",
+    "adresse": "Immeuble City 38 Rue De La Tuilerie",
+    "code_postal": "38170",
+    "ville": "Seyssinet-Pariset",
+    "lat": 45.173027,
+    "lon": 5.68921,
+    "distance_km": 1.5,
+    "telephone": "",
+    "email": "",
+    "contact": "",
+    "site_web": "https://www.alten.fr",
+    "careers": "https://www.alten.fr/carrieres/",
+    "naf": "62.02A",
+    "effectif": "52",
+    "categorie_entreprise": "GE",
+    "creation": "1988-10-28",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/348607417"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://www.alten.fr"
+      },
+      {
+        "label": "Page carrières",
+        "url": "https://www.alten.fr/carrieres/"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "non_renseigne",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-431692995",
+    "siren": "431692995",
+    "siret": "43169299500050",
+    "nom": "Kibatic",
+    "nom_legal": "KIBATIC",
+    "categorie": "Hébergement / Cloud",
+    "description": "Hébergeur web et cloud, infrastructure et services d'exploitation.",
+    "potentiel": "fort",
+    "adresse": "9 Rue De Chamrousse",
+    "code_postal": "38100",
+    "ville": "Grenoble",
+    "lat": 45.179332,
+    "lon": 5.724765,
+    "distance_km": 1.5,
+    "telephone": "",
+    "email": "philippe.levan@kibatic.com",
+    "contact": "M Philippe Levan (Gérant)",
+    "site_web": "https://kibatic.com",
+    "careers": "",
+    "naf": "62.01Z",
+    "effectif": "02",
+    "categorie_entreprise": "PME",
+    "creation": "2000-05-30",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/431692995"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://kibatic.com"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "source_initiale",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-893503961",
+    "siren": "893503961",
+    "siret": "89350396100011",
+    "nom": "Urgence Repair",
+    "nom_legal": "URGENCE REPAIR (URGENCE REPAIR)",
+    "categorie": "Réparation",
+    "description": "Réparation informatique et électronique.",
+    "potentiel": "faible",
+    "adresse": "106 Rue De La Liberte Seyssins",
+    "code_postal": "38180",
+    "ville": "Seyssins",
+    "lat": 45.161489,
+    "lon": 5.696499,
+    "distance_km": 1.5,
+    "telephone": "04 76 48 26 14",
+    "email": "urgencerepair38@gmail.com",
+    "contact": "M. Souhail SOUARA",
+    "site_web": "",
+    "careers": "",
+    "naf": "46.51Z",
+    "effectif": "01",
+    "categorie_entreprise": "PME",
+    "creation": "2021-01-17",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/893503961"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "source_initiale",
+      "email": "source_initiale",
+      "site": "non_renseigne",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-481273324",
+    "siren": "481273324",
+    "siret": "48127332400022",
+    "nom": "MFI Automatisme",
+    "nom_legal": "M.F.I. AUTOMATISME",
+    "categorie": "Automatisme / Industrie",
+    "description": "Automatisme industriel et solutions de contrôle-commande.",
+    "potentiel": "moyen",
+    "adresse": "6 Rue Henri Dunant Seyssins",
+    "code_postal": "38180",
+    "ville": "Seyssins",
+    "lat": 45.16109,
+    "lon": 5.69443,
+    "distance_km": 1.7,
+    "telephone": "",
+    "email": "contact@mfiautomatisme.com",
+    "contact": "M. Philippe Poulat (directeur)",
+    "site_web": "https://mfiautomatisme.com",
+    "careers": "",
+    "naf": "43.21A",
+    "effectif": "02",
+    "categorie_entreprise": "PME",
+    "creation": "2005-03-09",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/481273324"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://mfiautomatisme.com"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "source_initiale",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-511678849",
+    "siren": "511678849",
+    "siret": "51167884900015",
+    "nom": "Espace Call",
+    "nom_legal": "NORDINE OURIAGHLI",
+    "categorie": "Télécoms",
+    "description": "Téléphonie et réparation de smartphones.",
+    "potentiel": "faible",
+    "adresse": "4 Rue Edgar Quinet",
+    "code_postal": "38000",
+    "ville": "Grenoble",
+    "lat": 45.187992,
+    "lon": 5.714115,
+    "distance_km": 1.8,
+    "telephone": "07 58 70 00 95",
+    "email": "himourawalid@gmail.com",
+    "contact": "M. Walid. HIMOURA (gerant)",
+    "site_web": "",
+    "careers": "",
+    "naf": "61.90Z",
+    "effectif": "NN",
+    "categorie_entreprise": "PME",
+    "creation": "2009-01-01",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/511678849"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "source_initiale",
+      "email": "source_initiale",
+      "site": "non_renseigne",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-421237868",
+    "siren": "421237868",
+    "siret": "42123786800011",
+    "nom": "Proactech Academy",
+    "nom_legal": "YELLES (PROACTECH ACADEMY)",
+    "categorie": "Logiciel / Formation",
+    "description": "Formation et solutions numériques, développement web et accompagnement.",
+    "potentiel": "moyen",
+    "adresse": "1 Rue Edgar Quinet",
+    "code_postal": "38000",
+    "ville": "Grenoble",
+    "lat": 45.188152,
+    "lon": 5.714229,
+    "distance_km": 1.8,
+    "telephone": "04 76 48 07 55",
+    "email": "saintbruno3838@gmail.com",
+    "contact": "M Ghaouti Yelles (directeur)",
+    "site_web": "",
+    "careers": "",
+    "naf": "85.59A",
+    "effectif": "NN",
+    "categorie_entreprise": "PME",
+    "creation": "1999-01-15",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/421237868"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "source_initiale",
+      "email": "source_initiale",
+      "site": "non_renseigne",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-326820065",
+    "siren": "326820065",
+    "siret": "32682006500083",
+    "nom": "Sopra Steria",
+    "nom_legal": "SOPRA STERIA GROUP",
+    "categorie": "ESN / Conseil",
+    "description": "Groupe de conseil et services numériques, site de Grenoble.",
+    "potentiel": "fort",
+    "adresse": "30 Rue Aime Pupin",
+    "code_postal": "38100",
+    "ville": "Grenoble",
+    "lat": 45.159926,
+    "lon": 5.723984,
+    "distance_km": 1.8,
+    "telephone": "",
+    "email": "",
+    "contact": "",
+    "site_web": "https://www.soprasteria.com/fr",
+    "careers": "https://www.soprasteria.com/fr/carrieres",
+    "naf": "62.02A",
+    "effectif": "53",
+    "categorie_entreprise": "GE",
+    "creation": "1968-01-01",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/326820065"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://www.soprasteria.com/fr"
+      },
+      {
+        "label": "Page carrières",
+        "url": "https://www.soprasteria.com/fr/carrieres"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "non_renseigne",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-750090748",
+    "siren": "750090748",
+    "siret": "75009074800013",
+    "nom": "Webiapart",
+    "nom_legal": "WEBIAPART",
+    "categorie": "Logiciel / Web",
+    "description": "Développement web et applications.",
+    "potentiel": "fort",
+    "adresse": "5 Rue Condorcet",
+    "code_postal": "38000",
+    "ville": "Grenoble",
+    "lat": 45.185461,
+    "lon": 5.721421,
+    "distance_km": 1.8,
+    "telephone": "04 85 02 69 08",
+    "email": "",
+    "contact": "",
+    "site_web": "",
+    "careers": "",
+    "naf": "62.01Z",
+    "effectif": "02",
+    "categorie_entreprise": "PME",
+    "creation": "2012-02-06",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/750090748"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "source_initiale",
+      "email": "non_renseigne",
+      "site": "non_renseigne",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-350066007",
+    "siren": "350066007",
+    "siret": "35006600700039",
+    "nom": "AXE Informatique",
+    "nom_legal": "AXE INFORMATIQUE",
+    "categorie": "ESN / Conseil",
+    "description": "Services informatiques, conseil et intégration de solutions pour les entreprises.",
+    "potentiel": "fort",
+    "adresse": "24 Boulevard Gambetta",
+    "code_postal": "38000",
+    "ville": "Grenoble",
+    "lat": 45.186681,
+    "lon": 5.72414,
+    "distance_km": 2,
+    "telephone": "04 76 46 30 77",
+    "email": "m.ravel@axeinfo.fr",
+    "contact": "Mme Marie Ravel (Adjointe de direction RH)",
+    "site_web": "https://axeinfo.fr",
+    "careers": "",
+    "naf": "62.02A",
+    "effectif": "12",
+    "categorie_entreprise": "PME",
+    "creation": "1989-04-01",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/350066007"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://axeinfo.fr"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "source_initiale",
+      "email": "source_initiale",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-400461950",
+    "siren": "400461950",
+    "siret": "40046195000034",
+    "nom": "SFR Fibre",
+    "nom_legal": "SFR FIBRE SAS",
+    "categorie": "Télécoms",
+    "description": "Déploiement et services fibre, site de Grenoble.",
+    "potentiel": "moyen",
+    "adresse": "27 B Cours Berriat",
+    "code_postal": "38000",
+    "ville": "Grenoble",
+    "lat": 45.18791,
+    "lon": 5.719994,
+    "distance_km": 2,
+    "telephone": "",
+    "email": "",
+    "contact": "",
+    "site_web": "https://www.sfr.fr",
+    "careers": "https://www.sfr.fr/emploi",
+    "naf": "61.10Z",
+    "effectif": "32",
+    "categorie_entreprise": "GE",
+    "creation": "1995-03-22",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/400461950"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://www.sfr.fr"
+      },
+      {
+        "label": "Page carrières",
+        "url": "https://www.sfr.fr/emploi"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "non_renseigne",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-562016774",
+    "siren": "562016774",
+    "siret": "56201677402015",
+    "nom": "Siemens",
+    "nom_legal": "SIEMENS S.A.S",
+    "categorie": "Industrie / Tech",
+    "description": "Technologies industrielles et numériques, site de Grenoble.",
+    "potentiel": "fort",
+    "adresse": "25 Rue Pierre Semard",
+    "code_postal": "38000",
+    "ville": "Grenoble",
+    "lat": 45.190084,
+    "lon": 5.712881,
+    "distance_km": 2,
+    "telephone": "",
+    "email": "",
+    "contact": "",
+    "site_web": "https://www.siemens.fr",
+    "careers": "https://www.siemens.fr/emploi",
+    "naf": "26.30Z",
+    "effectif": "51",
+    "categorie_entreprise": "GE",
+    "creation": "1956-01-01",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/562016774"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://www.siemens.fr"
+      },
+      {
+        "label": "Page carrières",
+        "url": "https://www.siemens.fr/emploi"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "non_renseigne",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-414988204",
+    "siren": "414988204",
+    "siret": "41498820400304",
+    "nom": "Siemens Industry Software",
+    "nom_legal": "SIEMENS INDUSTRY SOFTWARE SAS (TEAM CENTER-PARASOLID-UNIGRAPHICS-SOLID EDGE-SIEMENS PLM SOFTWARE-NX-TECNOMATIX-UGS VELOCITY SERIES-)",
+    "categorie": "Logiciel / Industrie",
+    "description": "Logiciels de conception et de simulation industrielle (NX, Teamcenter).",
+    "potentiel": "fort",
+    "adresse": "30 Boulevard Gambetta",
+    "code_postal": "38000",
+    "ville": "Grenoble",
+    "lat": 45.186263,
+    "lon": 5.72442,
+    "distance_km": 2,
+    "telephone": "",
+    "email": "",
+    "contact": "",
+    "site_web": "https://plm.sw.siemens.com/fr-FR/",
+    "careers": "https://www.siemens.fr/emploi",
+    "naf": "62.02A",
+    "effectif": "41",
+    "categorie_entreprise": "GE",
+    "creation": "1998-01-01",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/414988204"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://plm.sw.siemens.com/fr-FR/"
+      },
+      {
+        "label": "Page carrières",
+        "url": "https://www.siemens.fr/emploi"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "non_renseigne",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-817639677",
+    "siren": "817639677",
+    "siret": "81763967700027",
+    "nom": "Espace Net Phone",
+    "nom_legal": "ESPACE NET - PHONE (ESPACE NET - PHONE)",
+    "categorie": "Télécoms",
+    "description": "Vente et services de téléphonie mobile et fixe.",
+    "potentiel": "faible",
+    "adresse": "45 Avenue Alsace Lorraine",
+    "code_postal": "38000",
+    "ville": "Grenoble",
+    "lat": 45.189628,
+    "lon": 5.718184,
+    "distance_km": 2.1,
+    "telephone": "04 38 86 46 16",
+    "email": "espace.netphone@gmail.com",
+    "contact": "Hassan OUACHI",
+    "site_web": "",
+    "careers": "",
+    "naf": "47.42Z",
+    "effectif": "01",
+    "categorie_entreprise": "PME",
+    "creation": "2015-12-01",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/817639677"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "source_initiale",
+      "email": "source_initiale",
+      "site": "non_renseigne",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-804009769",
+    "siren": "804009769",
+    "siret": "80400976900014",
+    "nom": "FR Domaines",
+    "nom_legal": "FR DOMAINES",
+    "categorie": "Web / Domaines",
+    "description": "Noms de domaine, hébergement et services web.",
+    "potentiel": "faible",
+    "adresse": "34 Avenue La Bruyere",
+    "code_postal": "38100",
+    "ville": "Grenoble",
+    "lat": 45.166655,
+    "lon": 5.733384,
+    "distance_km": 2.1,
+    "telephone": "",
+    "email": "frdomaine@gmail.com",
+    "contact": "M. Fabien RIEHL (gerant)",
+    "site_web": "",
+    "careers": "",
+    "naf": "62.09Z",
+    "effectif": "NN",
+    "categorie_entreprise": "PME",
+    "creation": "2014-08-05",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/804009769"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "source_initiale",
+      "site": "non_renseigne",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-930545801",
+    "siren": "930545801",
+    "siret": "93054580100019",
+    "nom": "La Fabrique du Smartphone",
+    "nom_legal": "LA FABRIQUE DU SMARTPHONE",
+    "categorie": "Réparation",
+    "description": "Réparation de smartphones et petits équipements numériques.",
+    "potentiel": "faible",
+    "adresse": "12 Rue Maurice Dodero",
+    "code_postal": "38100",
+    "ville": "Grenoble",
+    "lat": 45.161815,
+    "lon": 5.730595,
+    "distance_km": 2.1,
+    "telephone": "",
+    "email": "contact@lafabdusmart.fr",
+    "contact": "M. Alexandre Fichel (responsable)",
+    "site_web": "https://lafabdusmart.fr",
+    "careers": "",
+    "naf": "95.11Z",
+    "effectif": "NN",
+    "categorie_entreprise": "PME",
+    "creation": "2024-06-14",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/930545801"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://lafabdusmart.fr"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "source_initiale",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-384868873",
+    "siren": "384868873",
+    "siret": "38486887300116",
+    "nom": "Bassetti",
+    "nom_legal": "BASSETTI",
+    "categorie": "Logiciel / Ingénierie",
+    "description": "Éditeur de logiciels de gestion documentaire technique et de data management.",
+    "potentiel": "fort",
+    "adresse": "4 Avenue Doyen Louis Weil",
+    "code_postal": "38000",
+    "ville": "Grenoble",
+    "lat": 45.19193,
+    "lon": 5.71278,
+    "distance_km": 2.2,
+    "telephone": "04 76 23 35 44",
+    "email": "maurine.parola@bassetti.fr",
+    "contact": "M. CARLO LOVAGLIO (Responsable commercial)",
+    "site_web": "https://bassetti.fr",
+    "careers": "",
+    "naf": "62.02A",
+    "effectif": "22",
+    "categorie_entreprise": "ETI",
+    "creation": "1992-03-01",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/384868873"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://bassetti.fr"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "source_initiale",
+      "email": "source_initiale",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-889115200",
+    "siren": "889115200",
+    "siret": "88911520000012",
+    "nom": "Hashtag Informatique",
+    "nom_legal": "HASHTAG INFORMATIQUE (HASHTAG INFORMATIQUE)",
+    "categorie": "ESN / Support",
+    "description": "Matériel, maintenance et services informatiques pour professionnels et particuliers.",
+    "potentiel": "moyen",
+    "adresse": "21 Boulevard Gambetta",
+    "code_postal": "38000",
+    "ville": "Grenoble",
+    "lat": 45.189454,
+    "lon": 5.72257,
+    "distance_km": 2.2,
+    "telephone": "09 72 87 58 78",
+    "email": "contact@hashtaginformatique.fr",
+    "contact": "M. Yannick Josserand",
+    "site_web": "https://hashtaginformatique.fr",
+    "careers": "",
+    "naf": "47.41Z",
+    "effectif": "NN",
+    "categorie_entreprise": "PME",
+    "creation": "2020-10-01",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/889115200"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://hashtaginformatique.fr"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "source_initiale",
+      "email": "source_initiale",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-180089047",
+    "siren": "180089047",
+    "siret": "18008904700013",
+    "nom": "Inria",
+    "nom_legal": "INSTITUT NATIONAL DE RECHERCHE EN INFORMATIQUE ET EN AUTOMATIQUE (INRIA)",
+    "categorie": "Recherche / Informatique",
+    "description": "Institut national de recherche en informatique et automatique, centre de Grenoble.",
+    "potentiel": "fort",
+    "adresse": "46 Avenue Felix Viallet",
+    "code_postal": "38000",
+    "ville": "Grenoble",
+    "lat": 45.190685,
+    "lon": 5.717379,
+    "distance_km": 2.2,
+    "telephone": "",
+    "email": "",
+    "contact": "",
+    "site_web": "https://www.inria.fr",
+    "careers": "https://www.inria.fr/fr/emploi",
+    "naf": "72.19Z",
+    "effectif": "51",
+    "categorie_entreprise": "ETI",
+    "creation": "1983-03-01",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/180089047"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://www.inria.fr"
+      },
+      {
+        "label": "Page carrières",
+        "url": "https://www.inria.fr/fr/emploi"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "non_renseigne",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-431817915",
+    "siren": "431817915",
+    "siret": "43181791501866",
+    "nom": "SFR Business",
+    "nom_legal": "SFR BUSINESS DISTRIBUTION (5 SUR 5)",
+    "categorie": "Télécoms / IT",
+    "description": "Solutions télécoms et IT pour les entreprises, site de Grenoble.",
+    "potentiel": "moyen",
+    "adresse": "27 Avenue Felix Viallet",
+    "code_postal": "38000",
+    "ville": "Grenoble",
+    "lat": 45.191013,
+    "lon": 5.720042,
+    "distance_km": 2.3,
+    "telephone": "",
+    "email": "",
+    "contact": "",
+    "site_web": "https://www.sfrbusiness.fr",
+    "careers": "https://www.sfr.fr/emploi",
+    "naf": "61.20Z",
+    "effectif": "NN",
+    "categorie_entreprise": "",
+    "creation": "2000-06-13",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/431817915"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://www.sfrbusiness.fr"
+      },
+      {
+        "label": "Page carrières",
+        "url": "https://www.sfr.fr/emploi"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "non_renseigne",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-433002011",
+    "siren": "433002011",
+    "siret": "43300201100107",
+    "nom": "Eviden (Atos Group)",
+    "nom_legal": "EVIDEN FRANCE",
+    "categorie": "ESN / Cloud",
+    "description": "Cloud, cybersécurité, big data et infogérance au sein du groupe Atos.",
+    "potentiel": "fort",
+    "adresse": "3 Rue De Provence",
+    "code_postal": "38130",
+    "ville": "Echirolles",
+    "lat": 45.15337,
+    "lon": 5.722758,
+    "distance_km": 2.4,
+    "telephone": "",
+    "email": "karima.belgacem@eviden.com",
+    "contact": "Mme Karima Belgacem",
+    "site_web": "https://eviden.com",
+    "careers": "",
+    "naf": "62.02B",
+    "effectif": "42",
+    "categorie_entreprise": "GE",
+    "creation": "2000-09-27",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/433002011"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://eviden.com"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "source_initiale",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-800681892",
+    "siren": "800681892",
+    "siret": "80068189200041",
+    "nom": "Prophesee",
+    "nom_legal": "PROPHESEE",
+    "categorie": "Électronique / Vision",
+    "description": "Capteurs de vision événementielle et IA embarquée.",
+    "potentiel": "fort",
+    "adresse": "Bht2 Rue Felix Esclangon",
+    "code_postal": "38000",
+    "ville": "Grenoble",
+    "lat": 45.193722,
+    "lon": 5.708829,
+    "distance_km": 2.4,
+    "telephone": "",
+    "email": "",
+    "contact": "",
+    "site_web": "https://www.prophesee.ai",
+    "careers": "https://www.prophesee.ai/careers/",
+    "naf": "72.19Z",
+    "effectif": "22",
+    "categorie_entreprise": "PME",
+    "creation": "2014-02-28",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/800681892"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://www.prophesee.ai"
+      },
+      {
+        "label": "Page carrières",
+        "url": "https://www.prophesee.ai/careers/"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "non_renseigne",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-814788212",
+    "siren": "814788212",
+    "siret": "81478821200029",
+    "nom": "ACS / Teksoria",
+    "nom_legal": "TEKSORIA",
+    "categorie": "ESN / Support",
+    "description": "Services informatiques et support aux entreprises.",
+    "potentiel": "moyen",
+    "adresse": "3 Rue Des Pins",
+    "code_postal": "38100",
+    "ville": "Grenoble",
+    "lat": 45.159593,
+    "lon": 5.736196,
+    "distance_km": 2.6,
+    "telephone": "04 76 00 49 10",
+    "email": "issam.guesmi@acs-informatique.net",
+    "contact": "M Issam Guesmi",
+    "site_web": "https://acs-informatique.net",
+    "careers": "",
+    "naf": "62.02A",
+    "effectif": "01",
+    "categorie_entreprise": "PME",
+    "creation": "2015-11-17",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/814788212"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://acs-informatique.net"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "source_initiale",
+      "email": "source_initiale",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-522620285",
+    "siren": "522620285",
+    "siret": "52262028500059",
+    "nom": "Isorg",
+    "nom_legal": "ISORG",
+    "categorie": "Électronique / Capteurs",
+    "description": "Capteurs d'images organiques et photodétecteurs.",
+    "potentiel": "fort",
+    "adresse": "Batiment De Haute Technologie 7 Prv Louis Neel",
+    "code_postal": "38000",
+    "ville": "Grenoble",
+    "lat": 45.195613,
+    "lon": 5.710013,
+    "distance_km": 2.6,
+    "telephone": "",
+    "email": "",
+    "contact": "",
+    "site_web": "https://www.isorg.fr",
+    "careers": "https://www.isorg.fr/careers/",
+    "naf": "71.12B",
+    "effectif": "00",
+    "categorie_entreprise": "PME",
+    "creation": "2010-05-19",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/522620285"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://www.isorg.fr"
+      },
+      {
+        "label": "Page carrières",
+        "url": "https://www.isorg.fr/careers/"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "non_renseigne",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-498198167",
+    "siren": "498198167",
+    "siret": "49819816700013",
+    "nom": "MicroOLED",
+    "nom_legal": "MICROOLED",
+    "categorie": "Électronique / Micro-écrans",
+    "description": "Conception et fabrication de micro-écrans OLED à haute performance.",
+    "potentiel": "fort",
+    "adresse": "Bht Batiment 52 7 Prv Louis Neel",
+    "code_postal": "38000",
+    "ville": "Grenoble",
+    "lat": 45.195613,
+    "lon": 5.710013,
+    "distance_km": 2.6,
+    "telephone": "04 38 88 47 29",
+    "email": "emmanuelle.arbet@microoled.net",
+    "contact": "Mme Emmanuelle ARBET (responsable entreprise)",
+    "site_web": "https://microoled.net",
+    "careers": "",
+    "naf": "26.11Z",
+    "effectif": "21",
+    "categorie_entreprise": "PME",
+    "creation": "2007-04-27",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/498198167"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://microoled.net"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "source_initiale",
+      "email": "source_initiale",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-341459386",
+    "siren": "341459386",
+    "siret": "34145938600320",
+    "nom": "STMicroelectronics",
+    "nom_legal": "STMICROELECTRONICS FRANCE",
+    "categorie": "Électronique / Semiconducteurs",
+    "description": "Semiconducteurs et microélectronique, site de Grenoble (Minatec).",
+    "potentiel": "fort",
+    "adresse": "Minatec Entreprises 7 Prv Louis Neel",
+    "code_postal": "38000",
+    "ville": "Grenoble",
+    "lat": 45.195613,
+    "lon": 5.710013,
+    "distance_km": 2.6,
+    "telephone": "",
+    "email": "",
+    "contact": "",
+    "site_web": "https://www.st.com",
+    "careers": "https://www.st.com/content/st_com/en/about/careers.html",
+    "naf": "26.11Z",
+    "effectif": "51",
+    "categorie_entreprise": "GE",
+    "creation": "1987-05-15",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/341459386"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://www.st.com"
+      },
+      {
+        "label": "Page carrières",
+        "url": "https://www.st.com/content/st_com/en/about/careers.html"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "non_renseigne",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-702042755",
+    "siren": "702042755",
+    "siret": "70204275500554",
+    "nom": "CGI France",
+    "nom_legal": "CGI FRANCE",
+    "categorie": "ESN / Conseil",
+    "description": "Services IT et conseil, site d'Échirolles.",
+    "potentiel": "fort",
+    "adresse": "Batiment Cgi 2 2 Rue Germaine Veyret-Verner",
+    "code_postal": "38130",
+    "ville": "Echirolles",
+    "lat": 45.151645,
+    "lon": 5.726135,
+    "distance_km": 2.7,
+    "telephone": "",
+    "email": "",
+    "contact": "",
+    "site_web": "https://www.cgi.com/france/fr-fr",
+    "careers": "https://www.cgi.com/france/fr-fr/carrieres",
+    "naf": "62.02A",
+    "effectif": "53",
+    "categorie_entreprise": "GE",
+    "creation": "1970-01-01",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/702042755"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://www.cgi.com/france/fr-fr"
+      },
+      {
+        "label": "Page carrières",
+        "url": "https://www.cgi.com/france/fr-fr/carrieres"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "non_renseigne",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-532360435",
+    "siren": "532360435",
+    "siret": "53236043500020",
+    "nom": "Produnet Informatique",
+    "nom_legal": "PRODUNET INFORMATIQUE",
+    "categorie": "ESN / Support",
+    "description": "Support informatique, maintenance et infogérance pour les entreprises.",
+    "potentiel": "moyen",
+    "adresse": "10 B Avenue Des Ftpf",
+    "code_postal": "38130",
+    "ville": "Echirolles",
+    "lat": 45.150552,
+    "lon": 5.724594,
+    "distance_km": 2.7,
+    "telephone": "",
+    "email": "laetitia@produnet.net",
+    "contact": "M. Pierre Moreau",
+    "site_web": "https://produnet.net",
+    "careers": "",
+    "naf": "95.11Z",
+    "effectif": "03",
+    "categorie_entreprise": "PME",
+    "creation": "2011-01-01",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/532360435"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://produnet.net"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "source_initiale",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-402822282",
+    "siren": "402822282",
+    "siret": "40282228200032",
+    "nom": "Neptune Internet Services",
+    "nom_legal": "NEPTUNE INTERNET SERVICES",
+    "categorie": "Hébergement / Internet",
+    "description": "Fournisseur d'accès et services internet, hébergement et réseaux.",
+    "potentiel": "moyen",
+    "adresse": "2 Rue De La Paix",
+    "code_postal": "38000",
+    "ville": "Grenoble",
+    "lat": 45.191127,
+    "lon": 5.732017,
+    "distance_km": 2.8,
+    "telephone": "04 76 63 94 18",
+    "email": "amontes@neptune.fr",
+    "contact": "M. ARTURO MONTES (directeur)",
+    "site_web": "https://neptune.fr",
+    "careers": "",
+    "naf": "62.03Z",
+    "effectif": "12",
+    "categorie_entreprise": "PME",
+    "creation": "1995-11-13",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/402822282"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://neptune.fr"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "source_initiale",
+      "email": "source_initiale",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-421106709",
+    "siren": "421106709",
+    "siret": "42110670900668",
+    "nom": "Schneider Electric",
+    "nom_legal": "SCHNEIDER ELECTRIC FRANCE",
+    "categorie": "Industrie / Tech",
+    "description": "Gestion de l'énergie et automatisation, site d'Eybens.",
+    "potentiel": "fort",
+    "adresse": "Bat C Miniparc Alpes Congr 2 Rue Roland Garros",
+    "code_postal": "38320",
+    "ville": "Eybens",
+    "lat": 45.158191,
+    "lon": 5.738623,
+    "distance_km": 2.8,
+    "telephone": "",
+    "email": "",
+    "contact": "",
+    "site_web": "https://www.se.com/fr/fr/",
+    "careers": "https://www.se.com/fr/fr/about-us/careers/",
+    "naf": "27.12Z",
+    "effectif": "52",
+    "categorie_entreprise": "GE",
+    "creation": "1998-12-01",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/421106709"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://www.se.com/fr/fr/"
+      },
+      {
+        "label": "Page carrières",
+        "url": "https://www.se.com/fr/fr/about-us/careers/"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "non_renseigne",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-440713873",
+    "siren": "440713873",
+    "siret": "44071387300022",
+    "nom": "Straton Automation",
+    "nom_legal": "STRATON AUTOMATION",
+    "categorie": "Automatisme / Industrie",
+    "description": "Automatisation et programmation d'automates industriels.",
+    "potentiel": "moyen",
+    "adresse": "Parc Sud Galaxie Rue Du Sextant",
+    "code_postal": "38130",
+    "ville": "Echirolles",
+    "lat": 45.149183,
+    "lon": 5.722825,
+    "distance_km": 2.8,
+    "telephone": "04 38 26 00 75",
+    "email": "anthony.burille@straton-plc.com",
+    "contact": "M Anthony BURILLE",
+    "site_web": "https://straton-plc.com",
+    "careers": "",
+    "naf": "62.02A",
+    "effectif": "11",
+    "categorie_entreprise": "PME",
+    "creation": "2002-01-02",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/440713873"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://straton-plc.com"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "source_initiale",
+      "email": "source_initiale",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-480844695",
+    "siren": "480844695",
+    "siret": "48084469500027",
+    "nom": "Koesio Aura Télécom",
+    "nom_legal": "KOESIO AURA TELECOM (KOESIO)",
+    "categorie": "ESN / Télécoms",
+    "description": "Services numériques, télécoms et solutions IT pour les entreprises.",
+    "potentiel": "moyen",
+    "adresse": "Parc Technologique Des Petits Pres, Zo 3 Rue De L'Octant",
+    "code_postal": "38130",
+    "ville": "Echirolles",
+    "lat": 45.150219,
+    "lon": 5.729229,
+    "distance_km": 2.9,
+    "telephone": "04 76 23 54 47",
+    "email": "philippe.renaud@koesio.com",
+    "contact": "",
+    "site_web": "https://koesio.com",
+    "careers": "",
+    "naf": "33.20D",
+    "effectif": "22",
+    "categorie_entreprise": "ETI",
+    "creation": "2005-02-11",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/480844695"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://koesio.com"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "source_initiale",
+      "email": "source_initiale",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-421167966",
+    "siren": "421167966",
+    "siret": "42116796600017",
+    "nom": "Air Liquide Electronics Systems",
+    "nom_legal": "AIR LIQUIDE ELECTRONICS SYSTEMS",
+    "categorie": "Électronique / Industrie",
+    "description": "Équipements et systèmes pour l'industrie électronique, site d'Échirolles.",
+    "potentiel": "moyen",
+    "adresse": "Sud Galaxie 8 Rue Des Meridiens",
+    "code_postal": "38130",
+    "ville": "Echirolles",
+    "lat": 45.148456,
+    "lon": 5.725597,
+    "distance_km": 3,
+    "telephone": "",
+    "email": "",
+    "contact": "",
+    "site_web": "https://www.airliquide.com/fr",
+    "careers": "https://www.airliquide.com/fr/carrieres",
+    "naf": "33.20C",
+    "effectif": "22",
+    "categorie_entreprise": "GE",
+    "creation": "1998-12-08",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/421167966"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://www.airliquide.com/fr"
+      },
+      {
+        "label": "Page carrières",
+        "url": "https://www.airliquide.com/fr/carrieres"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "non_renseigne",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-330703844",
+    "siren": "330703844",
+    "siret": "33070384400036",
+    "nom": "Capgemini",
+    "nom_legal": "CAPGEMINI",
+    "categorie": "ESN / Conseil",
+    "description": "Conseil et services numériques, site de Grenoble.",
+    "potentiel": "fort",
+    "adresse": "6 Boulevard Jean Pain",
+    "code_postal": "38000",
+    "ville": "Grenoble",
+    "lat": 45.188343,
+    "lon": 5.739302,
+    "distance_km": 3,
+    "telephone": "",
+    "email": "",
+    "contact": "",
+    "site_web": "https://www.capgemini.com/fr-fr/",
+    "careers": "https://www.capgemini.com/fr-fr/carrieres/",
+    "naf": "70.10Z",
+    "effectif": "NN",
+    "categorie_entreprise": "GE",
+    "creation": "1984-09-19",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/330703844"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://www.capgemini.com/fr-fr/"
+      },
+      {
+        "label": "Page carrières",
+        "url": "https://www.capgemini.com/fr-fr/carrieres/"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "non_renseigne",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-652031857",
+    "siren": "652031857",
+    "siret": "65203185701473",
+    "nom": "Hewlett Packard Enterprise",
+    "nom_legal": "HEWLETT-PACKARD FRANCE",
+    "categorie": "IT / Hardware",
+    "description": "Serveurs, réseaux et solutions cloud, site d'Eybens.",
+    "potentiel": "fort",
+    "adresse": "5 Avenue Raymond Chanas",
+    "code_postal": "38320",
+    "ville": "Eybens",
+    "lat": 45.155848,
+    "lon": 5.739099,
+    "distance_km": 3,
+    "telephone": "",
+    "email": "jean.fernadez@hpe.com",
+    "contact": "M. Jean Fernandez",
+    "site_web": "https://www.hpe.com/fr/fr/",
+    "careers": "https://www.hpe.com/fr/fr/about/careers.html",
+    "naf": "46.51Z",
+    "effectif": "42",
+    "categorie_entreprise": "ETI",
+    "creation": "1981-09-10",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/652031857"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://www.hpe.com/fr/fr/"
+      },
+      {
+        "label": "Page carrières",
+        "url": "https://www.hpe.com/fr/fr/about/careers.html"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "source_initiale",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-552118465",
+    "siren": "552118465",
+    "siret": "55211846503644",
+    "nom": "IBM France",
+    "nom_legal": "COMPAGNIE IBM FRANCE (CIE IBM FRANCE)",
+    "categorie": "IT / Cloud",
+    "description": "Services IT, cloud et IA, site de Grenoble.",
+    "potentiel": "fort",
+    "adresse": "Le Forum 3 Rue Malakoff",
+    "code_postal": "38000",
+    "ville": "Grenoble",
+    "lat": 45.188897,
+    "lon": 5.739129,
+    "distance_km": 3,
+    "telephone": "",
+    "email": "",
+    "contact": "",
+    "site_web": "https://www.ibm.com/fr-fr",
+    "careers": "https://www.ibm.com/fr-fr/careers",
+    "naf": "58.29C",
+    "effectif": "51",
+    "categorie_entreprise": "GE",
+    "creation": "1955-01-01",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/552118465"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://www.ibm.com/fr-fr"
+      },
+      {
+        "label": "Page carrières",
+        "url": "https://www.ibm.com/fr-fr/careers"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "non_renseigne",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-450803010",
+    "siren": "450803010",
+    "siret": "45080301000039",
+    "nom": "Urgences Micro",
+    "nom_legal": "URGENCES MICRO",
+    "categorie": "Réparation",
+    "description": "Dépannage informatique à domicile et en atelier.",
+    "potentiel": "faible",
+    "adresse": "30 Avenue Jeanne D'Arc",
+    "code_postal": "38100",
+    "ville": "Grenoble",
+    "lat": 45.183707,
+    "lon": 5.743721,
+    "distance_km": 3,
+    "telephone": "04 76 54 60 11",
+    "email": "contact@urgencesmicro.com",
+    "contact": "M. Jérémie CERTOUX",
+    "site_web": "https://urgencesmicro.com",
+    "careers": "",
+    "naf": "95.11Z",
+    "effectif": "01",
+    "categorie_entreprise": "PME",
+    "creation": "2003-11-03",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/450803010"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://urgencesmicro.com"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "source_initiale",
+      "email": "source_initiale",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-775685019",
+    "siren": "775685019",
+    "siret": "77568501900587",
+    "nom": "CEA",
+    "nom_legal": "COMMISSARIAT A L' ENERGIE ATOMIQUE ET AUX ENERGIES ALTERNATIVES (CEA)",
+    "categorie": "Recherche / Tech",
+    "description": "Commissariat à l'énergie atomique et aux énergies alternatives, site de Grenoble.",
+    "potentiel": "fort",
+    "adresse": "Cedex 9 17 Avenue Des Martyrs",
+    "code_postal": "38000",
+    "ville": "Grenoble",
+    "lat": 45.201298,
+    "lon": 5.705323,
+    "distance_km": 3.2,
+    "telephone": "",
+    "email": "",
+    "contact": "",
+    "site_web": "https://www.cea.fr",
+    "careers": "https://www.cea.fr/recrutement",
+    "naf": "72.19Z",
+    "effectif": "53",
+    "categorie_entreprise": "GE",
+    "creation": "1900-01-01",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/775685019"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://www.cea.fr"
+      },
+      {
+        "label": "Page carrières",
+        "url": "https://www.cea.fr/recrutement"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "non_renseigne",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-439550880",
+    "siren": "439550880",
+    "siret": "43955088000025",
+    "nom": "Isère Automatisme",
+    "nom_legal": "ISERE AUTOMATISME (ISERE ALARME)",
+    "categorie": "Automatisme / Industrie",
+    "description": "Automatisme industriel, électricité et solutions de contrôle.",
+    "potentiel": "moyen",
+    "adresse": "4 Rue D'Oran",
+    "code_postal": "38130",
+    "ville": "Echirolles",
+    "lat": 45.14332,
+    "lon": 5.706969,
+    "distance_km": 3.2,
+    "telephone": "04 76 24 20 91",
+    "email": "",
+    "contact": "M. Stéphane BARANOFF (Gérant)",
+    "site_web": "",
+    "careers": "",
+    "naf": "43.21A",
+    "effectif": "03",
+    "categorie_entreprise": "PME",
+    "creation": "2001-10-01",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/439550880"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "source_initiale",
+      "email": "non_renseigne",
+      "site": "non_renseigne",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-410090633",
+    "siren": "410090633",
+    "siret": "41009063300067",
+    "nom": "Network Services",
+    "nom_legal": "NETWORK SERVICES",
+    "categorie": "ESN / Réseaux",
+    "description": "Réseaux informatiques, câblage et infrastructures.",
+    "potentiel": "moyen",
+    "adresse": "Zac Des Ruires 16 Rue Evariste Galois",
+    "code_postal": "38320",
+    "ville": "Eybens",
+    "lat": 45.1517,
+    "lon": 5.740296,
+    "distance_km": 3.4,
+    "telephone": "04 76 14 74 10",
+    "email": "",
+    "contact": "M. Jean Luc Fatiguet",
+    "site_web": "",
+    "careers": "",
+    "naf": "43.21A",
+    "effectif": "12",
+    "categorie_entreprise": "ETI",
+    "creation": "1996-12-11",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/410090633"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "source_initiale",
+      "email": "non_renseigne",
+      "site": "non_renseigne",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-319995148",
+    "siren": "319995148",
+    "siret": "31999514800040",
+    "nom": "3A Alpes Automatic",
+    "nom_legal": "3A - ALPES AUTOMATIC (3A - AUTOMATISATION) (3A)",
+    "categorie": "Automatisme / Industrie",
+    "description": "Automatisation industrielle, robotique et intégration de systèmes.",
+    "potentiel": "moyen",
+    "adresse": "4 Rue Irene Joliot Curie",
+    "code_postal": "38320",
+    "ville": "Eybens",
+    "lat": 45.150222,
+    "lon": 5.740925,
+    "distance_km": 3.5,
+    "telephone": "04 76 14 76 50",
+    "email": "kerbaol.philippe@3-a.fr",
+    "contact": "M. Philippe KERBAOL",
+    "site_web": "https://3-a.fr",
+    "careers": "",
+    "naf": "33.20C",
+    "effectif": "11",
+    "categorie_entreprise": "PME",
+    "creation": "1980-09-01",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/319995148"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://3-a.fr"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "source_initiale",
+      "email": "source_initiale",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-805020740",
+    "siren": "805020740",
+    "siret": "80502074000017",
+    "nom": "Sopra Steria I2S",
+    "nom_legal": "SOPRA STERIA INFRASTRUCTURE & SECURITY SERVICES (SOPRA STERIA 12S)",
+    "categorie": "Infrastructures / Cybersécurité",
+    "description": "Infrastructure et sécurité managées, site de Grenoble.",
+    "potentiel": "fort",
+    "adresse": "Miniparc Polytec 32 Rue Des Berges",
+    "code_postal": "38000",
+    "ville": "Grenoble",
+    "lat": 45.204799,
+    "lon": 5.702706,
+    "distance_km": 3.6,
+    "telephone": "",
+    "email": "",
+    "contact": "",
+    "site_web": "https://www.soprasteria.com/fr",
+    "careers": "https://www.soprasteria.com/fr/carrieres",
+    "naf": "63.11Z",
+    "effectif": "51",
+    "categorie_entreprise": "GE",
+    "creation": "2014-09-25",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/805020740"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://www.soprasteria.com/fr"
+      },
+      {
+        "label": "Page carrières",
+        "url": "https://www.soprasteria.com/fr/carrieres"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "non_renseigne",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-509188009",
+    "siren": "509188009",
+    "siret": "50918800900039",
+    "nom": "Liprandi Automatismes",
+    "nom_legal": "LIPRANDI AUTOMATISMES",
+    "categorie": "Automatisme / Industrie",
+    "description": "Automatisme, électrotechnique et maintenance industrielle.",
+    "potentiel": "moyen",
+    "adresse": "68 Avenue De La Republique",
+    "code_postal": "38130",
+    "ville": "Echirolles",
+    "lat": 45.141943,
+    "lon": 5.731267,
+    "distance_km": 3.8,
+    "telephone": "04 76 09 11 39",
+    "email": "",
+    "contact": "M. Liprandi (directeur)",
+    "site_web": "",
+    "careers": "",
+    "naf": "43.21A",
+    "effectif": "01",
+    "categorie_entreprise": "PME",
+    "creation": "2008-11-25",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/509188009"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "source_initiale",
+      "email": "non_renseigne",
+      "site": "non_renseigne",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-383355328",
+    "siren": "383355328",
+    "siret": "38335532800139",
+    "nom": "Axians",
+    "nom_legal": "SDEL VIDEO TELECOM (AXIANS)",
+    "categorie": "Télécoms / IT",
+    "description": "Intégrateur télécoms et IT du groupe VINCI Energies, site de La Tronche.",
+    "potentiel": "fort",
+    "adresse": "7 Chemin Fortune Ferrini",
+    "code_postal": "38700",
+    "ville": "La Tronche",
+    "lat": 45.197551,
+    "lon": 5.7442,
+    "distance_km": 4,
+    "telephone": "",
+    "email": "",
+    "contact": "",
+    "site_web": "https://www.axians.fr",
+    "careers": "https://www.axians.fr/carrieres/",
+    "naf": "43.21A",
+    "effectif": "22",
+    "categorie_entreprise": "GE",
+    "creation": "1991-09-20",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/383355328"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://www.axians.fr"
+      },
+      {
+        "label": "Page carrières",
+        "url": "https://www.axians.fr/carrieres/"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "non_renseigne",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-420167397",
+    "siren": "420167397",
+    "siret": "42016739700017",
+    "nom": "Santerne Centre Est Télécom",
+    "nom_legal": "SANTERNE CENTRE EST TELECOMMUNICATIONS",
+    "categorie": "Infrastructures / Télécoms",
+    "description": "Réseaux et infrastructures télécoms, site de Saint-Martin-d'Hères.",
+    "potentiel": "moyen",
+    "adresse": "5 Allee De Bethleem Zi 20 Rue Du Tour De L'Eau",
+    "code_postal": "38400",
+    "ville": "Saint-Martin-D'Heres",
+    "lat": 45.178442,
+    "lon": 5.763219,
+    "distance_km": 4.3,
+    "telephone": "",
+    "email": "",
+    "contact": "",
+    "site_web": "https://www.santerne.fr",
+    "careers": "https://www.santerne.fr/carrieres/",
+    "naf": "42.22Z",
+    "effectif": "22",
+    "categorie_entreprise": "GE",
+    "creation": "1998-09-01",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/420167397"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://www.santerne.fr"
+      },
+      {
+        "label": "Page carrières",
+        "url": "https://www.santerne.fr/carrieres/"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "non_renseigne",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-804539047",
+    "siren": "804539047",
+    "siret": "80453904700030",
+    "nom": "LDLC Grenoble",
+    "nom_legal": "DNI SAS (LDLC GRENOBLE)",
+    "categorie": "Vente / IT",
+    "description": "Vente de matériel informatique et conseil.",
+    "potentiel": "faible",
+    "adresse": "91 Avenue Gabriel Peri",
+    "code_postal": "38400",
+    "ville": "Saint-Martin-D'Heres",
+    "lat": 45.18587,
+    "lon": 5.760972,
+    "distance_km": 4.4,
+    "telephone": "04 58 00 81 18",
+    "email": "grenoblesmh@ldlc.com",
+    "contact": "M. David Nikolovski (directeur)",
+    "site_web": "https://ldlc.com",
+    "careers": "",
+    "naf": "47.41Z",
+    "effectif": "11",
+    "categorie_entreprise": "PME",
+    "creation": "2014-09-12",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/804539047"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://ldlc.com"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "source_initiale",
+      "email": "source_initiale",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-442835468",
+    "siren": "442835468",
+    "siret": "44283546800087",
+    "nom": "Constructel",
+    "nom_legal": "CONSTRUCTEL CONSTRUCTIONS TELECOMMUNICA.",
+    "categorie": "Infrastructures / Télécoms",
+    "description": "Construction et maintenance de réseaux télécoms.",
+    "potentiel": "moyen",
+    "adresse": "9 Avenue De La Falaise",
+    "code_postal": "38360",
+    "ville": "Sassenage",
+    "lat": 45.200105,
+    "lon": 5.664107,
+    "distance_km": 4.7,
+    "telephone": "",
+    "email": "yvesTeixeira@constructel.fr",
+    "contact": "M. Yves Teixeira (Responsable agence)",
+    "site_web": "https://constructel.fr",
+    "careers": "",
+    "naf": "43.21A",
+    "effectif": "42",
+    "categorie_entreprise": "ETI",
+    "creation": "2002-07-01",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/442835468"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://constructel.fr"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "source_initiale",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-420888877",
+    "siren": "420888877",
+    "siret": "42088887700024",
+    "nom": "Altiva Solutions",
+    "nom_legal": "ALTIVA SOLUTIONS",
+    "categorie": "ESN / Conseil",
+    "description": "ESN : conseil, développement et intégration de solutions IT.",
+    "potentiel": "fort",
+    "adresse": "19 Boulevard Des Alpes",
+    "code_postal": "38240",
+    "ville": "Meylan",
+    "lat": 45.203542,
+    "lon": 5.768018,
+    "distance_km": 5.8,
+    "telephone": "",
+    "email": "herve.bernoud@altiva.fr",
+    "contact": "M. Hervé Bernoud",
+    "site_web": "https://altiva.fr",
+    "careers": "",
+    "naf": "62.01Z",
+    "effectif": "02",
+    "categorie_entreprise": "PME",
+    "creation": "1998-11-10",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/420888877"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://altiva.fr"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "source_initiale",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-884603192",
+    "siren": "884603192",
+    "siret": "88460319200011",
+    "nom": "Isère Domotique",
+    "nom_legal": "ISERE DOM I (ISERE DOMOTIQUE)",
+    "categorie": "Domotique / Automatisme",
+    "description": "Domotique, maison connectée et automatismes.",
+    "potentiel": "faible",
+    "adresse": "9 B Rue De La Condamine",
+    "code_postal": "38610",
+    "ville": "Gieres",
+    "lat": 45.186667,
+    "lon": 5.779358,
+    "distance_km": 5.8,
+    "telephone": "04 38 37 00 30",
+    "email": "f.trinquier@isere-domotique.com",
+    "contact": "M. Fabien TRINQUIER (responsable entreprise)",
+    "site_web": "https://isere-domotique.com",
+    "careers": "",
+    "naf": "43.21A",
+    "effectif": "03",
+    "categorie_entreprise": "PME",
+    "creation": "2020-06-23",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/884603192"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://isere-domotique.com"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "source_initiale",
+      "email": "source_initiale",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-352905707",
+    "siren": "352905707",
+    "siret": "35290570700431",
+    "nom": "Randstad Digital",
+    "nom_legal": "RANDSTAD DIGITAL FRANCE",
+    "categorie": "ESN / Conseil",
+    "description": "Services numériques et staffing IT, site de Meylan.",
+    "potentiel": "fort",
+    "adresse": "Buro Club 29 Boulevard Des Alpes",
+    "code_postal": "38240",
+    "ville": "Meylan",
+    "lat": 45.202801,
+    "lon": 5.769443,
+    "distance_km": 5.9,
+    "telephone": "",
+    "email": "",
+    "contact": "",
+    "site_web": "https://www.randstaddigital.fr",
+    "careers": "https://www.randstaddigital.fr/carrieres/",
+    "naf": "62.02A",
+    "effectif": "51",
+    "categorie_entreprise": "GE",
+    "creation": "1989-12-18",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/352905707"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://www.randstaddigital.fr"
+      },
+      {
+        "label": "Page carrières",
+        "url": "https://www.randstaddigital.fr/carrieres/"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "non_renseigne",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-852585546",
+    "siren": "852585546",
+    "siret": "85258554600033",
+    "nom": "ASIR",
+    "nom_legal": "ASSISTANCE SERVICE INFORMATIQUE ET RESEAU (A.S.I.R)",
+    "categorie": "ESN / Support",
+    "description": "Assistance informatique et réseau pour les entreprises.",
+    "potentiel": "moyen",
+    "adresse": "2 Allee De L'Atrium Claix",
+    "code_postal": "38640",
+    "ville": "Claix",
+    "lat": 45.119871,
+    "lon": 5.691402,
+    "distance_km": 6,
+    "telephone": "04 76 21 35 53",
+    "email": "",
+    "contact": "",
+    "site_web": "",
+    "careers": "",
+    "naf": "46.51Z",
+    "effectif": "01",
+    "categorie_entreprise": "PME",
+    "creation": "2019-07-03",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/852585546"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "source_initiale",
+      "email": "non_renseigne",
+      "site": "non_renseigne",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-848989695",
+    "siren": "848989695",
+    "siret": "84898969500020",
+    "nom": "Dotcom Network",
+    "nom_legal": "ADRB-BUSINESS (DOTCOM-NETWORK)",
+    "categorie": "ESN / Réseaux",
+    "description": "Infogérance, réseaux et support informatique.",
+    "potentiel": "moyen",
+    "adresse": "57 Boulevard Des Alpes",
+    "code_postal": "38240",
+    "ville": "Meylan",
+    "lat": 45.204823,
+    "lon": 5.779636,
+    "distance_km": 6.7,
+    "telephone": "",
+    "email": "anthony.damais@dotcom-network.fr",
+    "contact": "M. Anthony DAMAIS (responsable)",
+    "site_web": "https://dotcom-network.fr",
+    "careers": "",
+    "naf": "95.11Z",
+    "effectif": "NN",
+    "categorie_entreprise": "PME",
+    "creation": "2019-03-07",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/848989695"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://dotcom-network.fr"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "source_initiale",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-518539408",
+    "siren": "518539408",
+    "siret": "51853940800048",
+    "nom": "Novazion",
+    "nom_legal": "NOVAZION",
+    "categorie": "ESN / Conseil",
+    "description": "Conseil et services numériques, développement et transformation IT.",
+    "potentiel": "fort",
+    "adresse": "9 B Chemin Du Vieux Chene",
+    "code_postal": "38240",
+    "ville": "Meylan",
+    "lat": 45.206773,
+    "lon": 5.78534,
+    "distance_km": 7.1,
+    "telephone": "04 82 53 21 08",
+    "email": "s.cabezas@novazion.com",
+    "contact": "M. Santiago CABEZAS (DG)",
+    "site_web": "https://novazion.com",
+    "careers": "",
+    "naf": "62.01Z",
+    "effectif": "11",
+    "categorie_entreprise": "PME",
+    "creation": "2009-12-01",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/518539408"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://novazion.com"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "source_initiale",
+      "email": "source_initiale",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-512664194",
+    "siren": "512664194",
+    "siret": "51266419400168",
+    "nom": "Orange Cyberdefense",
+    "nom_legal": "ORANGE CYBERDEFENSE FRANCE",
+    "categorie": "Cybersécurité",
+    "description": "Services managés de cybersécurité, site de Meylan.",
+    "potentiel": "fort",
+    "adresse": "22 Chemin Du Vieux Chene",
+    "code_postal": "38240",
+    "ville": "Meylan",
+    "lat": 45.2082,
+    "lon": 5.789828,
+    "distance_km": 7.5,
+    "telephone": "",
+    "email": "",
+    "contact": "",
+    "site_web": "https://www.orangecyberdefense.com/fr/",
+    "careers": "https://www.orangecyberdefense.com/fr/carrieres",
+    "naf": "62.02A",
+    "effectif": "42",
+    "categorie_entreprise": "GE",
+    "creation": "2009-05-15",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/512664194"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://www.orangecyberdefense.com/fr/"
+      },
+      {
+        "label": "Page carrières",
+        "url": "https://www.orangecyberdefense.com/fr/carrieres"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "non_renseigne",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-328751276",
+    "siren": "328751276",
+    "siret": "32875127600051",
+    "nom": "Siemens EDA",
+    "nom_legal": "SIEMENS ELECTRONIC DESIGN AUTOMATION SARL",
+    "categorie": "Logiciel / Électronique",
+    "description": "Logiciels de conception électronique (EDA), site de Meylan.",
+    "potentiel": "fort",
+    "adresse": "Batiment C Arteparc 20 Chemin Du Vieux Chene",
+    "code_postal": "38240",
+    "ville": "Meylan",
+    "lat": 45.208099,
+    "lon": 5.789188,
+    "distance_km": 7.5,
+    "telephone": "",
+    "email": "",
+    "contact": "",
+    "site_web": "https://eda.sw.siemens.com",
+    "careers": "https://www.siemens.fr/emploi",
+    "naf": "62.01Z",
+    "effectif": "32",
+    "categorie_entreprise": "GE",
+    "creation": "1984-01-01",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/328751276"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://eda.sw.siemens.com"
+      },
+      {
+        "label": "Page carrières",
+        "url": "https://www.siemens.fr/emploi"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "non_renseigne",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-428677124",
+    "siren": "428677124",
+    "siret": "42867712400433",
+    "nom": "Thales Services Numériques",
+    "nom_legal": "THALES SERVICES NUMERIQUES SAS",
+    "categorie": "IT / Défense",
+    "description": "Services numériques et cybersécurité, site de Meylan.",
+    "potentiel": "fort",
+    "adresse": "29 Chemin Du Vieux Chene",
+    "code_postal": "38240",
+    "ville": "Meylan",
+    "lat": 45.209088,
+    "lon": 5.793513,
+    "distance_km": 7.8,
+    "telephone": "",
+    "email": "",
+    "contact": "",
+    "site_web": "https://www.thalesgroup.com/fr",
+    "careers": "https://www.thalesgroup.com/fr/carrieres",
+    "naf": "62.02A",
+    "effectif": "51",
+    "categorie_entreprise": "GE",
+    "creation": "1999-12-01",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/428677124"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://www.thalesgroup.com/fr"
+      },
+      {
+        "label": "Page carrières",
+        "url": "https://www.thalesgroup.com/fr/carrieres"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "non_renseigne",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-341470656",
+    "siren": "341470656",
+    "siret": "34147065600099",
+    "nom": "Teledyne e2v",
+    "nom_legal": "TELEDYNE E2V SEMICONDUCTORS SAS",
+    "categorie": "Électronique / Capteurs",
+    "description": "Capteurs d'image et solutions électroniques haute performance.",
+    "potentiel": "fort",
+    "adresse": "4 Rue De Rochepleine",
+    "code_postal": "38120",
+    "ville": "Saint-Egreve",
+    "lat": 45.242643,
+    "lon": 5.680343,
+    "distance_km": 8.1,
+    "telephone": "04 76 58 30 00",
+    "email": "",
+    "contact": "M. Laurent MONGE",
+    "site_web": "",
+    "careers": "",
+    "naf": "26.11Z",
+    "effectif": "32",
+    "categorie_entreprise": "ETI",
+    "creation": "1987-05-15",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/341470656"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "source_initiale",
+      "email": "non_renseigne",
+      "site": "non_renseigne",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-830053211",
+    "siren": "830053211",
+    "siret": "83005321100025",
+    "nom": "Ubilink",
+    "nom_legal": "UBILINK",
+    "categorie": "ESN / Web",
+    "description": "Agence numérique : développement web, applications et conseil.",
+    "potentiel": "fort",
+    "adresse": "3 Chemin Clos Buisson",
+    "code_postal": "38240",
+    "ville": "Meylan",
+    "lat": 45.225774,
+    "lon": 5.781358,
+    "distance_km": 8.2,
+    "telephone": "04 57 93 71 97",
+    "email": "florian.darnand@ubilink.fr",
+    "contact": "M. Florian DARNAND (directeur)",
+    "site_web": "https://ubilink.fr",
+    "careers": "",
+    "naf": "58.29C",
+    "effectif": "01",
+    "categorie_entreprise": "PME",
+    "creation": "2017-06-01",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/830053211"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://ubilink.fr"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "source_initiale",
+      "email": "source_initiale",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-444495774",
+    "siren": "444495774",
+    "siret": "44449577400531",
+    "nom": "Capgemini Engineering",
+    "nom_legal": "CAPGEMINI ENGINEERING RESEARCH AND DEVELOPMENT",
+    "categorie": "ESN / Ingénierie",
+    "description": "Ingénierie et R&D externalisées, site de Montbonnot.",
+    "potentiel": "fort",
+    "adresse": "Novesparc 95 Chemin De L'Etoile",
+    "code_postal": "38330",
+    "ville": "Montbonnot-Saint-Martin",
+    "lat": 45.214272,
+    "lon": 5.805613,
+    "distance_km": 8.9,
+    "telephone": "",
+    "email": "",
+    "contact": "",
+    "site_web": "https://www.capgemini.com/fr-fr/",
+    "careers": "https://www.capgemini.com/fr-fr/carrieres/",
+    "naf": "62.02A",
+    "effectif": "51",
+    "categorie_entreprise": "GE",
+    "creation": "2002-11-25",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/444495774"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://www.capgemini.com/fr-fr/"
+      },
+      {
+        "label": "Page carrières",
+        "url": "https://www.capgemini.com/fr-fr/carrieres/"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "non_renseigne",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-830495339",
+    "siren": "830495339",
+    "siret": "83049533900012",
+    "nom": "Ceval France",
+    "nom_legal": "CEVAL FRANCE (CEVAL FRANCE)",
+    "categorie": "Électronique",
+    "description": "Distribution et intégration de composants électroniques.",
+    "potentiel": "moyen",
+    "adresse": "4 Rue De La Marjoera",
+    "code_postal": "38760",
+    "ville": "Varces-Allieres-Et-Risset",
+    "lat": 45.094366,
+    "lon": 5.681103,
+    "distance_km": 8.9,
+    "telephone": "07 87 40 25 13",
+    "email": "romainpras@cevalfrance.fr",
+    "contact": "M. Romain PRAS (directeur)",
+    "site_web": "https://cevalfrance.fr",
+    "careers": "",
+    "naf": "46.69A",
+    "effectif": "01",
+    "categorie_entreprise": "PME",
+    "creation": "2017-05-24",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/830495339"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://cevalfrance.fr"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "source_initiale",
+      "email": "source_initiale",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-507620557",
+    "siren": "507620557",
+    "siret": "50762055700045",
+    "nom": "Kalray",
+    "nom_legal": "KALRAY",
+    "categorie": "Électronique / Semiconducteurs",
+    "description": "Processeurs et accélérateurs pour l'IA et le calcul haute performance.",
+    "potentiel": "fort",
+    "adresse": "Immeuble Le Sun 180 Avenue De L'Europe",
+    "code_postal": "38330",
+    "ville": "Montbonnot-Saint-Martin",
+    "lat": 45.213479,
+    "lon": 5.806187,
+    "distance_km": 8.9,
+    "telephone": "",
+    "email": "",
+    "contact": "",
+    "site_web": "https://www.kalrayinc.com",
+    "careers": "https://www.kalrayinc.com/careers/",
+    "naf": "26.11Z",
+    "effectif": "22",
+    "categorie_entreprise": "PME",
+    "creation": "2008-07-31",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/507620557"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://www.kalrayinc.com"
+      },
+      {
+        "label": "Page carrières",
+        "url": "https://www.kalrayinc.com/careers/"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "non_renseigne",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-335092318",
+    "siren": "335092318",
+    "siret": "33509231800609",
+    "nom": "Oracle France",
+    "nom_legal": "ORACLE FRANCE",
+    "categorie": "Logiciel / Cloud",
+    "description": "Solutions cloud, bases de données et applications, site de Montbonnot.",
+    "potentiel": "fort",
+    "adresse": "180 Avenue De L'Europe",
+    "code_postal": "38330",
+    "ville": "Montbonnot-Saint-Martin",
+    "lat": 45.213479,
+    "lon": 5.806187,
+    "distance_km": 8.9,
+    "telephone": "",
+    "email": "",
+    "contact": "",
+    "site_web": "https://www.oracle.com/fr/",
+    "careers": "https://www.oracle.com/fr/careers/",
+    "naf": "62.02A",
+    "effectif": "41",
+    "categorie_entreprise": "ETI",
+    "creation": "1986-02-13",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/335092318"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://www.oracle.com/fr/"
+      },
+      {
+        "label": "Page carrières",
+        "url": "https://www.oracle.com/fr/careers/"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "non_renseigne",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-423302421",
+    "siren": "423302421",
+    "siret": "42330242100056",
+    "nom": "Arturia",
+    "nom_legal": "ARTURIA",
+    "categorie": "Logiciel / Audio",
+    "description": "Éditeur de logiciels et fabricant de matériel audio (synthés, contrôleurs).",
+    "potentiel": "fort",
+    "adresse": "26 Jean Kuntzman",
+    "code_postal": "38330",
+    "ville": "Montbonnot-Saint-Martin",
+    "lat": 45.216331,
+    "lon": 5.805095,
+    "distance_km": 9,
+    "telephone": "04 38 02 05 55",
+    "email": "lauranne.berne@arturia.com",
+    "contact": "Mme Lauranne BERNE (DRH)",
+    "site_web": "https://arturia.com",
+    "careers": "",
+    "naf": "46.51Z",
+    "effectif": "22",
+    "categorie_entreprise": "ETI",
+    "creation": "1999-07-02",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/423302421"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://arturia.com"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "source_initiale",
+      "email": "source_initiale",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-479766842",
+    "siren": "479766842",
+    "siret": "47976684200724",
+    "nom": "Capgemini Technology Services",
+    "nom_legal": "CAPGEMINI TECHNOLOGY SERVICES",
+    "categorie": "ESN / Conseil",
+    "description": "Services technologiques et infogérance, site de Montbonnot.",
+    "potentiel": "fort",
+    "adresse": "99 Chemin De L'Etoile",
+    "code_postal": "38330",
+    "ville": "Montbonnot-Saint-Martin",
+    "lat": 45.21484,
+    "lon": 5.806063,
+    "distance_km": 9,
+    "telephone": "",
+    "email": "",
+    "contact": "",
+    "site_web": "https://www.capgemini.com/fr-fr/",
+    "careers": "https://www.capgemini.com/fr-fr/carrieres/",
+    "naf": "62.02A",
+    "effectif": "53",
+    "categorie_entreprise": "GE",
+    "creation": "2004-11-16",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/479766842"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://www.capgemini.com/fr-fr/"
+      },
+      {
+        "label": "Page carrières",
+        "url": "https://www.capgemini.com/fr-fr/carrieres/"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "non_renseigne",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-452156102",
+    "siren": "452156102",
+    "siret": "45215610200058",
+    "nom": "Ascanio",
+    "nom_legal": "ASCANIO",
+    "categorie": "Logiciel / Data",
+    "description": "Solutions logicielles et data pour l'industrie.",
+    "potentiel": "moyen",
+    "adresse": "545 Avenue De L'Europe",
+    "code_postal": "38330",
+    "ville": "Montbonnot-Saint-Martin",
+    "lat": 45.216881,
+    "lon": 5.806458,
+    "distance_km": 9.1,
+    "telephone": "",
+    "email": "m.favier@ascan.io",
+    "contact": "M Maxime Favier",
+    "site_web": "https://ascan.io",
+    "careers": "",
+    "naf": "62.02A",
+    "effectif": "11",
+    "categorie_entreprise": "PME",
+    "creation": "2004-01-22",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/452156102"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://ascan.io"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "source_initiale",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-343488979",
+    "siren": "343488979",
+    "siret": "34348897900018",
+    "nom": "Euro System",
+    "nom_legal": "EURO SYSTEM",
+    "categorie": "ESN / Support",
+    "description": "Services informatiques et support.",
+    "potentiel": "moyen",
+    "adresse": "26 Chemin De La Digue",
+    "code_postal": "38760",
+    "ville": "Varces-Allieres-Et-Risset",
+    "lat": 45.089496,
+    "lon": 5.689627,
+    "distance_km": 9.3,
+    "telephone": "04 76 72 99 58",
+    "email": "",
+    "contact": "",
+    "site_web": "",
+    "careers": "",
+    "naf": "62.02A",
+    "effectif": "NN",
+    "categorie_entreprise": "",
+    "creation": "1988-01-01",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/343488979"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "source_initiale",
+      "email": "non_renseigne",
+      "site": "non_renseigne",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-352753800",
+    "siren": "352753800",
+    "siret": "35275380000072",
+    "nom": "EDT",
+    "nom_legal": "EDT - ELECTRONIC DATA TRANSFERT (EDT)",
+    "categorie": "Électronique / Data",
+    "description": "Solutions électroniques et transfert de données.",
+    "potentiel": "moyen",
+    "adresse": "85 Rue Lavoisier",
+    "code_postal": "38330",
+    "ville": "Montbonnot-Saint-Martin",
+    "lat": 45.217586,
+    "lon": 5.809804,
+    "distance_km": 9.4,
+    "telephone": "04 76 41 74 92",
+    "email": "compta@edt.fr",
+    "contact": "M. Jérôme Fleury",
+    "site_web": "https://edt.fr",
+    "careers": "",
+    "naf": "63.11Z",
+    "effectif": "12",
+    "categorie_entreprise": "PME",
+    "creation": "1989-12-01",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/352753800"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://edt.fr"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "source_initiale",
+      "email": "source_initiale",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-491370995",
+    "siren": "491370995",
+    "siret": "49137099500061",
+    "nom": "IVES",
+    "nom_legal": "INTERACTIVITE VIDEO ET SYSTEMES (IVES) (IVES)",
+    "categorie": "Audiovisuel / IT",
+    "description": "Interactive Video & Systems : solutions vidéo et systèmes interactifs.",
+    "potentiel": "moyen",
+    "adresse": "1080 Chemin De La Croix Verte",
+    "code_postal": "38330",
+    "ville": "Montbonnot-Saint-Martin",
+    "lat": 45.217421,
+    "lon": 5.815591,
+    "distance_km": 9.8,
+    "telephone": "",
+    "email": "",
+    "contact": "M. Didier Chabanol",
+    "site_web": "",
+    "careers": "",
+    "naf": "58.29A",
+    "effectif": "12",
+    "categorie_entreprise": "PME",
+    "creation": "2006-07-01",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/491370995"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "non_renseigne",
+      "site": "non_renseigne",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-751907049",
+    "siren": "751907049",
+    "siret": "75190704900033",
+    "nom": "AD Radiocoms",
+    "nom_legal": "AD RADIOCOMS",
+    "categorie": "Télécoms / Radio",
+    "description": "Radiocommunication et solutions télécoms.",
+    "potentiel": "faible",
+    "adresse": "Za Pre Millet 430 Rue Aristide Berges",
+    "code_postal": "38330",
+    "ville": "Montbonnot-Saint-Martin",
+    "lat": 45.221315,
+    "lon": 5.816507,
+    "distance_km": 10.1,
+    "telephone": "04 80 80 86 20",
+    "email": "admin@ad-radiocoms.com",
+    "contact": "M. Bastien Galy",
+    "site_web": "https://ad-radiocoms.com",
+    "careers": "",
+    "naf": "46.52Z",
+    "effectif": "11",
+    "categorie_entreprise": "PME",
+    "creation": "2012-05-01",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/751907049"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://ad-radiocoms.com"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "source_initiale",
+      "email": "source_initiale",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-333020386",
+    "siren": "333020386",
+    "siret": "33302038600053",
+    "nom": "Canalog",
+    "nom_legal": "CANALOG (CANALOG)",
+    "categorie": "Automatisme / Industrie",
+    "description": "Automatisme, instrumentation et solutions industrielles.",
+    "potentiel": "moyen",
+    "adresse": "707 Route De Valence",
+    "code_postal": "38113",
+    "ville": "Veurey-Voroize",
+    "lat": 45.258795,
+    "lon": 5.626588,
+    "distance_km": 11.6,
+    "telephone": "04 76 62 34 73",
+    "email": "p.daguet@canalog.fr",
+    "contact": "M. Philippe DAGUET (directeur)",
+    "site_web": "https://canalog.fr",
+    "careers": "",
+    "naf": "33.20C",
+    "effectif": "11",
+    "categorie_entreprise": "ETI",
+    "creation": "1985-06-01",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/333020386"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://canalog.fr"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "source_initiale",
+      "email": "source_initiale",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-334835709",
+    "siren": "334835709",
+    "siret": "33483570900034",
+    "nom": "Lynred",
+    "nom_legal": "LYNRED",
+    "categorie": "Électronique / Infrarouge",
+    "description": "Conception et fabrication de détecteurs infrarouges.",
+    "potentiel": "fort",
+    "adresse": "Route De Valence",
+    "code_postal": "38113",
+    "ville": "Veurey-Voroize",
+    "lat": 45.261149,
+    "lon": 5.625286,
+    "distance_km": 11.8,
+    "telephone": "04 76 28 77 00",
+    "email": "elodie.jeanningros@lynred.com",
+    "contact": "Mme Elodie Jeanningnos (directeur)",
+    "site_web": "https://lynred.com",
+    "careers": "",
+    "naf": "26.11Z",
+    "effectif": "41",
+    "categorie_entreprise": "ETI",
+    "creation": "1986-01-01",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/334835709"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://lynred.com"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "source_initiale",
+      "email": "source_initiale",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-495227811",
+    "siren": "495227811",
+    "siret": "49522781100033",
+    "nom": "Micro38 Informatique",
+    "nom_legal": "MICRO 38 INFORMATIQUE",
+    "categorie": "ESN / Réparation",
+    "description": "Dépannage informatique, réparation PC/Mac et récupération de données à Vif.",
+    "potentiel": "moyen",
+    "adresse": "2 Place Des Onze Otages",
+    "code_postal": "38450",
+    "ville": "Vif",
+    "lat": 45.055105,
+    "lon": 5.66859,
+    "distance_km": 13.4,
+    "telephone": "04 76 73 19 52",
+    "email": "contact@micro38.com",
+    "contact": "M. Franck Lavris (responsable)",
+    "site_web": "https://micro38.com",
+    "careers": "",
+    "naf": "62.02A",
+    "effectif": "NN",
+    "categorie_entreprise": "PME",
+    "creation": "2007-04-02",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/495227811"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://micro38.com"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "source_initiale",
+      "email": "source_initiale",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-343254207",
+    "siren": "343254207",
+    "siret": "34325420700024",
+    "nom": "ACJ Electronic",
+    "nom_legal": "ACJ ELECTRONIC",
+    "categorie": "Électronique",
+    "description": "Sous-traitance électronique et assemblage de cartes.",
+    "potentiel": "moyen",
+    "adresse": "Zac De La Grande Ile 1040 Rue Guynemer",
+    "code_postal": "38190",
+    "ville": "Villard-Bonnot",
+    "lat": 45.23399,
+    "lon": 5.865688,
+    "distance_km": 14.1,
+    "telephone": "04 76 77 04 98",
+    "email": "clement.alves@acj-electronic.fr",
+    "contact": "M. Clément ALVES (Gérant)",
+    "site_web": "https://acj-electronic.fr",
+    "careers": "",
+    "naf": "26.12Z",
+    "effectif": "11",
+    "categorie_entreprise": "PME",
+    "creation": "1987-12-17",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/343254207"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://acj-electronic.fr"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "source_initiale",
+      "email": "source_initiale",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-391549540",
+    "siren": "391549540",
+    "siret": "39154954000048",
+    "nom": "Electronic F6",
+    "nom_legal": "SARL ELECTRONIC F6 (ELECTRONIC F6)",
+    "categorie": "Électronique",
+    "description": "Électronique, cartes et sous-ensembles.",
+    "potentiel": "moyen",
+    "adresse": "Za Grande Ile 23 Rue Paul Heroult",
+    "code_postal": "38190",
+    "ville": "Villard-Bonnot",
+    "lat": 45.232006,
+    "lon": 5.87182,
+    "distance_km": 14.4,
+    "telephone": "",
+    "email": "r.ape@keas-group.com",
+    "contact": "M. APE (Chef de site)",
+    "site_web": "https://keas-group.com",
+    "careers": "",
+    "naf": "26.12Z",
+    "effectif": "03",
+    "categorie_entreprise": "PME",
+    "creation": "1993-06-12",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/391549540"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://keas-group.com"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "source_initiale",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-381128859",
+    "siren": "381128859",
+    "siret": "38112885900034",
+    "nom": "Capsys",
+    "nom_legal": "CAPSYS",
+    "categorie": "ESN / Support",
+    "description": "Informatique industrielle, instrumentation et support.",
+    "potentiel": "moyen",
+    "adresse": "Parc Technologique 190 Chemin Des Fontaines",
+    "code_postal": "38190",
+    "ville": "Bernin",
+    "lat": 45.265292,
+    "lon": 5.876628,
+    "distance_km": 16.7,
+    "telephone": "04 76 08 90 75",
+    "email": "",
+    "contact": "",
+    "site_web": "",
+    "careers": "",
+    "naf": "26.51B",
+    "effectif": "12",
+    "categorie_entreprise": "PME",
+    "creation": "1991-03-01",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/381128859"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "source_initiale",
+      "email": "non_renseigne",
+      "site": "non_renseigne",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-401222286",
+    "siren": "401222286",
+    "siret": "40122228600031",
+    "nom": "AEM Softs",
+    "nom_legal": "AEM SOFTS",
+    "categorie": "Logiciel / Industrie",
+    "description": "Logiciels et solutions pour l'industrie.",
+    "potentiel": "moyen",
+    "adresse": "Parc Technologique Des Fontaines Chemin Des Fontaines",
+    "code_postal": "38190",
+    "ville": "Bernin",
+    "lat": 45.26361,
+    "lon": 5.878918,
+    "distance_km": 16.8,
+    "telephone": "",
+    "email": "f.leone@aemsofts.com",
+    "contact": "M. F. Leone",
+    "site_web": "https://aemsofts.com",
+    "careers": "",
+    "naf": "62.02A",
+    "effectif": "12",
+    "categorie_entreprise": "PME",
+    "creation": "1995-05-01",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/401222286"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://aemsofts.com"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "source_initiale",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-399395581",
+    "siren": "399395581",
+    "siret": "39939558100032",
+    "nom": "STMicroelectronics Crolles",
+    "nom_legal": "STMICROELECTRONICS (CROLLES 2) SAS",
+    "categorie": "Électronique / Semiconducteurs",
+    "description": "Site de production de Crolles.",
+    "potentiel": "fort",
+    "adresse": "190 Rue Docteur Berrehail",
+    "code_postal": "38920",
+    "ville": "Crolles",
+    "lat": 45.264983,
+    "lon": 5.88516,
+    "distance_km": 17.3,
+    "telephone": "",
+    "email": "",
+    "contact": "",
+    "site_web": "https://www.st.com",
+    "careers": "https://www.st.com/content/st_com/en/about/careers.html",
+    "naf": "26.11Z",
+    "effectif": "51",
+    "categorie_entreprise": "GE",
+    "creation": "1994-12-28",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/399395581"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://www.st.com"
+      },
+      {
+        "label": "Page carrières",
+        "url": "https://www.st.com/content/st_com/en/about/careers.html"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "non_renseigne",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-984611095",
+    "siren": "984611095",
+    "siret": "98461109500014",
+    "nom": "Isère Alarme",
+    "nom_legal": "ISERE ALARME",
+    "categorie": "Automatisme / Sécurité",
+    "description": "Alarmes, sécurité et automatismes.",
+    "potentiel": "moyen",
+    "adresse": "115 Rue Louis Neel",
+    "code_postal": "38920",
+    "ville": "Crolles",
+    "lat": 45.2675,
+    "lon": 5.889052,
+    "distance_km": 17.7,
+    "telephone": "",
+    "email": "v.baranoff@isere-alarme.fr",
+    "contact": "Mme VALERIE BARANOFF (Directeur Général)",
+    "site_web": "https://isere-alarme.fr",
+    "careers": "",
+    "naf": "47.59B",
+    "effectif": "NN",
+    "categorie_entreprise": "PME",
+    "creation": "2024-02-13",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/984611095"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://isere-alarme.fr"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "source_initiale",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-834760928",
+    "siren": "834760928",
+    "siret": "83476092800012",
+    "nom": "Produnet Grésivaudan",
+    "nom_legal": "GRESIVAUDAN INFORMATIQUE (PRODUNET GRESIVAUDAN)",
+    "categorie": "ESN / Support",
+    "description": "Support informatique et infogérance dans le Grésivaudan.",
+    "potentiel": "moyen",
+    "adresse": "178 Avenue Ambroise Croizat",
+    "code_postal": "38920",
+    "ville": "Crolles",
+    "lat": 45.273069,
+    "lon": 5.884369,
+    "distance_km": 17.8,
+    "telephone": "09 84 13 32 15",
+    "email": "guillaume@produnet-gresivaudan.com",
+    "contact": "M. Guillaume Brialy",
+    "site_web": "https://produnet-gresivaudan.com",
+    "careers": "",
+    "naf": "95.11Z",
+    "effectif": "01",
+    "categorie_entreprise": "PME",
+    "creation": "2018-01-12",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/834760928"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://produnet-gresivaudan.com"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "source_initiale",
+      "email": "source_initiale",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-402120208",
+    "siren": "402120208",
+    "siret": "40212020800119",
+    "nom": "Automatique et Industrie",
+    "nom_legal": "AUTOMATIQUE ET INDUSTRIE",
+    "categorie": "Automatisme / Industrie",
+    "description": "Automatisme et solutions pour l'industrie.",
+    "potentiel": "moyen",
+    "adresse": "145 Rue Louis Barran Saint-Jean-De-",
+    "code_postal": "38430",
+    "ville": "Saint-Jean-De-Moirans",
+    "lat": 45.318244,
+    "lon": 5.604645,
+    "distance_km": 18.2,
+    "telephone": "04 76 93 79 90",
+    "email": "eva.peraldo@aifrance.com",
+    "contact": "Mme Eva PERALDO",
+    "site_web": "https://aifrance.com",
+    "careers": "",
+    "naf": "62.02A",
+    "effectif": "22",
+    "categorie_entreprise": "ETI",
+    "creation": "1995-07-01",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/402120208"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://aifrance.com"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "source_initiale",
+      "email": "source_initiale",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-612039495",
+    "siren": "612039495",
+    "siret": "61203949500603",
+    "nom": "Thales AVS France",
+    "nom_legal": "THALES AVS FRANCE SAS",
+    "categorie": "Électronique / Défense",
+    "description": "Systèmes électroniques et avionique, site de Moirans.",
+    "potentiel": "fort",
+    "adresse": "Centr'Alp Rue Du Pommarin",
+    "code_postal": "38430",
+    "ville": "Moirans",
+    "lat": 45.315915,
+    "lon": 5.596167,
+    "distance_km": 18.2,
+    "telephone": "",
+    "email": "",
+    "contact": "",
+    "site_web": "https://www.thalesgroup.com/fr",
+    "careers": "https://www.thalesgroup.com/fr/carrieres",
+    "naf": "26.51A",
+    "effectif": "52",
+    "categorie_entreprise": "GE",
+    "creation": "1961-01-01",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/612039495"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://www.thalesgroup.com/fr"
+      },
+      {
+        "label": "Page carrières",
+        "url": "https://www.thalesgroup.com/fr/carrieres"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "non_renseigne",
+      "email": "non_renseigne",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-422332338",
+    "siren": "422332338",
+    "siret": "42233233800025",
+    "nom": "Aidel",
+    "nom_legal": "AIDEL",
+    "categorie": "Logiciel / Ingénierie",
+    "description": "Ingénierie logicielle et systèmes embarqués.",
+    "potentiel": "moyen",
+    "adresse": "Za De La Tuilerie Rue Des Becasses",
+    "code_postal": "38920",
+    "ville": "Crolles",
+    "lat": 45.274494,
+    "lon": 5.890987,
+    "distance_km": 18.3,
+    "telephone": "04 76 92 80 70",
+    "email": "philippe.bocquetin@aidel.com",
+    "contact": "M. Philippe BOCQUENTIN (gerant)",
+    "site_web": "https://aidel.com",
+    "careers": "",
+    "naf": "58.29C",
+    "effectif": "03",
+    "categorie_entreprise": "PME",
+    "creation": "1999-04-01",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/422332338"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://aidel.com"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "source_initiale",
+      "email": "source_initiale",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-921768560",
+    "siren": "921768560",
+    "siret": "92176856000010",
+    "nom": "Konvergence 38",
+    "nom_legal": "KONVERGENCE 38 (KONVERGENCE SOLUTIONS NUMERIQUES)",
+    "categorie": "ESN / Support",
+    "description": "Solutions numériques et support informatique.",
+    "potentiel": "moyen",
+    "adresse": "Batiment A 235 Rue De Corporat",
+    "code_postal": "38430",
+    "ville": "Moirans",
+    "lat": 45.320555,
+    "lon": 5.59524,
+    "distance_km": 18.7,
+    "telephone": "04 58 17 50 59",
+    "email": "r.baldelli@konvergence38.fr",
+    "contact": "M. Régis BALDELLI (responsable)",
+    "site_web": "https://konvergence38.fr",
+    "careers": "",
+    "naf": "62.02A",
+    "effectif": "01",
+    "categorie_entreprise": "PME",
+    "creation": "2022-11-24",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/921768560"
+      },
+      {
+        "label": "Site officiel",
+        "url": "https://konvergence38.fr"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "source_initiale",
+      "email": "source_initiale",
+      "site": "a_verifier",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  },
+  {
+    "id": "siren-485152540",
+    "siren": "485152540",
+    "siret": "48515254000012",
+    "nom": "Miriad Informatique",
+    "nom_legal": "ERIC MIGNOTET (MIRIAD INFORMATIQUE)",
+    "categorie": "ESN / Support",
+    "description": "Maintenance et services informatiques.",
+    "potentiel": "moyen",
+    "adresse": "99 Rue De La Republique",
+    "code_postal": "38430",
+    "ville": "Moirans",
+    "lat": 45.326385,
+    "lon": 5.563214,
+    "distance_km": 20.6,
+    "telephone": "04 76 93 71 26",
+    "email": "",
+    "contact": "",
+    "site_web": "",
+    "careers": "",
+    "naf": "95.11Z",
+    "effectif": "NN",
+    "categorie_entreprise": "PME",
+    "creation": "2005-11-15",
+    "sources": [
+      {
+        "label": "Annuaire des Entreprises (INSEE)",
+        "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/485152540"
+      }
+    ],
+    "verification": {
+      "legal": "verifie",
+      "adresse": "verifie",
+      "telephone": "source_initiale",
+      "email": "non_renseigne",
+      "site": "non_renseigne",
+      "statut": "partiel",
+      "date": "2026-10-30"
+    }
+  }
+]
