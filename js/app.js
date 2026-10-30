@@ -29,8 +29,10 @@
     sort: 'distance',
     view: 'cards',
     chip: 'all',
+    visible: 60,
     tracking: loadTracking(),
   };
+  const PAGE_SIZE = 60;
 
   function loadTracking() {
     try { return JSON.parse(localStorage.getItem(TRACK_KEY) || '{}') || {}; } catch (e) { return {}; }
@@ -62,7 +64,7 @@
 
   function matchesSearch(c, q) {
     if (!q) return true;
-    const hay = [c.nom, c.nom_legal, c.categorie, c.description, c.adresse, c.code_postal, c.ville, c.telephone, c.email, c.naf, c.contact, c.sources ? c.sources.map(s => s.label).join(' ') : ''].join(' ').toLowerCase();
+    const hay = [c.nom, c.nom_legal, c.categorie, c.famille, c.description, c.adresse, c.code_postal, c.ville, c.telephone, c.email, c.naf, c.naf_libelle, c.contact, c.sources ? c.sources.map(s => s.label).join(' ') : ''].join(' ').toLowerCase();
     return q.toLowerCase().split(/\s+/).every(term => hay.includes(term));
   }
 
@@ -74,10 +76,11 @@
   function filtered() {
     let list = COMPANIES.filter(c => {
       if (!matchesSearch(c, state.search)) return false;
-      if (state.category !== 'all' && c.categorie !== state.category) return false;
+      if (state.category !== 'all' && (c.famille || c.categorie) !== state.category) return false;
       if (state.city !== 'all' && c.ville !== state.city) return false;
       if (Number(c.distance_km) > Number(state.distance)) return false;
       if (state.chip === 'contact' && !(c.telephone || c.email)) return false;
+      if (state.chip === 'nocontact' && (c.telephone || c.email)) return false;
       if (state.chip === 'priority' && c.potentiel !== 'fort') return false;
       if (state.chip === 'verified' && !isComplete(c)) return false;
       if (state.chip === 'todo' && statusOf(c) !== 'todo') return false;
@@ -87,7 +90,8 @@
     const prio = { fort: 0, moyen: 1, faible: 2 };
     switch (state.sort) {
       case 'name': list.sort((a, b) => a.nom.localeCompare(b.nom, 'fr')); break;
-      case 'category': list.sort((a, b) => a.categorie.localeCompare(b.categorie, 'fr') || a.nom.localeCompare(b.nom, 'fr')); break;
+      case 'category': list.sort((a, b) => (a.famille || a.categorie).localeCompare(b.famille || b.categorie, 'fr') || a.nom.localeCompare(b.nom, 'fr')); break;
+      case 'city': list.sort((a, b) => a.ville.localeCompare(b.ville, 'fr') || a.nom.localeCompare(b.nom, 'fr')); break;
       case 'priority': list.sort((a, b) => (prio[a.potentiel] ?? 9) - (prio[b.potentiel] ?? 9) || a.distance_km - b.distance_km); break;
       default: list.sort((a, b) => a.distance_km - b.distance_km || a.nom.localeCompare(b.nom, 'fr'));
     }
@@ -100,19 +104,28 @@
     $('stat10').textContent = COMPANIES.filter(c => c.distance_km <= 10).length;
     $('statPhone').textContent = COMPANIES.filter(c => c.telephone).length;
     $('statEmail').textContent = COMPANIES.filter(c => c.email).length;
-    $('statCats').textContent = new Set(COMPANIES.map(c => c.categorie)).size;
+    $('statSite').textContent = COMPANIES.filter(c => c.site_web).length;
     $('totalCount').textContent = COMPANIES.length;
+    if ($('heroCount')) $('heroCount').textContent = `${COMPANIES.length} entreprises vérifiées`;
+    if ($('footerTotal')) $('footerTotal').textContent = COMPANIES.length;
+    if ($('lastUpdate') && window.DATA_META && window.DATA_META.date) $('lastUpdate').textContent = window.DATA_META.date;
   }
 
   function renderFilters() {
     const catSel = $('categoryFilter');
-    const cats = [...new Set(COMPANIES.map(c => c.categorie))].sort((a, b) => a.localeCompare(b, 'fr'));
-    catSel.innerHTML = '<option value="all">Toutes les catégories</option>' + cats.map(c => `<option value="${esc(c)}">${esc(c)}</option>`).join('');
+    const familyOrder = ['ESN / Conseil', 'Logiciel / Web', 'Data / IA', 'Cybersécurité', 'Cloud / Hébergement', 'Télécoms / Réseaux', 'Électronique / Hardware', 'Automatisme / Industrie', 'Réparation / SAV', 'Vente / Matériel IT', 'Audiovisuel / Multimédia', 'Recherche / Tech', 'Autre tech'];
+    const cats = [...new Set(COMPANIES.map(c => c.famille || c.categorie))].sort((a, b) => {
+      const ia = familyOrder.indexOf(a), ib = familyOrder.indexOf(b);
+      if (ia >= 0 || ib >= 0) return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib);
+      return a.localeCompare(b, 'fr');
+    });
+    catSel.innerHTML = '<option value="all">Toutes les familles</option>' + cats.map(c => `<option value="${esc(c)}">${esc(c)}</option>`).join('');
     const citySel = $('cityFilter');
     const cities = [...new Set(COMPANIES.map(c => c.ville))].sort((a, b) => a.localeCompare(b, 'fr'));
     citySel.innerHTML = '<option value="all">Toutes les villes</option>' + cities.map(c => `<option value="${esc(c)}">${esc(c)}</option>`).join('');
     $('chipAll').textContent = COMPANIES.length;
     $('chipContact').textContent = COMPANIES.filter(c => c.telephone || c.email).length;
+    $('chipNoContact').textContent = COMPANIES.filter(c => !(c.telephone || c.email)).length;
     $('chipPriority').textContent = COMPANIES.filter(c => c.potentiel === 'fort').length;
     $('chipVerified').textContent = COMPANIES.filter(isComplete).length;
     $('chipTodo').textContent = COMPANIES.filter(c => statusOf(c) === 'todo').length;
@@ -146,10 +159,10 @@
     const careers = c.careers ? `<div class="meta-row"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"/></svg><a href="${esc(c.careers)}" target="_blank" rel="noopener">Page carrières</a></div>` : '';
     return `<article class="card" data-id="${esc(c.id)}">
       <div class="card-top">
-        <div class="card-icon">${iconFor(c.categorie)}</div>
+        <div class="card-icon">${iconFor(c.famille || c.categorie)}</div>
         <div style="min-width:0">
           <div class="card-title">${esc(c.nom)}</div>
-          <div class="card-cat">${esc(c.categorie)}</div>
+          <div class="card-cat">${esc(c.categorie)}${c.famille && c.famille !== c.categorie ? ` <span style="color:var(--text-3);font-weight:600">· ${esc(c.famille)}</span>` : ''}</div>
         </div>
         <div class="card-actions">
           <button class="icon-btn" data-action="open" data-id="${esc(c.id)}" title="Voir la fiche" aria-label="Voir la fiche">↗</button>
@@ -171,7 +184,7 @@
   function renderTable(list) {
     const rows = list.map(c => `<tr>
       <td><div class="table-company"><span>${esc(c.nom)}</span><small>${esc(c.nom_legal || '')}</small></div></td>
-      <td>${esc(c.categorie)}</td>
+      <td><div class="table-company"><span>${esc(c.famille || c.categorie)}</span><small>${esc(c.categorie)}</small></div></td>
       <td>${esc(c.ville)}</td>
       <td><span class="dist-badge">${displayDistance(c.distance_km)}</span></td>
       <td>${esc(c.adresse)}</td>
@@ -194,7 +207,14 @@
       el.innerHTML = `<div class="no-results"><strong>Aucune entreprise ne correspond.</strong>Essayez d'élargir la distance ou de retirer un filtre.</div>`;
       return;
     }
-    el.innerHTML = state.view === 'table' ? renderTable(list) : `<div class="cards-grid">${list.map(renderCard).join('')}</div>`;
+    if (state.view === 'table') {
+      el.innerHTML = renderTable(list);
+      return;
+    }
+    const shown = list.slice(0, state.visible);
+    const more = list.length - shown.length;
+    el.innerHTML = `<div class="cards-grid">${shown.map(renderCard).join('')}</div>` +
+      (more > 0 ? `<div class="load-more"><button class="btn btn-ghost" type="button" data-action="more">Afficher les ${Math.min(PAGE_SIZE, more)} suivantes <span class="count">(${shown.length}/${list.length})</span></button></div>` : '');
   }
 
   /* ---------- Map ---------- */
@@ -213,7 +233,7 @@
       maxZoom: 19,
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
     }).addTo(map);
-    markersLayer = L.layerGroup().addTo(map);
+    markersLayer = (L.markerClusterGroup ? L.markerClusterGroup({ showCoverageOnHover: false, maxClusterRadius: 42, spiderfyOnMaxZoom: true }) : L.layerGroup()).addTo(map);
     L.circle([LYCE.lat, LYCE.lon], { radius: 10000, color: '#0d9488', weight: 1, dashArray: '4 6', fillColor: '#0d9488', fillOpacity: .04 }).addTo(map);
     L.marker([LYCE.lat, LYCE.lon], {
       icon: L.divIcon({ className: '', html: '<div style="background:#7c3aed;color:#fff;width:34px;height:34px;border-radius:50%;display:grid;place-items:center;font-size:16px;border:3px solid #fff;box-shadow:0 4px 14px rgba(0,0,0,.35)">🎓</div>', iconSize: [34, 34], iconAnchor: [17, 17] }),
@@ -256,9 +276,9 @@
 
   function renderModal(c) {
     const t = state.tracking[c.id] || {};
-    $('modalIcon').textContent = iconFor(c.categorie);
+    $('modalIcon').textContent = iconFor(c.famille || c.categorie);
     $('modalTitle').textContent = c.nom;
-    $('modalSub').textContent = `${c.categorie} · ${displayDistance(c.distance_km)} du lycée Vaucanson`;
+    $('modalSub').textContent = `${c.categorie}${c.famille && c.famille !== c.categorie ? ` · ${c.famille}` : ''} · ${displayDistance(c.distance_km)} du lycée Vaucanson`;
     const src = (c.sources || []).map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label)} ↗</a>`).join('');
     const v = c.verification || {};
     $('modalBody').innerHTML = `
@@ -270,9 +290,10 @@
         <div class="info-box"><div class="info-label">Email</div><div class="info-value">${c.email ? `<a href="mailto:${esc(c.email)}">${esc(c.email)}</a>` : '—'}</div></div>
         <div class="info-box"><div class="info-label">Site web</div><div class="info-value">${c.site_web ? `<a href="${esc(c.site_web)}" target="_blank" rel="noopener">${esc(siteLabel(c.site_web))} ↗</a>` : '—'}</div></div>
         <div class="info-box"><div class="info-label">Page carrières</div><div class="info-value">${c.careers ? `<a href="${esc(c.careers)}" target="_blank" rel="noopener">Ouvrir ↗</a>` : '—'}</div></div>
+        <div class="info-box"><div class="info-label">Famille</div><div class="info-value">${esc(c.famille || c.categorie)}</div></div>
         <div class="info-box"><div class="info-label">SIREN</div><div class="info-value mono">${esc(c.siren)}</div></div>
-        <div class="info-box"><div class="info-label">Activité (NAF)</div><div class="info-value mono">${esc(c.naf || '—')}</div></div>
-        <div class="info-box"><div class="info-label">Effectif</div><div class="info-value">${esc(c.effectif || 'Non renseigné')}</div></div>
+        <div class="info-box"><div class="info-label">Activité (NAF)</div><div class="info-value"><span class="mono">${esc(c.naf || '—')}</span>${c.naf_libelle ? `<br><span style="font-weight:500;color:var(--text-2);font-size:.76rem">${esc(c.naf_libelle)}</span>` : ''}</div></div>
+        <div class="info-box"><div class="info-label">Effectif du site</div><div class="info-value">${esc(c.effectif || 'Non renseigné')}</div></div>
         <div class="info-box"><div class="info-label">Création</div><div class="info-value">${esc(c.creation || '—')}</div></div>
       </div>
       <div>
@@ -293,8 +314,9 @@
       <div class="modal-actions">
         ${c.telephone ? `<a class="btn btn-soft" href="${phoneHref(c.telephone)}">📞 Appeler</a>` : ''}
         ${c.email ? `<a class="btn btn-soft" href="mailto:${esc(c.email)}">✉️ Écrire</a>` : ''}
-        ${c.site_web ? `<a class="btn btn-ghost" href="${esc(c.site_web)}" target="_blank" rel="noopener">Site ↗</a>` : ''}
+        ${c.site_web ? `<a class="btn btn-ghost" href="${esc(c.site_web)}" target="_blank" rel="noopener">Site ↗</a>` : `<a class="btn btn-ghost" href="https://www.google.com/search?q=${encodeURIComponent(c.nom + ' ' + c.ville + ' site officiel')}" target="_blank" rel="noopener">Chercher le site ↗</a>`}
         ${c.careers ? `<a class="btn btn-ghost" href="${esc(c.careers)}" target="_blank" rel="noopener">Carrières ↗</a>` : ''}
+        <a class="btn btn-ghost" href="https://www.linkedin.com/search/results/companies/?keywords=${encodeURIComponent(c.nom + ' ' + c.ville)}" target="_blank" rel="noopener">LinkedIn ↗</a>
         <a class="btn btn-ghost" href="${mapsHref(c)}" target="_blank" rel="noopener">Itinéraire ↗</a>
         ${c.email ? `<button class="btn btn-ghost" data-action="copy-email" data-email="${esc(c.email)}">Copier l'email</button>` : ''}
       </div>
@@ -350,24 +372,31 @@
   let searchTimer = null;
   $('searchInput').addEventListener('input', (e) => {
     clearTimeout(searchTimer);
-    searchTimer = setTimeout(() => { state.search = e.target.value.trim(); render(); }, 120);
+    searchTimer = setTimeout(() => { state.search = e.target.value.trim(); state.visible = PAGE_SIZE; render(); }, 120);
   });
-  $('categoryFilter').addEventListener('change', (e) => { state.category = e.target.value; render(); });
-  $('cityFilter').addEventListener('change', (e) => { state.city = e.target.value; render(); });
-  $('distanceFilter').addEventListener('change', (e) => { state.distance = Number(e.target.value); render(); });
-  $('sortFilter').addEventListener('change', (e) => { state.sort = e.target.value; render(); });
+  $('categoryFilter').addEventListener('change', (e) => { state.category = e.target.value; state.visible = PAGE_SIZE; render(); });
+  $('cityFilter').addEventListener('change', (e) => { state.city = e.target.value; state.visible = PAGE_SIZE; render(); });
+  $('distanceFilter').addEventListener('change', (e) => { state.distance = Number(e.target.value); state.visible = PAGE_SIZE; render(); });
+  $('sortFilter').addEventListener('change', (e) => { state.sort = e.target.value; state.visible = PAGE_SIZE; render(); });
   $('filterChips').addEventListener('click', (e) => {
     const btn = e.target.closest('.chip'); if (!btn) return;
-    state.chip = btn.dataset.filter; render();
+    state.chip = btn.dataset.filter; state.visible = PAGE_SIZE; render();
   });
   document.querySelectorAll('.view-btn').forEach(btn => btn.addEventListener('click', () => {
-    state.view = btn.dataset.view;
+    state.view = btn.dataset.view; state.visible = PAGE_SIZE;
     document.querySelectorAll('.view-btn').forEach(b => b.classList.toggle('active', b === btn));
     render();
   }));
   $('resultsContainer').addEventListener('click', (e) => {
     const btn = e.target.closest('[data-action]');
-    if (btn && btn.dataset.action === 'open') openModal(btn.dataset.id);
+    if (btn && btn.dataset.action === 'open') { openModal(btn.dataset.id); return; }
+    if (btn && btn.dataset.action === 'more') { state.visible += PAGE_SIZE; render(); return; }
+    const th = e.target.closest('th[data-sort]');
+    if (th) {
+      const map = { name: 'name', category: 'category', city: 'city', distance: 'distance', priority: 'priority' };
+      const key = map[th.dataset.sort];
+      if (key) { state.sort = key; $('sortFilter').value = key; state.visible = PAGE_SIZE; render(); }
+    }
   });
   $('resultsContainer').addEventListener('change', (e) => {
     const sel = e.target.closest('[data-action="status"]');
@@ -418,10 +447,10 @@
   function csvEscape(v) { return '"' + String(v == null ? '' : v).replace(/"/g, '""') + '"'; }
   function exportCsv() {
     const list = filtered();
-    const headers = ['Nom', 'Catégorie', 'Adresse', 'Code postal', 'Ville', 'Distance km', 'Téléphone', 'Email', 'Site web', 'SIREN', 'Priorité', 'Statut suivi', 'Notes', 'Dernière action'];
+    const headers = ['Nom', 'Famille', 'Catégorie', 'Adresse', 'Code postal', 'Ville', 'Distance km', 'Téléphone', 'Email', 'Site web', 'SIREN', 'NAF', 'Priorité', 'Statut suivi', 'Notes', 'Dernière action'];
     const rows = list.map(c => {
       const t = state.tracking[c.id] || {};
-      return [c.nom, c.categorie, c.adresse, c.code_postal, c.ville, c.distance_km, c.telephone, c.email, c.site_web, c.siren, PRIORITY[c.potentiel] || '', STATUS[t.status || 'todo'], t.notes || '', t.updatedAt || ''].map(csvEscape).join(';');
+      return [c.nom, c.famille || '', c.categorie, c.adresse, c.code_postal, c.ville, c.distance_km, c.telephone, c.email, c.site_web, c.siren, c.naf, PRIORITY[c.potentiel] || '', STATUS[t.status || 'todo'], t.notes || '', t.updatedAt || ''].map(csvEscape).join(';');
     });
     const csv = '\ufeff' + headers.map(csvEscape).join(';') + '\n' + rows.join('\n');
     const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
