@@ -451,6 +451,7 @@ app.post('/api/campaigns', async (req, res, next) => {
 async function runCampaign(campaign) {
   const template = templates.find((item) => item.id === campaign.templateId) || templates[0];
   const files = attachmentsFor(campaign.attachmentIds || [], attachments, UPLOAD_DIR);
+  let consecutiveFailures = 0;
   for (let index = campaign.current; index < campaign.recipients.length; index++) {
     while (campaign.status === 'paused') await sleep(1000);
     if (campaign.status === 'cancelled') break;
@@ -481,18 +482,26 @@ async function runCampaign(campaign) {
       const info = await sendRenderedMail({ transporter, config: mailConfig, to: recipient.email, subject: rendered.subject, text: rendered.text, attachments: files, replyTo: config.sender.email });
       entry.messageId = info.messageId || '';
       campaign.sent++;
+      consecutiveFailures = 0;
       campaign.logs.unshift({ at: entry.sentAt, status: 'sent', email: recipient.email, nom: recipient.nom, message: mailConfig.dryRun ? 'Simulation réussie' : 'Mail envoyé' });
     } catch (error) {
       entry.status = 'failed';
       entry.error = String(error?.message || error).slice(0, 500);
       campaign.failed++;
+      consecutiveFailures++;
       campaign.logs.unshift({ at: entry.sentAt, status: 'failed', email: recipient.email, nom: recipient.nom, message: entry.error });
+      if (consecutiveFailures >= 5) {
+        campaign.status = 'failed';
+        campaign.error = 'Campagne arrêtée après 5 échecs consécutifs. Vérifie la configuration SMTP et l’historique.';
+        campaign.logs.unshift({ at: new Date().toISOString(), status: 'failed', email: '', nom: 'Système', message: campaign.error });
+      }
     }
     history.unshift(entry);
     writeJson(HISTORY_FILE, history);
     campaign.current = index + 1;
     campaign.updatedAt = new Date().toISOString();
     persistCampaign(campaign);
+    if (campaign.status === 'failed') break;
     if (index < campaign.recipients.length - 1 && campaign.status !== 'cancelled') {
       const min = Math.max(1, campaign.delayMinSeconds || 45);
       const max = Math.max(min, campaign.delayMaxSeconds || min);
