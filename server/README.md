@@ -69,6 +69,11 @@ Outlook demande parfois un **mot de passe d'application** : https://account.micr
 
 ## 5. Démarrer le serveur
 
+Le plus simple sur Windows : **double-clique sur `server/start.bat`**.
+Il crée `.env` si besoin, installe les dépendances, ouvre la page et démarre le serveur.
+
+Sinon, en terminal :
+
 ```bash
 cd server
 npm start

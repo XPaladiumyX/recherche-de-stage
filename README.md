@@ -33,7 +33,9 @@ La carte utilise Leaflet + OpenStreetMap (connexion internet nécessaire). Le re
 
 ## Campagne d'envoi locale
 
-L'envoi de mails nécessite un petit serveur local (GitHub Pages ne peut pas envoyer de mails) :
+L'envoi de mails nécessite un petit serveur local (GitHub Pages ne peut pas envoyer de mails).
+
+Le plus simple sur Windows : **double-clique sur `server/start.bat`**. Sinon :
 
 ```bash
 cd server
