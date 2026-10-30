@@ -23,7 +23,7 @@ npm install
 1. Active la **validation en deux étapes** : https://myaccount.google.com/security
 2. Va sur **Mots de passe des applications** : https://myaccount.google.com/apppasswords
 3. Crée un mot de passe pour « Courrier » / « Autre » (ex. `recherche-stage`).
-4. Copie le mot de passe à 16 caractères fourni par Google.
+4. Copie le mot de passe à 16 caractères fourni par Google (sans les espaces).
 
 Puis :
 
