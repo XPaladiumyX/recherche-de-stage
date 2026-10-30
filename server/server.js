@@ -59,6 +59,8 @@ if (campaignsChanged) writeJson(CAMPAIGNS_FILE, campaigns);
 const transporter = createTransport(mailConfig);
 let smtpStatus = { ok: mailConfig.dryRun, dryRun: mailConfig.dryRun, message: mailConfig.dryRun ? 'Mode simulation : aucun mail réel ne sera envoyé.' : 'Connexion SMTP en cours…' };
 verifyTransport(transporter, mailConfig).then((status) => { smtpStatus = status; }).catch((error) => { smtpStatus = { ok: false, dryRun: mailConfig.dryRun, message: String(error?.message || error) }; });
+let lastTest = null;
+const TEST_VALIDITY_MS = 30 * 60 * 1000;
 
 const app = express();
 app.disable('x-powered-by');
@@ -252,6 +254,12 @@ app.post('/api/test-email', async (req, res, next) => {
     const rendered = renderTemplate(template, recipient || { nom: 'Entreprise test', ville: 'Grenoble', famille: 'Logiciel / Web', contact: 'Madame, Monsieur', distance_km: 2.4 }, config.sender);
     const files = attachmentsFor(attachmentIds, attachments, UPLOAD_DIR);
     const info = await sendRenderedMail({ transporter, config: mailConfig, to: target, subject: rendered.subject, text: rendered.text, attachments: files, replyTo: config.sender.email });
+    lastTest = {
+      at: Date.now(),
+      templateId: template.id,
+      templateUpdatedAt: template.updatedAt || '',
+      attachmentKey: [...attachmentIds].map(String).sort().join(','),
+    };
     res.json({ ok: true, dryRun: mailConfig.dryRun, messageId: info.messageId || '', subject: rendered.subject, text: rendered.text, attachments: files.map((file) => file.filename) });
   } catch (error) { next(error); }
 });
@@ -356,6 +364,9 @@ app.post('/api/campaigns', async (req, res, next) => {
     if (!template) return apiError(res, 404, 'Modèle introuvable.');
     const attachmentIds = Array.isArray(body.attachmentIds) ? body.attachmentIds : [];
     if (attachmentIds.length && attachmentsFor(attachmentIds, attachments, UPLOAD_DIR).length !== attachmentIds.length) return apiError(res, 400, 'Une pièce jointe est introuvable.');
+    const attachmentKey = [...attachmentIds].map(String).sort().join(',');
+    const testValid = lastTest && (Date.now() - lastTest.at) <= TEST_VALIDITY_MS && lastTest.templateId === template.id && lastTest.templateUpdatedAt === (template.updatedAt || '') && lastTest.attachmentKey === attachmentKey;
+    if (!testValid) return apiError(res, 400, 'Envoie d’abord un test à toi-même avec ce modèle et ces pièces jointes (valable 30 minutes).');
     const allowResend = body.allowResend === true;
     const stopEmails = new Set(stopList.map((item) => item.email));
     const sentEmails = new Set(history.filter((item) => item.status === 'sent').map((item) => cleanEmail(item.email)));
