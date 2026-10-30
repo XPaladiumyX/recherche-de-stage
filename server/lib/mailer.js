@@ -129,6 +129,7 @@ export async function sendRenderedMail({ transporter, config, to, subject, text,
     text,
     attachments,
     replyTo: replyTo || config.fromEmail || undefined,
+    xMailer: false,
   });
   return info;
 }
