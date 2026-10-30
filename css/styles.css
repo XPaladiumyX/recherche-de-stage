@@ -177,6 +177,27 @@ button { cursor: pointer; }
 .btn-soft { background: color-mix(in srgb, var(--accent) 9%, var(--surface)); color: var(--accent); border-color: color-mix(in srgb, var(--accent) 20%, var(--border)); }
 .btn-danger { background: color-mix(in srgb, var(--danger) 9%, var(--surface)); color: var(--danger); border-color: color-mix(in srgb, var(--danger) 25%, var(--border)); }
 
+/* ---------- Bandeau campagne ---------- */
+.campaign-banner {
+  max-width: 1240px; margin: 18px auto 0; padding: 16px 18px;
+  display: flex; align-items: center; gap: 14px;
+  background: linear-gradient(135deg, color-mix(in srgb, var(--accent) 8%, var(--surface)), color-mix(in srgb, var(--accent-3) 7%, var(--surface)));
+  border: 1px solid color-mix(in srgb, var(--accent) 22%, var(--border));
+  border-radius: var(--radius); box-shadow: var(--shadow);
+  transition: transform .25s cubic-bezier(.22,1,.36,1), box-shadow .25s;
+}
+.campaign-banner:hover { transform: translateY(-2px); box-shadow: 0 16px 34px rgba(16,24,40,.09); }
+.campaign-banner-icon {
+  width: 44px; height: 44px; border-radius: 13px; display: grid; place-items: center;
+  background: linear-gradient(135deg, var(--accent), var(--accent-3)); color: #fff;
+  font-size: 20px; flex-shrink: 0; box-shadow: 0 8px 18px color-mix(in srgb, var(--accent) 25%, transparent);
+  animation: floatSoft 4s ease-in-out infinite;
+}
+.campaign-banner-copy { min-width: 0; flex: 1; }
+.campaign-banner-copy strong { display: block; font-size: .92rem; }
+.campaign-banner-copy p { color: var(--text-2); font-size: .8rem; margin-top: 2px; }
+.campaign-banner .btn { flex-shrink: 0; }
+
 /* ---------- Stats ---------- */
 .stats {
   max-width: 1240px; margin: 0 auto; padding: 20px 28px 0;
@@ -414,6 +435,8 @@ tbody td a { color: var(--accent); }
   .brand-sub { display: none; }
   .topbar-nav .nav-link { display: none; }
   .hero { padding: 30px 16px 22px; }
+  .campaign-banner { margin: 14px 16px 0; flex-wrap: wrap; }
+  .campaign-banner .btn { width: 100%; }
   .stats { padding: 14px 16px 0; grid-template-columns: repeat(2, 1fr); }
   .controls, .map-section, .results { padding-left: 16px; padding-right: 16px; }
   .results { margin-bottom: 40px; }

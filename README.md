@@ -5,6 +5,8 @@ Annuaire web des entreprises du numérique, de l'informatique et de la tech auto
 - Site : https://xpaladiumyx.github.io/recherche-de-stage/
 - Dépôt : https://github.com/XPaladiumyX/recherche-de-stage
 
+> 🚀 **Installation automatique Windows** : double-clique sur **`INSTALLER.bat`** à la racine du projet. Le script installe Node.js si besoin, les dépendances, configure Gmail/Outlook et ouvre la page Campagne.
+
 ## Ce que contient le site
 
 - **427 entreprises** actives : ESN, éditeurs de logiciels, web, télécoms, réseaux, cybersécurité, data/IA, cloud, électronique, semi-conducteurs, automatisme, robotique, réparation, vente de matériel IT, audiovisuel numérique et recherche.

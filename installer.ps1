@@ -73,12 +73,16 @@ if ($replace -match '^[oOyY]') {
     $secure = Read-Default "Connexion securisee SSL directe ? (true/false)" "false"
   }
 
+  Write-Host ""
+  Write-Host "Gmail : cree un mot de passe d'application sur https://myaccount.google.com/apppasswords" -ForegroundColor Cyan
+  Write-Host "Outlook : https://account.microsoft.com/security" -ForegroundColor Cyan
+  Write-Host ""
   do {
     $email = Read-Host "Adresse email d'envoi"
     if ($email -notmatch '^[^@\s]+@[^@\s]+\.[a-zA-Z]{2,}$') { Write-Host "Adresse email invalide." -ForegroundColor Red }
   } while ($email -notmatch '^[^@\s]+@[^@\s]+\.[a-zA-Z]{2,}$')
 
-  $securePass = Read-Host "Mot de passe d'application (saisie masquee)" -AsSecureString
+  $securePass = Read-Host "Mot de passe d'application (saisie masquee, sans espaces)" -AsSecureString
   $bstr = [Runtime.InteropServices.Marshal]::SecureStringToBSTR($securePass)
   $password = [Runtime.InteropServices.Marshal]::PtrToStringAuto($bstr)
   [Runtime.InteropServices.Marshal]::ZeroFreeBSTR($bstr)

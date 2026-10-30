@@ -128,7 +128,7 @@
 .progress-head strong { font-size: .84rem; }
 .progress-head .badge { margin-left: auto; }
 .progress-bar { height: 9px; background: var(--surface-3); border-radius: 999px; overflow: hidden; }
-.progress-bar > div { height: 100%; width: 0; background: linear-gradient(90deg, var(--accent), var(--accent-3)); transition: width .3s; }
+.progress-bar > div { height: 100%; width: 0; background: linear-gradient(90deg, var(--accent), var(--accent-3), var(--accent-2), var(--accent)); background-size: 220% 100%; transition: width .3s; animation: shimmer 2.4s linear infinite; }
 .progress-meta { display: flex; justify-content: space-between; gap: 8px; font-size: .7rem; color: var(--text-3); margin-top: 5px; }
 .campaign-log { max-height: 150px; overflow: auto; margin-top: 8px; font-size: .7rem; font-family: 'JetBrains Mono', monospace; color: var(--text-2); }
 .campaign-log div { padding: 3px 0; border-bottom: 1px solid var(--border); }
