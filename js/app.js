@@ -99,12 +99,13 @@
   }
 
   function renderStats() {
-    $('statTotal').textContent = COMPANIES.length;
-    $('stat5').textContent = COMPANIES.filter(c => c.distance_km <= 5).length;
-    $('stat10').textContent = COMPANIES.filter(c => c.distance_km <= 10).length;
-    $('statPhone').textContent = COMPANIES.filter(c => c.telephone).length;
-    $('statEmail').textContent = COMPANIES.filter(c => c.email).length;
-    $('statSite').textContent = COMPANIES.filter(c => c.site_web).length;
+    const animate = window.TVAnimations ? window.TVAnimations.animateCount : (el, value) => { if (el) el.textContent = value; };
+    animate($('statTotal'), COMPANIES.length);
+    animate($('stat5'), COMPANIES.filter(c => c.distance_km <= 5).length);
+    animate($('stat10'), COMPANIES.filter(c => c.distance_km <= 10).length);
+    animate($('statPhone'), COMPANIES.filter(c => c.telephone).length);
+    animate($('statEmail'), COMPANIES.filter(c => c.email).length);
+    animate($('statSite'), COMPANIES.filter(c => c.site_web).length);
     $('totalCount').textContent = COMPANIES.length;
     if ($('heroCount')) $('heroCount').textContent = `${COMPANIES.length} entreprises vérifiées`;
     if ($('footerTotal')) $('footerTotal').textContent = COMPANIES.length;
@@ -152,12 +153,12 @@
     return `<select class="stage-select" data-action="status" data-id="${esc(c.id)}" aria-label="Statut de suivi">${Object.entries(STATUS).map(([k, v]) => `<option value="${k}"${k === current ? ' selected' : ''}>${esc(v)}</option>`).join('')}</select>`;
   }
 
-  function renderCard(c) {
+  function renderCard(c, index = 0) {
     const tel = c.telephone ? `<div class="meta-row"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 8.09a16 16 0 006 6l1.27-.76a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 15.67v1.25z"/></svg><a href="${phoneHref(c.telephone)}">${esc(c.telephone)}</a></div>` : '';
     const mail = c.email ? `<div class="meta-row"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg><a href="mailto:${esc(c.email)}">${esc(c.email)}</a></div>` : '';
     const web = c.site_web ? `<div class="meta-row"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg><a href="${esc(c.site_web)}" target="_blank" rel="noopener">${esc(siteLabel(c.site_web))}</a></div>` : '';
     const careers = c.careers ? `<div class="meta-row"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"/></svg><a href="${esc(c.careers)}" target="_blank" rel="noopener">Page carrières</a></div>` : '';
-    return `<article class="card" data-id="${esc(c.id)}">
+    return `<article class="card" data-id="${esc(c.id)}" style="--i:${index % 12}">
       <div class="card-top">
         <div class="card-icon">${iconFor(c.famille || c.categorie)}</div>
         <div style="min-width:0">
@@ -213,7 +214,7 @@
     }
     const shown = list.slice(0, state.visible);
     const more = list.length - shown.length;
-    el.innerHTML = `<div class="cards-grid">${shown.map(renderCard).join('')}</div>` +
+    el.innerHTML = `<div class="cards-grid">${shown.map((c, index) => renderCard(c, index)).join('')}</div>` +
       (more > 0 ? `<div class="load-more"><button class="btn btn-ghost" type="button" data-action="more">Afficher les ${Math.min(PAGE_SIZE, more)} suivantes <span class="count">(${shown.length}/${list.length})</span></button></div>` : '');
   }
 

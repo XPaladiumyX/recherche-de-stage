@@ -69,7 +69,7 @@ Outlook demande parfois un **mot de passe d'application** : https://account.micr
 
 ## 5. Démarrer le serveur
 
-Le plus simple sur Windows : **double-clique sur `server/start.bat`**.
+Le plus simple sur Windows : **double-clique sur `INSTALLER.bat` à la racine du projet** (ou sur `LANCER-CAMPAGNE.bat` pour relancer).
 Il crée `.env` si besoin, installe les dépendances, ouvre la page et démarre le serveur.
 
 Sinon, en terminal :

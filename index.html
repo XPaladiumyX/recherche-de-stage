@@ -15,6 +15,7 @@
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232563eb'/%3E%3Ctext x='32' y='42' font-family='Arial' font-size='28' font-weight='700' fill='white' text-anchor='middle'%3ETV%3C/text%3E%3C/svg%3E">
 </head>
 <body>
+<div class="scroll-progress" id="scrollProgress"></div>
 <noscript>
   <div style="padding:24px;font-family:system-ui;background:#fff7ed;color:#9a3412;border-bottom:1px solid #fdba74">
     Ce site a besoin de JavaScript pour afficher l'annuaire, la carte et les filtres. Activez-le puis rechargez la page.
@@ -54,7 +55,7 @@
     </div>
   </section>
 
-  <section class="stats" aria-label="Chiffres clés">
+  <section class="stats" aria-label="Chiffres clés" data-reveal>
     <div class="stat"><div class="stat-label">Entreprises</div><div class="stat-value accent" id="statTotal">—</div></div>
     <div class="stat"><div class="stat-label">À moins de 5 km</div><div class="stat-value teal" id="stat5">—</div></div>
     <div class="stat"><div class="stat-label">À moins de 10 km</div><div class="stat-value teal" id="stat10">—</div></div>
@@ -63,7 +64,7 @@
     <div class="stat"><div class="stat-label">Avec site web</div><div class="stat-value violet" id="statSite">—</div></div>
   </section>
 
-  <section class="controls" id="annuaire">
+  <section class="controls" id="annuaire" data-reveal>
     <div class="controls-inner">
       <div class="search-row">
         <div class="search-box">
@@ -99,7 +100,7 @@
     </div>
   </section>
 
-  <section class="map-section" id="carte">
+  <section class="map-section" id="carte" data-reveal>
     <div class="map-card">
       <div class="map-head">
         <div>
@@ -114,7 +115,7 @@
     </div>
   </section>
 
-  <main class="results">
+  <main class="results" data-reveal>
     <div class="results-bar">
       <div class="results-count"><strong id="resultCount">0</strong> entreprise(s) affichée(s) sur <strong id="totalCount">0</strong></div>
       <div class="view-toggle" role="group" aria-label="Affichage">
@@ -125,7 +126,7 @@
     <div id="resultsContainer"></div>
   </main>
 
-  <section class="footer" id="methodologie">
+  <section class="footer" id="methodologie" data-reveal>
     <div class="footer-inner">
       <div style="max-width:620px">
         <p><strong>Méthode de vérification.</strong> L'existence légale, le SIREN, l'adresse du site local et l'activité principale (NAF) sont vérifiés via l'<a href="https://annuaire-entreprises.data.gouv.fr/" target="_blank" rel="noopener">Annuaire des Entreprises</a> (INSEE / data.gouv.fr) et l'<a href="https://recherche-entreprises.api.gouv.fr/" target="_blank" rel="noopener">API Recherche d'entreprises</a>. Les téléphones et emails proviennent du fichier initial, du site officiel ou de la page de contact ; le badge indique la source et le niveau de confiance. Les contacts marqués « source initiale » restent à confirmer avant un envoi massif.</p>
@@ -167,6 +168,7 @@
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
   <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js" crossorigin=""></script>
+  <script src="js/animations.js"></script>
   <script src="js/data.js"></script>
   <script src="js/app.js"></script>
 </body>

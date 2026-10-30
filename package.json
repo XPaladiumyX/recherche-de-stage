@@ -1,0 +1,17 @@
+{
+  "name": "recherche-de-stage",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Annuaire tech autour du lycée Vaucanson + campagne de candidatures",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5173",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4173",
+    "mailer": "npm --prefix server start"
+  },
+  "devDependencies": {
+    "vite": "^7.0.0",
+    "vite-plugin-static-copy": "^3.0.0"
+  }
+}

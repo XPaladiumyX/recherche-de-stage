@@ -1,6 +1,13 @@
 /* Campagne d'envoi — styles spécifiques */
 
+@keyframes panelIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+@keyframes campaignIn { from { opacity: 0; transform: translateY(14px) scale(.995); } to { opacity: 1; transform: none; } }
+
 .campaign-page { max-width: 1280px; margin: 0 auto; padding: 28px 28px 70px; }
+#campaignShell:not([hidden]) { animation: campaignIn .5s cubic-bezier(.22,1,.36,1) both; }
+.campaign-panel.active { animation: panelIn .35s cubic-bezier(.22,1,.36,1) both; }
+.status-banner { transition: background .3s, border-color .3s, transform .3s; }
+.test-result.show, .progress-card.show { animation: panelIn .35s cubic-bezier(.22,1,.36,1) both; }
 .campaign-hero { padding: 18px 0 22px; }
 .campaign-hero h1 { font-size: clamp(1.5rem, 3vw, 2.2rem); letter-spacing: -.03em; line-height: 1.15; }
 .campaign-hero p { max-width: 780px; margin-top: 10px; color: var(--text-2); font-size: .92rem; }
@@ -19,6 +26,21 @@
 .status-banner .btn { margin-left: auto; }
 
 .setup-card { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 20px; box-shadow: var(--shadow); }
+.install-card { position: relative; overflow: hidden; border-color: color-mix(in srgb, var(--accent) 28%, var(--border)); }
+.install-card::before { content: ""; position: absolute; inset: 0 0 auto 0; height: 4px; background: linear-gradient(90deg, var(--accent), var(--accent-3), var(--accent-2)); }
+.install-badge { display: inline-flex; align-items: center; gap: 6px; padding: 5px 10px; border-radius: 999px; background: color-mix(in srgb, var(--accent-2) 12%, var(--surface)); border: 1px solid color-mix(in srgb, var(--accent-2) 30%, var(--border)); color: var(--accent-2); font-size: .7rem; font-weight: 800; text-transform: uppercase; letter-spacing: .06em; margin-bottom: 10px; }
+.install-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 14px 0; }
+.install-step { display: flex; gap: 10px; align-items: flex-start; background: var(--surface-2); border: 1px solid var(--border); border-radius: 12px; padding: 12px; transition: transform .2s, border-color .2s; }
+.install-step:hover { transform: translateY(-2px); border-color: color-mix(in srgb, var(--accent) 35%, var(--border)); }
+.install-num { width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; background: var(--accent); color: #fff; font-weight: 800; font-size: .75rem; flex-shrink: 0; }
+.install-step strong { font-size: .82rem; display: block; margin-bottom: 3px; }
+.install-step p { font-size: .75rem; color: var(--text-2); line-height: 1.45; }
+.install-actions { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0; }
+.btn-lg { padding: 12px 18px; font-size: .86rem; }
+.install-note { font-size: .76rem; color: var(--text-2); background: color-mix(in srgb, var(--warning) 8%, var(--surface)); border-left: 3px solid var(--warning); border-radius: 8px; padding: 9px 11px; margin: 10px 0; }
+.manual-setup { margin-top: 12px; border-top: 1px solid var(--border); padding-top: 10px; }
+.manual-setup summary { cursor: pointer; font-size: .78rem; font-weight: 700; color: var(--text-2); }
+.manual-setup[open] summary { color: var(--accent); margin-bottom: 10px; }
 .setup-card h2 { font-size: 1.05rem; margin-bottom: 6px; }
 .setup-card > p { color: var(--text-2); font-size: .84rem; margin-bottom: 14px; }
 .steps { display: grid; gap: 10px; }
@@ -135,7 +157,7 @@
   .campaign-shell { grid-template-columns: 1fr; }
   .campaign-tabs { position: static; flex-direction: row; overflow-x: auto; }
   .campaign-tab { white-space: nowrap; }
-  .panel-grid, .send-summary, .smtp-box { grid-template-columns: 1fr; }
+  .panel-grid, .send-summary, .smtp-box, .install-grid { grid-template-columns: 1fr; }
 }
 @media (max-width: 760px) {
   .campaign-page { padding: 20px 16px 50px; }

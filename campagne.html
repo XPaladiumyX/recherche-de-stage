@@ -13,6 +13,7 @@
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232563eb'/%3E%3Ctext x='32' y='42' font-family='Arial' font-size='28' font-weight='700' fill='white' text-anchor='middle'%3ETV%3C/text%3E%3C/svg%3E">
 </head>
 <body>
+  <div class="scroll-progress" id="scrollProgress"></div>
   <header class="topbar">
     <div class="brand">
       <div class="brand-mark">TV</div>
@@ -30,13 +31,13 @@
   </header>
 
   <main class="campaign-page">
-    <section class="campaign-hero">
+    <section class="campaign-hero" data-reveal>
       <div class="eyebrow">● Envoi local sécurisé</div>
       <h1>Envoie tes candidatures, sans y passer la journée.</h1>
       <p>Choisis un modèle, joins ton CV et ta lettre, sélectionne les entreprises avec email, teste sur ta propre adresse, puis lance la campagne. Les identifiants SMTP restent sur ton PC.</p>
     </section>
 
-    <div class="status-banner offline" id="serverStatus">
+    <div class="status-banner offline" id="serverStatus" data-reveal>
       <div class="status-icon" id="serverStatusIcon">!</div>
       <div>
         <strong id="serverStatusTitle">Serveur local non détecté</strong>
@@ -45,20 +46,31 @@
       <button class="btn btn-ghost btn-sm" id="retryServer" type="button">Réessayer</button>
     </div>
 
-    <section class="setup-card" id="setupCard">
-      <h2>Activer l'envoi en 5 étapes</h2>
-      <p>Le site GitHub Pages reste un annuaire statique. Pour envoyer de vrais mails avec pièces jointes, un petit serveur local doit tourner sur ton ordinateur.</p>
-      <div class="steps">
-        <div class="step"><div class="step-num">1</div><div><strong>Installer Node.js</strong><p>Si ce n'est pas déjà fait, installe Node.js 18 ou plus depuis <a href="https://nodejs.org/" target="_blank" rel="noopener">nodejs.org</a>.</p></div></div>
-        <div class="step"><div class="step-num">2</div><div><strong>Installer le serveur</strong><p>Ouvre un terminal dans le dossier du projet :</p><code class="code-block">cd server
-npm install</code></div></div>
-        <div class="step"><div class="step-num">3</div><div><strong>Configurer Gmail ou Outlook</strong><p>Crée un mot de passe d'application, puis copie le fichier d'exemple et remplis tes identifiants.</p><code class="code-block">copy .env.example .env
-# puis édite server/.env</code><p class="hint">Gmail : <a href="https://myaccount.google.com/apppasswords" target="_blank" rel="noopener">mot de passe d'application</a> · Outlook : <a href="https://account.microsoft.com/security" target="_blank" rel="noopener">sécurité du compte</a></p></div></div>
-        <div class="step"><div class="step-num">4</div><div><strong>Démarrer le serveur</strong><p>Le plus simple : double-clique sur <code>server/start.bat</code>. Sinon, dans le dossier <code>server</code> :</p><code class="code-block">npm start</code><p class="hint">Garde la fenêtre ouverte pendant l'envoi. Le serveur écoute uniquement sur ton PC.</p></div></div>
-        <div class="step"><div class="step-num">5</div><div><strong>Ouvrir la version locale</strong><p>Clique sur le bouton ou ouvre cette adresse :</p><code class="code-block">http://localhost:3001/campagne.html</code><p class="hint">La page détecte automatiquement le serveur et débloque l'envoi.</p></div></div>
+    <section class="setup-card install-card" id="setupCard" data-reveal>
+      <div class="install-badge">Recommandé · aucune ligne de commande</div>
+      <h2>Installer l'envoi en 3 clics</h2>
+      <p>Le site GitHub Pages est un annuaire statique. Pour envoyer de vrais mails, un petit serveur doit tourner sur ton PC. L'installateur fait tout : Node.js, dépendances, configuration Gmail/Outlook et démarrage.</p>
+      <div class="install-grid">
+        <div class="install-step"><span class="install-num">1</span><div><strong>Ouvre le dossier du projet</strong><p>Celui qui contient <code>index.html</code>, <code>campagne.html</code> et <code>INSTALLER.bat</code>. Si tu n'as pas le projet, télécharge-le en ZIP ci-dessous.</p></div></div>
+        <div class="install-step"><span class="install-num">2</span><div><strong>Double-clique sur INSTALLER.bat</strong><p>Une fenêtre s'ouvre. Réponds aux questions : Gmail ou Outlook, ton adresse, ton mot de passe d'application, et si tu veux activer l'envoi réel.</p></div></div>
+        <div class="install-step"><span class="install-num">3</span><div><strong>Laisse-toi guider</strong><p>Le serveur démarre et la page Campagne s'ouvre automatiquement. Le point passe au vert, tu peux tester puis lancer ta campagne.</p></div></div>
       </div>
-      <div class="warning" style="margin-top:12px">Ne mets jamais <code>server/.env</code> sur GitHub. Le serveur n'écoute que sur <code>127.0.0.1</code> et les données restent dans <code>server/data</code> et <code>server/uploads</code>.</div>
-      <div class="btn-row" style="margin-top:12px"><a class="btn btn-primary" href="http://localhost:3001/campagne.html">Ouvrir la version locale</a><a class="btn btn-ghost" href="https://github.com/XPaladiumyX/recherche-de-stage/blob/main/server/README.md" target="_blank" rel="noopener">Guide complet</a></div>
+      <div class="install-actions">
+        <a class="btn btn-primary btn-lg" href="https://github.com/XPaladiumyX/recherche-de-stage/archive/refs/heads/main.zip">Télécharger le projet (ZIP)</a>
+        <a class="btn btn-soft" href="http://localhost:3001/campagne.html">Ouvrir la version locale</a>
+        <a class="btn btn-ghost" href="https://github.com/XPaladiumyX/recherche-de-stage/blob/main/server/README.md" target="_blank" rel="noopener">Guide détaillé</a>
+      </div>
+      <div class="install-note">💡 Le navigateur ne peut pas lancer un fichier de ton PC à ta place : c'est normal, tu dois juste double-cliquer sur <strong>INSTALLER.bat</strong> une seule fois.</div>
+      <div class="warning">Ne mets jamais <code>server/.env</code> sur GitHub. Le serveur n'écoute que sur <code>127.0.0.1</code> et les données restent dans <code>server/data</code> et <code>server/uploads</code>.</div>
+      <details class="manual-setup">
+        <summary>Mode manuel (si tu préfères les commandes)</summary>
+        <div class="steps">
+          <div class="step"><div class="step-num">1</div><div><strong>Installer Node.js</strong><p>Node.js 18 ou plus depuis <a href="https://nodejs.org/" target="_blank" rel="noopener">nodejs.org</a>.</p></div></div>
+          <div class="step"><div class="step-num">2</div><div><strong>Configurer Gmail ou Outlook</strong><p>Crée un mot de passe d'application, puis copie <code>.env.example</code> vers <code>server/.env</code> et remplis tes identifiants.</p><p class="hint">Gmail : <a href="https://myaccount.google.com/apppasswords" target="_blank" rel="noopener">mot de passe d'application</a> · Outlook : <a href="https://account.microsoft.com/security" target="_blank" rel="noopener">sécurité du compte</a></p></div></div>
+          <div class="step"><div class="step-num">3</div><div><strong>Installer et démarrer</strong><p>Dans le dossier <code>server</code> :</p><code class="code-block">npm install
+npm start</code><p class="hint">Puis ouvrir <code>http://localhost:3001/campagne.html</code>.</p></div></div>
+        </div>
+      </details>
     </section>
 
     <section id="campaignShell" hidden>
@@ -268,6 +280,7 @@ npm install</code></div></div>
   </main>
 
   <div class="toast" id="toast">Copié !</div>
+  <script src="js/animations.js"></script>
   <script src="js/data.js"></script>
   <script src="js/campaign.js"></script>
 </body>

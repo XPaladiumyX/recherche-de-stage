@@ -1,6 +1,7 @@
-# Dépendances
+# Dépendances et build
 node_modules/
 server/node_modules/
+dist/
 
 # Secrets et données locales du serveur d'envoi
 server/.env

@@ -35,7 +35,19 @@ La carte utilise Leaflet + OpenStreetMap (connexion internet nécessaire). Le re
 
 L'envoi de mails nécessite un petit serveur local (GitHub Pages ne peut pas envoyer de mails).
 
-Le plus simple sur Windows : **double-clique sur `server/start.bat`**. Sinon :
+### Installation automatique (Windows)
+
+**Double-clique sur `INSTALLER.bat`** à la racine du projet. L'installateur :
+
+1. vérifie/installe Node.js (via winget si disponible) ;
+2. installe les dépendances ;
+3. demande Gmail ou Outlook, ton adresse et ton mot de passe d'application ;
+4. écrit `server/.env` ;
+5. démarre le serveur et ouvre la page Campagne.
+
+Aucune ligne de commande à taper. Pour relancer plus tard : `LANCER-CAMPAGNE.bat`.
+
+### Mode manuel
 
 ```bash
 cd server
@@ -47,15 +59,32 @@ npm start
 
 Puis ouvrir **http://localhost:3001/campagne.html**.
 
+### Développement avec Vite
+
+Le site est compatible Vite pour le développement :
+
+```bash
+npm install
+npm run dev
+# http://127.0.0.1:5173
+```
+
+Le proxy `/api` redirige vers le serveur local sur le port 3001. Pour tester le rendu de production : `npm run build` puis `npm run preview`.
+
 La page détecte automatiquement le serveur, propose les modèles, les pièces jointes, la sélection des entreprises avec email, un test obligatoire, un quota quotidien (40 par défaut), un délai entre les mails et l'historique. Le guide complet est dans [`server/README.md`](server/README.md).
 
 ## Structure
 
 ```
+INSTALLER.bat                 # installation automatique Windows
+LANCER-CAMPAGNE.bat           # relancer le serveur + la page Campagne
 index.html
 campagne.html                 # interface d'envoi local
+package.json                  # Vite (dev/build)
+vite.config.js
 css/styles.css
 css/campaign.css
+js/animations.js
 js/app.js
 js/campaign.js
 js/data.js                    # données intégrées (fonctionne en file://)
@@ -65,6 +94,7 @@ server/                       # serveur local d'envoi (Nodemailer)
   server.js
   .env.example
   README.md
+  start.bat
 ```
 
 ## Méthode de vérification
