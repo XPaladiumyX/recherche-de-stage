@@ -190,7 +190,7 @@
 
   function renderTable(list) {
     const rows = list.map(c => `<tr>
-      <td><div class="table-company"><span>${esc(c.nom)}</span><small>${esc(c.nom_legal || '')}</small></div></td>
+      <td><div class="table-company"><span class="table-company-line">${c.logo ? `<img class="table-logo" src="${esc(c.logo)}" alt="" loading="lazy" onerror="this.style.display='none'">` : ''}<span>${esc(c.nom)}</span></span><small>${esc(c.nom_legal || '')}</small></div></td>
       <td><div class="table-company"><span>${esc(c.famille || c.categorie)}</span><small>${esc(c.categorie)}</small></div></td>
       <td>${esc(c.ville)}</td>
       <td><span class="dist-badge">${displayDistance(c.distance_km)}</span></td>

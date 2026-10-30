@@ -366,6 +366,8 @@ tbody td:first-child { color: var(--text); font-weight: 700; }
 tbody td a { color: var(--accent); }
 .table-company { display: flex; flex-direction: column; gap: 1px; }
 .table-company small { font-weight: 500; color: var(--text-3); font-size: .68rem; }
+.table-company-line { display: flex; align-items: center; gap: 6px; }
+.table-logo { width: 18px; height: 18px; object-fit: contain; flex-shrink: 0; }
 
 /* ---------- Empty / footer ---------- */
 .no-results {
