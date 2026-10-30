@@ -137,7 +137,25 @@ if ($npmExit -ne 0) {
 }
 Write-Host "Dependances installees." -ForegroundColor Green
 
-# 4. Demarrage
+# 4. Raccourci Bureau
+$shortcutAnswer = Read-Host "Creer un raccourci 'Lancer campagne' sur le Bureau ? (O/n)"
+if ($shortcutAnswer -notmatch '^[nN]') {
+  try {
+    $desktop = [Environment]::GetFolderPath('Desktop')
+    $shortcutPath = Join-Path $desktop 'Lancer campagne - Recherche de stage.lnk'
+    $shell = New-Object -ComObject WScript.Shell
+    $shortcut = $shell.CreateShortcut($shortcutPath)
+    $shortcut.TargetPath = Join-Path $root 'LANCER-CAMPAGNE.bat'
+    $shortcut.WorkingDirectory = $root
+    $shortcut.Description = 'Lancer le serveur et la page Campagne - Recherche de stage'
+    $shortcut.Save()
+    Write-Host "Raccourci cree sur le Bureau." -ForegroundColor Green
+  } catch {
+    Write-Host "Impossible de creer le raccourci, ce n'est pas grave." -ForegroundColor Yellow
+  }
+}
+
+# 5. Demarrage
 $listening = Get-NetTCPConnection -LocalPort 3001 -State Listen -ErrorAction SilentlyContinue
 if (-not $listening) {
   Write-Host "Demarrage du serveur..." -ForegroundColor Cyan
